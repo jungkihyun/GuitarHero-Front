@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; // 화면 전체 높이를 차지하도록 설정
+  font-family: Arial, sans-serif;
+  opacity: 0;
+  animation: bounceIn 0.5s forwards;
+}
+
+.hero-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5fc4b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  animation: shakeButton 0.3s infinite alternate;
+}
+
+.start-button:hover {
+  background-color: #2aac94;
+}
+
+@keyframes shakeButton {
+  0%, 100% {
+      transform: translateX(0) translateY(0);
+  }
+  25% {
+      transform: translateX(3px) translateY(1px);
+  }
+  50% {
+      transform: translateX(0) translateY(-1px);
+  }
+  75% {
+      transform: translateX(-1px) translateY(3px);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+      opacity: 0;
+      transform: scale(0);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
