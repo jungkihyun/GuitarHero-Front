@@ -1,0 +1,60 @@
+.note-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; /* 추가 */
+  }
+  
+  .guitar-image {
+    position: relative; /* 추가 */
+    width: 100%;
+    max-width: 100%;
+    height: 300px; /* 세로 길이를 300px로 고정 */
+    margin-bottom: 20px;
+    overflow: hidden; /* 이미지를 넘치는 부분을 숨김 */
+  }
+  
+  .guitar-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* 가로 길이를 반응형으로 조정 */
+  }
+  
+  .point-image {
+    position: absolute;
+    width: 25px !important; /* 적절한 크기로 조정 */
+    height: 25px !important; /* 적절한 크기로 조정 */
+  }
+  
+  .answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .answer-options button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #5fc4b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .answer-options button:hover {
+    background-color: #2aac94;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
