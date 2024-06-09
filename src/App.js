@@ -2,8 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+
 import Main from './components/main/Main';
 import Welcome from './components/welcome/Welcome';
+import Note from './components/note/Note';
+
 import Modal from './components/util/Modal';
 
 function App() {
@@ -25,6 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/welcome" element={<Welcome openModal={openModal} />} />
+        <Route path="/note" element={<Note openModal={openModal} />} />
       </Routes>
       {modalOpen && (
         <Modal

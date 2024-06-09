@@ -1,15 +1,21 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Main.scss';
+
+import Cookies from 'js-cookie';
 
 const Main = () => {
 
   const navigate = useNavigate();
+  
+  const [cookieValue, setCookieValue] = useState('');
 
   let intervalId // intervalId 변수 선언
   let animationState = 'paused'
 
   useEffect(() => {
+    setCookieValue(Cookies.get('heroInfo') || '')
+
     const element = document.querySelector('.start-button');
     element.style.animationPlayState = 'paused'
 
@@ -32,13 +38,18 @@ const Main = () => {
     };
   }, []);
 
+  const onStart = () => {
+    console.log('cookie', cookieValue)
+    cookieValue === '' ? navigate('/welcome') : navigate('/note')
+  }
+
 
   return (
     <div className="container">
         <div className="hero-text">
           <img src="/img/main-logo.png" alt="나의 기타히어로가 되어줘!" id="hero-image" />
         </div>
-        <button className="start-button" onClick={(e) => {navigate('/welcome')}}>시작하기</button>
+        <button className="start-button" onClick={onStart}>시작하기</button>
     </div>
   );
 };

@@ -2,11 +2,22 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Welcome.scss'
 
+import Cookies from 'js-cookie';
+
+
 const Welcome = ({ openModal }) => {
   const navigate = useNavigate();
   const [name, setName] = useState('');
   const [typedText, setTypedText] = useState('');
   const [showInput, setShowInput] = useState(false);
+
+  const [cookieValue, setCookieValue] = useState('');
+
+  const handleCookieChange = (value) => {
+    console.log('ee', value)
+    setCookieValue(value);
+    Cookies.set('heroInfo', value, { expires: 7 });
+  };
 
   
   let typingInterval // intervalId 변수 선언
@@ -47,10 +58,11 @@ const Welcome = ({ openModal }) => {
     setName(e.target.value);
   };
 
-  const handleStartButtonClick = () => {
+  const handleStartButtonClick = (e) => {
     if (name.trim() !== '') {
       // 다음 페이지로 이동하는 로직 추가
-      navigate('/');
+      handleCookieChange(name)
+      navigate('/note');
     } else {
       openModal('확인', '이름을 입력해주세요.', () => {});
     }
