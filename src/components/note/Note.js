@@ -28,6 +28,7 @@ const Note = ({ openModal }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingFadeout, setIsLoadingFadeout] = useState(false);
   const [isTestCompleted, setIsTestCompleted] = useState(false);
+  const [showOpenStrings, setShowOpenStrings] = useState(false);
 
   useEffect(() => {
     if(!!Cookies.get('correctAnswerCount') > 0) {
@@ -54,6 +55,7 @@ const Note = ({ openModal }) => {
       return;
     }
 
+    setShowOpenStrings(false)
     let fretRandom = Math.floor(Math.random() * 12) + 1;
     let lineRandom = Math.floor(Math.random() * 6) + 1;
     setFret(fretRandom);
@@ -103,6 +105,10 @@ const Note = ({ openModal }) => {
     }
   };
 
+  const toggleOpenStrings = () => {
+    setShowOpenStrings(prevState => !prevState);
+  };
+
   return (
     <div className={`note-container ${isLoading && isLoadingFadeout  ? 'fade-out' : isTestCompleted ? 'fade-in' : ''}`}>
       {isLoading ? (
@@ -150,13 +156,14 @@ const Note = ({ openModal }) => {
           </div>
           <div className="text">{correctAnswerCount} / {count}</div>
           <div className="guitar-image" ref={guitarRef}>
-            <img src={`/img/notes/note${fret}${line}.png`} alt="Guitar" />
+            <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
           </div>
-          {/* <div className="count-container">
-            <div>{3 - wrongAnswerCount}</div>
-          </div> */}
           <div className="hint-container">
-
+            <span className="hint-label">개방현보기</span>
+            <label className="switch">
+              <input type="checkbox" checked={showOpenStrings} onChange={toggleOpenStrings} />
+              <span className="slider"></span>
+            </label>
           </div>
           <div className="answer-options">
             {notes.map((note, index) => (
