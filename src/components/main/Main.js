@@ -15,6 +15,9 @@ const Main = () => {
 
   useEffect(() => {
     setCookieValue(Cookies.get('heroInfo') || '')
+    if(!!Cookies.get('correctAnswerCount') > 0) {
+      Cookies.remove('correctAnswerCount')
+    }
 
     const element = document.querySelector('.start-button');
     element.style.animationPlayState = 'paused'

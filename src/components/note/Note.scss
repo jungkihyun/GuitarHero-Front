@@ -1,13 +1,25 @@
 .note-container {
+  font-family: MangoDdobak-B;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
   position: relative;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.note-container.fade-out {
+  opacity: 0;
+}
+
+.note-container.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .guitar-image {
@@ -38,7 +50,9 @@
   gap: 10px;
 }
 
+.result button,
 .answer-options button {
+  font-family: MangoDdobak-B;
   padding: 10px 20px;
   font-size: 18px;
   background-color: #5fc4b2;
@@ -49,15 +63,37 @@
   transition: background-color 0.3s, transform 0.3s;
 }
 
+.result button,
 .answer-options button:hover {
   background-color: #2aac94;
   transform: scale(1.05);
 }
 
 .result {
+  // height: 100vh;
   margin-top: 20px;
   font-size: 20px;
   color: #333;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading img {
+  width: 100%;
+}
+
+.loading p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5fc4b2;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  // animation: pulse 1s infinite;
 }
 
 .timer-container,
@@ -75,8 +111,7 @@
 .progress-bar {
   height: 25px;
   background-color: #76c7c0;
-  width: 0;
-  transition: width 0.2s ease-in-out;
+  transition: width 0.3s linear;
 }
 
 .text {
@@ -87,4 +122,26 @@
   transform: translateY(-50%);
   left: 10px;
   color: #333;
+}
+
+.count-container {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.go-back-button {
+  font-family: MangoDdobak-B;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: transparent; /* 배경색 투명으로 설정 */
+  color: #007bff; /* 링크 색상으로 설정 */
+  border: none;
+  cursor: pointer;
+  position: absolute; /* 절대 위치 설정 */
+  top: 20px; /* 상단 여백 설정 */
+  left: 20px; /* 좌측 여백 설정 */
+}
+
+.go-back-button:hover {
+  text-decoration: underline; /* 호버 시 밑줄 표시 */
 }

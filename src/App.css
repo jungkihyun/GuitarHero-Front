@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/*아래 폰트*/
+@font-face {
+  font-family: "MangoDdobak-B";
+  font-weight: 50;
+  src: url("./fonts/MangoDdobak-B(ttf).ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MangoDdobak-L";
+  src: url("./fonts/MangoDdobak-L(ttf).ttf");
+}
+
+@font-face {
+  font-family: "MangoDdobak-R";
+  src: url("./fonts/MangoDdobak-R(ttf).ttf");
+}

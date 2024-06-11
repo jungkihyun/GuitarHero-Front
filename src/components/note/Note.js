@@ -1,40 +1,79 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Note.scss'
+import './Note.scss';
+import Cookies from 'js-cookie';
 
-const Note = ({openModal}) => {
+const Note = ({ openModal }) => {
+  
+  const navigate = useNavigate();
+
   const [result, setResult] = useState('');
-
   const [notes, setNotes] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'G♯/A♭', 'D♯/E♭', 'A♯/B♭', 'F♯/G♭', 'C♯/D♭']);
-  const [noteAnswer, setNoteAnswer] = useState([['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E'],
-                                                  ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'],
-                                                  ['G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G'],
-                                                  ['D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D'],
-                                                  ['A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A'],
-                                                  ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E']])
+  const [noteAnswer, setNoteAnswer] = useState([
+    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E'],
+    ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'],
+    ['G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G'],
+    ['D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D'],
+    ['A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A'],
+    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E']
+  ]);
   const guitarRef = useRef(null);
-
-  const [fret, setFret] = useState(0)
-  const [line, setLine] = useState(0)
-  const [count, setCount] = useState(0)
+  const [fret, setFret] = useState(1);
+  const [line, setLine] = useState(1);
+  const [count, setCount] = useState(1);
   const [timeLeft, setTimeLeft] = useState(20);
+  const [correctAnswerCount, setCorrectAnswerCount] = useState(0);
+  const [wrongAnswerCount, setWrongAnswerCount] = useState(0);
   const intervalRef = useRef();
+  const [isLoading, setIsLoading] = useState(false);
+  const [isLoadingFadeout, setIsLoadingFadeout] = useState(false);
+  const [isTestCompleted, setIsTestCompleted] = useState(false);
 
   useEffect(() => {
-    intervalRef.current = setInterval(() => {
-      setTimeLeft(prevTimeLeft => Math.max(prevTimeLeft - 0.1, 0));
-    }, 100);
+    if(!!Cookies.get('correctAnswerCount') > 0) {
+      setIsLoadingFadeout(true)
+      setIsLoading(false);
+      setIsTestCompleted(true);
+      return;
+    }
+    intervalRef.current = setInterval(intervalFunc, 100);
 
     return () => clearInterval(intervalRef.current);
   }, []);
 
   useEffect(() => {
-    let fretRandom = Math.floor(Math.random() * 12) + 1
-    let lineRandom = Math.floor(Math.random()* 6) + 1
-    setFret(fretRandom)
-    setLine(lineRandom)
-    suffleNotes()
-  }, [count])
+    if (count === 10) {
+      Cookies.set('correctAnswerCount', correctAnswerCount, { expires: 7 });
+      clearInterval(intervalRef.current);
+      setIsLoading(true);
+      setTimeout(() => {
+        setIsLoadingFadeout(true)
+        setIsLoading(false);
+        setIsTestCompleted(true);
+      }, 2000);
+      return;
+    }
+
+    let fretRandom = Math.floor(Math.random() * 12) + 1;
+    let lineRandom = Math.floor(Math.random() * 6) + 1;
+    setFret(fretRandom);
+    setLine(lineRandom);
+    suffleNotes();
+  }, [count]);
+
+  const intervalFunc = () => {
+    setTimeLeft(prevTimeLeft => Math.max(prevTimeLeft - 0.1, 0));
+  };
+
+  useEffect(() => {
+    if(timeLeft === 0) {
+      setWrongAnswerCount(0)
+      clearInterval(intervalRef.current);
+      setTimeLeft(21);
+      intervalRef.current = setInterval(intervalFunc, 100);
+      setCount(count + 1);
+    }
+  }, [timeLeft])
 
   const suffleNotes = () => {
     let newArray = [...notes];
@@ -42,61 +81,95 @@ const Note = ({openModal}) => {
       const j = Math.floor(Math.random() * (i + 1));
       [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
     }
-    setNotes(newArray)
-    // return newArray;
-  }
+    setNotes(newArray);
+  };
 
   const handleNoteClick = (note) => {
-    console.log('f', fret)
-    console.log('l', line)
-    console.log(note)
-    console.log(noteAnswer[line-1][fret-1])
-    if(noteAnswer[line-1][fret-1] === note) {
-      alert('정답')
+    if (noteAnswer[line - 1][fret - 1] === note) {
+      clearInterval(intervalRef.current);
+      setTimeLeft(21);
+      intervalRef.current = setInterval(intervalFunc, 100);
+      setCorrectAnswerCount(correctAnswerCount + 1);
+      setWrongAnswerCount(0);
+      setCount(count + 1);
+    } else if (wrongAnswerCount === 2) {
+      setWrongAnswerCount(0);
+      clearInterval(intervalRef.current);
+      setTimeLeft(21);
+      intervalRef.current = setInterval(intervalFunc, 100);
+      setCount(count + 1);
     } else {
-      alert('오답')
-      return false;
+      setWrongAnswerCount(wrongAnswerCount + 1);
     }
-    // setSelectedNote(note);
-    // if (note === correctNote) {
-    //   openModal('', '정답입니다!', () => {});
-    // } else {
-    //   openModal('', '댕!', () => {});
-    // }
-      // openModal('', '정답입니다!', () => {setCount(++count)});
-    const addCount = count + 1
-    if(addCount > 10) {
-      alert('chrhk')
-      return false;
-    }
-    setCount(addCount)
   };
 
   return (
-    <div className="note-container">
-      <div className="timer-container">
-        <div className="timer-bar" style={{ width: `${(timeLeft / 20) * 100}%` }}>
+    <div className={`note-container ${isLoading && isLoadingFadeout  ? 'fade-out' : isTestCompleted ? 'fade-in' : ''}`}>
+      {isLoading ? (
+        <div className='loading'>
+          <p>테스트가 완료되었습니다.</p>
         </div>
-      </div>
-      <div className="text">남은시간</div>
-      <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${count * 10}%` }}>
+      ) : isTestCompleted ? (
+        <div className="result">
+          <img src="/img/loading.gif" alt="로딩 중" />
+          <div className="">
+            {Cookies.get('heroInfo')}님의
+            테스트 결과: {correctAnswerCount} / {count}
+          </div>
+          <div className="">
+            <button className=""
+              onClick={() => {navigate('/')}}>
+              처음으로
+            </button>
+            <button className=""
+              onClick={() => {
+                Cookies.remove('correctAnswerCount')
+                setIsLoadingFadeout(false)
+                setIsLoading(false)
+                setIsTestCompleted(false)
+                intervalRef.current = setInterval(intervalFunc, 100)
+                setCount(1)
+                setCorrectAnswerCount(0);
+                setWrongAnswerCount(0);
+              }}>
+              다시하기
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="text">진행도</div>
-      <div className="guitar-image" ref={guitarRef}>
-        <img src={`/img/notes/note${fret}${line}.png`} alt="Guitar" />
-      </div>
-      <div className="answer-options">
-        {notes.map((note, index) => (
-          <button key={index} onClick={() => handleNoteClick(note)}>
-            {note}
+      ) : (
+        <>
+          <button className="go-back-button" onClick={(e) => {navigate('/')}}>
+            &lt;&lt; 돌아가기
           </button>
-        ))}
-      </div>
-      {result && <div className="result">{result}</div>}
+          <div className="timer-container">
+            <div className="timer-bar" style={{ width: `${(timeLeft / 20) * 100}%` }}></div>
+          </div>
+          <div className="text">남은시간</div>
+          <div className="progress-container">
+            <div className="progress-bar" style={{ width: `${count * 10}%` }}></div>
+          </div>
+          <div className="text">{correctAnswerCount} / {count}</div>
+          <div className="guitar-image" ref={guitarRef}>
+            <img src={`/img/notes/note${fret}${line}.png`} alt="Guitar" />
+          </div>
+          {/* <div className="count-container">
+            <div>{3 - wrongAnswerCount}</div>
+          </div> */}
+          <div className="hint-container">
+
+          </div>
+          <div className="answer-options">
+            {notes.map((note, index) => (
+              <button key={index} onClick={() => handleNoteClick(note)}>
+                {note}
+              </button>
+            ))}
+          </div>
+          {result && <div className="result">{result}</div>}
+        </>
+      )}
     </div>
   );
 };
-  
+
 export default Note;
