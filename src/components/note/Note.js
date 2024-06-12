@@ -4,9 +4,7 @@ import './Note.scss';
 import Cookies from 'js-cookie';
 
 const Note = ({ openModal }) => {
-  
   const navigate = useNavigate();
-
   const [result, setResult] = useState('');
   const [notes, setNotes] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'G♯/A♭', 'D♯/E♭', 'A♯/B♭', 'F♯/G♭', 'C♯/D♭']);
   const [noteAnswer, setNoteAnswer] = useState([
@@ -20,7 +18,7 @@ const Note = ({ openModal }) => {
   const guitarRef = useRef(null);
   const [fret, setFret] = useState(1);
   const [line, setLine] = useState(1);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const [timeLeft, setTimeLeft] = useState(20);
   const [correctAnswerCount, setCorrectAnswerCount] = useState(0);
   const [wrongAnswerCount, setWrongAnswerCount] = useState(0);
@@ -29,6 +27,7 @@ const Note = ({ openModal }) => {
   const [isLoadingFadeout, setIsLoadingFadeout] = useState(false);
   const [isTestCompleted, setIsTestCompleted] = useState(false);
   const [showOpenStrings, setShowOpenStrings] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
 
   useEffect(() => {
     if(!!Cookies.get('correctAnswerCount') > 0) {
@@ -55,7 +54,8 @@ const Note = ({ openModal }) => {
       return;
     }
 
-    setShowOpenStrings(false)
+    setShowOpenStrings(false);
+    setShowAnswer(false);
     let fretRandom = Math.floor(Math.random() * 12) + 1;
     let lineRandom = Math.floor(Math.random() * 6) + 1;
     setFret(fretRandom);
@@ -91,7 +91,7 @@ const Note = ({ openModal }) => {
       clearInterval(intervalRef.current);
       setTimeLeft(21);
       intervalRef.current = setInterval(intervalFunc, 100);
-      setCorrectAnswerCount(correctAnswerCount + 1);
+      !!showAnswer || setCorrectAnswerCount(correctAnswerCount + 1);
       setWrongAnswerCount(0);
       setCount(count + 1);
     } else if (wrongAnswerCount === 2) {
@@ -109,8 +109,12 @@ const Note = ({ openModal }) => {
     setShowOpenStrings(prevState => !prevState);
   };
 
+  const toggleShowAnswer = () => {
+    setShowAnswer(prevState => !prevState);
+  };
+
   return (
-    <div className={`note-container ${isLoading && isLoadingFadeout  ? 'fade-out' : isTestCompleted ? 'fade-in' : ''}`}>
+    <div className={`note-container`}>
       {isLoading ? (
         <div className='loading'>
           <p>테스트가 완료되었습니다.</p>
@@ -122,19 +126,19 @@ const Note = ({ openModal }) => {
             {Cookies.get('heroInfo')}님의
             테스트 결과: {correctAnswerCount} / {count}
           </div>
-          <div className="">
-            <button className=""
+          <div className="button-group">
+            <button className="begin-button"
               onClick={() => {navigate('/')}}>
               처음으로
             </button>
-            <button className=""
+            <button className="again-button"
               onClick={() => {
                 Cookies.remove('correctAnswerCount')
                 setIsLoadingFadeout(false)
                 setIsLoading(false)
                 setIsTestCompleted(false)
                 intervalRef.current = setInterval(intervalFunc, 100)
-                setCount(1)
+                setCount(0)
                 setCorrectAnswerCount(0);
                 setWrongAnswerCount(0);
               }}>
@@ -154,7 +158,7 @@ const Note = ({ openModal }) => {
           <div className="progress-container">
             <div className="progress-bar" style={{ width: `${count * 10}%` }}></div>
           </div>
-          <div className="text">{correctAnswerCount} / {count}</div>
+          <div className="text">{correctAnswerCount} / 10</div>
           <div className="guitar-image" ref={guitarRef}>
             <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
           </div>
@@ -165,14 +169,36 @@ const Note = ({ openModal }) => {
               <span className="slider"></span>
             </label>
           </div>
+          <div className="hint-container">
+            <span className="hint-label">정답 확인 (정답 횟수 포함 X)</span>
+            <label className="switch">
+              <input type="checkbox" checked={showAnswer} onChange={toggleShowAnswer} />
+              <span className="slider"></span>
+            </label>
+          </div>
+          <div className="wrong-container">
+            <span className="wrong-label">정답횟수</span>
+            <label className="wrong-count">
+              {correctAnswerCount} / 10
+            </label>
+          </div>
+          <div className="wrong-container">
+            <span className="wrong-label">오답횟수 (문제당 3번)</span>
+            <label className="wrong-count">
+              {wrongAnswerCount} / 3
+            </label>
+          </div>
           <div className="answer-options">
             {notes.map((note, index) => (
-              <button key={index} onClick={() => handleNoteClick(note)}>
+              <button
+                key={index}
+                onClick={() => handleNoteClick(note)}
+                className={showAnswer && note === noteAnswer[line - 1][fret - 1] ? 'active' : ''}
+              >
                 {note}
               </button>
             ))}
           </div>
-          {result && <div className="result">{result}</div>}
         </>
       )}
     </div>

@@ -46,13 +46,21 @@ const Main = () => {
     cookieValue === '' ? navigate('/welcome') : navigate('/note')
   }
 
-
   return (
     <div className="container">
         <div className="hero-text">
           <img src="/img/main-logo.png" alt="나의 기타히어로가 되어줘!" id="hero-image" />
         </div>
+        {cookieValue !== '' ?
+        <div className="welcome-message">
+          <span className="highlight-name">{cookieValue}</span>님 반가워요!<br/>
+          <span className="highlight-hero">기타히어로</span>가 될 자격이 있는지 테스트해볼까요?
+        </div>
+        : <></>}
         <button className="start-button" onClick={onStart}>시작하기</button>
+        {cookieValue === '' ||
+        <button className="welcome-button" onClick={(e) => navigate('/welcome')}>이름 바꾸고 시작하기</button>
+        }
     </div>
   );
 };

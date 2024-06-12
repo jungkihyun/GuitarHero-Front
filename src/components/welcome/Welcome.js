@@ -27,7 +27,7 @@ const Welcome = ({ openModal }) => {
     setTypedText('')
     
     const startTyping = () => {
-      const welcomeText = "이름을 입력해주세요."
+      const welcomeText = "이름을 입력해주세요 !"
       let index = 0;
       typingInterval = setInterval(() => {
         tempText = tempText += welcomeText[index]

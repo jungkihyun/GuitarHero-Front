@@ -15,7 +15,31 @@
   height: auto;
 }
 
+.welcome-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  // background: #f0f8ff;
+  // border: 2px solid #5fc4b2;
+  border-radius: 10px;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-name {
+  color: #5fc4b2; /* 강조 색상 설정 */
+  font-size: 28px; /* 크기를 약간 더 크게 설정 */
+}
+
+.highlight-hero {
+  color: #ff6347; /* 강조 색상 설정 */
+  font-size: 28px; /* 크기를 약간 더 크게 설정 */
+}
+
 .start-button {
+  width: 20rem;
   font-family: MangoDdobak-B;
   margin-top: 20px;
   padding: 10px 20px;
@@ -27,6 +51,21 @@
   cursor: pointer;
   transition: background-color 0.3s;
   animation: shakeButton 0.3s infinite alternate;
+}
+
+.welcome-button {
+  width: 20rem;
+  font-family: MangoDdobak-B;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5fc4b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  // animation: shakeButton 0.3s infinite alternate;
 }
 
 .start-button:hover {
