@@ -9,6 +9,9 @@ import Note from './components/note/Note';
 
 import Modal from './components/util/Modal';
 
+
+import MouseAnimate from './components/mouseAnimate/MouseAnimate';
+
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({});
@@ -25,6 +28,7 @@ function App() {
 
   return (
     <Router>
+      <MouseAnimate />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/welcome" element={<Welcome openModal={openModal} />} />

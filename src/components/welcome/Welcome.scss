@@ -1,5 +1,3 @@
-/* Welcome.scss */
-
 .welcome-container {
   font-family: MangoDdobak-B;
   display: flex;
@@ -7,17 +5,23 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
+  position: relative; /* Ensure the elements have a positioning context */
+  z-index: 1; /* Higher z-index to be on top of falling notes */
 }
 
 .typing-text {
   margin-bottom: 2rem;
   font-size: 24px;
+  position: relative;
+  z-index: 2; /* Ensure it is above the falling notes */
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 2; /* Ensure it is above the falling notes */
 }
 
 .input-container input {
@@ -28,6 +32,8 @@
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  position: relative;
+  z-index: 2; /* Ensure it is above the falling notes */
 }
 
 .welcome-button {
@@ -40,6 +46,8 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  position: relative;
+  z-index: 2; /* Ensure it is above the falling notes */
 }
 
 .welcome-button:hover {
@@ -49,15 +57,16 @@
 .go-back-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: transparent; /* 배경색 투명으로 설정 */
-  color: #007bff; /* 링크 색상으로 설정 */
+  background-color: transparent; /* Background transparent */
+  color: #007bff; /* Link color */
   border: none;
   cursor: pointer;
-  position: absolute; /* 절대 위치 설정 */
-  top: 20px; /* 상단 여백 설정 */
-  left: 20px; /* 좌측 여백 설정 */
+  position: absolute; /* Absolute positioning */
+  top: 20px; /* Top margin */
+  left: 20px; /* Left margin */
+  z-index: 2; /* Ensure it is above the falling notes */
 }
 
 .go-back-button:hover {
-  text-decoration: underline; /* 호버 시 밑줄 표시 */
+  text-decoration: underline; /* Underline on hover */
 }

@@ -23,11 +23,15 @@ const Note = ({ openModal }) => {
   const [correctAnswerCount, setCorrectAnswerCount] = useState(0);
   const [wrongAnswerCount, setWrongAnswerCount] = useState(0);
   const intervalRef = useRef();
+  const feedbackTimeoutRef = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingFadeout, setIsLoadingFadeout] = useState(false);
   const [isTestCompleted, setIsTestCompleted] = useState(false);
   const [showOpenStrings, setShowOpenStrings] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [toggleAnswer, setToggleAnswer] = useState(false);
+  const [checkAnswer, setCheckAnswer] = useState(false);
+  const [feedbackImage, setFeedbackImage] = useState(null);
+  const [showFeedbackImage, setShowFeedbackImage] = useState(false);
 
   useEffect(() => {
     if(!!Cookies.get('correctAnswerCount') > 0) {
@@ -55,7 +59,8 @@ const Note = ({ openModal }) => {
     }
 
     setShowOpenStrings(false);
-    setShowAnswer(false);
+    setToggleAnswer(false);
+    setCheckAnswer(false);
     let fretRandom = Math.floor(Math.random() * 12) + 1;
     let lineRandom = Math.floor(Math.random() * 6) + 1;
     setFret(fretRandom);
@@ -87,11 +92,26 @@ const Note = ({ openModal }) => {
   };
 
   const handleNoteClick = (note) => {
-    if (noteAnswer[line - 1][fret - 1] === note) {
+    if (feedbackTimeoutRef.current) {
+      clearTimeout(feedbackTimeoutRef.current); // 이전 타이머 취소
+    }
+
+    const isCorrect = noteAnswer[line - 1][fret - 1] === note;
+    setFeedbackImage(isCorrect ? 'ok.png' : 'fail.png');
+    setShowFeedbackImage(false);
+    
+    setTimeout(() => {
+      setShowFeedbackImage(true);
+      feedbackTimeoutRef.current = setTimeout(() => {
+        setShowFeedbackImage(false);
+      }, 1500);
+    }, 50);
+
+    if (isCorrect) {
       clearInterval(intervalRef.current);
       setTimeLeft(21);
       intervalRef.current = setInterval(intervalFunc, 100);
-      !!showAnswer || setCorrectAnswerCount(correctAnswerCount + 1);
+      !!checkAnswer || setCorrectAnswerCount(correctAnswerCount + 1);
       setWrongAnswerCount(0);
       setCount(count + 1);
     } else if (wrongAnswerCount === 2) {
@@ -110,7 +130,8 @@ const Note = ({ openModal }) => {
   };
 
   const toggleShowAnswer = () => {
-    setShowAnswer(prevState => !prevState);
+    setCheckAnswer(true)
+    setToggleAnswer(prevState => !prevState);
   };
 
   return (
@@ -158,7 +179,7 @@ const Note = ({ openModal }) => {
           <div className="progress-container">
             <div className="progress-bar" style={{ width: `${count * 10}%` }}></div>
           </div>
-          <div className="text">{correctAnswerCount} / 10</div>
+          <div className="text answer-count-text">{correctAnswerCount} / 10</div>
           <div className="guitar-image" ref={guitarRef}>
             <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
           </div>
@@ -172,7 +193,7 @@ const Note = ({ openModal }) => {
           <div className="hint-container">
             <span className="hint-label">정답 확인 (정답 횟수 포함 X)</span>
             <label className="switch">
-              <input type="checkbox" checked={showAnswer} onChange={toggleShowAnswer} />
+              <input type="checkbox" checked={toggleAnswer} onChange={toggleShowAnswer} />
               <span className="slider"></span>
             </label>
           </div>
@@ -189,16 +210,17 @@ const Note = ({ openModal }) => {
             </label>
           </div>
           <div className="answer-options">
-            {notes.map((note, index) => (
+            {notes.map((item, index) => (
               <button
                 key={index}
-                onClick={() => handleNoteClick(note)}
-                className={showAnswer && note === noteAnswer[line - 1][fret - 1] ? 'active' : ''}
+                onClick={() => handleNoteClick(item)}
+                className={toggleAnswer && item === noteAnswer[line - 1][fret - 1] ? 'active' : ''}
               >
-                {note}
+                {item}
               </button>
             ))}
           </div>
+          {showFeedbackImage && <div className="answer-feedback" style={{ backgroundImage: `url(/img/${feedbackImage})` }}></div>}
         </>
       )}
     </div>

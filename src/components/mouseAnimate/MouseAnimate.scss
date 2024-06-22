@@ -1,0 +1,28 @@
+.note-fall-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the notes are behind other elements */
+  pointer-events: none; /* Prevent interaction */
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(400px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.note {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: fall 3s linear infinite; /* Animation duration */
+  pointer-events: none; /* Prevent interaction */
+}

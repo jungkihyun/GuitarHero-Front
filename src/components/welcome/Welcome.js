@@ -1,58 +1,52 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Welcome.scss'
+import './Welcome.scss';
+// import MouseAnimate from './MouseAnimate'; // Import MouseAnimate
 
 import Cookies from 'js-cookie';
-
 
 const Welcome = ({ openModal }) => {
   const navigate = useNavigate();
   const [name, setName] = useState('');
   const [typedText, setTypedText] = useState('');
   const [showInput, setShowInput] = useState(false);
-
   const [cookieValue, setCookieValue] = useState('');
 
   const handleCookieChange = (value) => {
-    console.log('ee', value)
+    console.log('ee', value);
     setCookieValue(value);
     Cookies.set('heroInfo', value, { expires: 7 });
   };
 
-  
-  let typingInterval // intervalId 변수 선언
-  let tempText = ''
+  let typingInterval; // intervalId variable declaration
+  let tempText = '';
 
   useEffect(() => {
-    setTypedText('')
-    
+    setTypedText('');
+
     const startTyping = () => {
-      const welcomeText = "이름을 입력해주세요 !"
+      const welcomeText = '이름을 입력해주세요 !';
       let index = 0;
       typingInterval = setInterval(() => {
-        tempText = tempText += welcomeText[index]
-        setTypedText(tempText)
+        tempText = tempText += welcomeText[index];
+        setTypedText(tempText);
         index++;
         if (index === welcomeText.length) {
           clearInterval(typingInterval);
           setShowInput(true);
         }
       }, 70);
-      
     };
-    
-    startTyping()
-    
-    // cleanup 함수
+
+    startTyping();
+
+    // cleanup function
     return () => {
-      clearInterval(typingInterval); // 컴포넌트가 언마운트되면 interval 제거
+      clearInterval(typingInterval); // Remove interval on component unmount
     };
-    
-  }, [])
+  }, []);
 
-  useEffect(() => {
-  }, [typedText])
-
+  useEffect(() => {}, [typedText]);
 
   const handleInputChange = (e) => {
     setName(e.target.value);
@@ -60,8 +54,8 @@ const Welcome = ({ openModal }) => {
 
   const handleStartButtonClick = (e) => {
     if (name.trim() !== '') {
-      // 다음 페이지로 이동하는 로직 추가
-      handleCookieChange(name)
+      // Add logic to move to the next page
+      handleCookieChange(name);
       navigate('/note');
     } else {
       openModal('확인', '이름을 입력해주세요.', () => {});
@@ -70,7 +64,8 @@ const Welcome = ({ openModal }) => {
 
   return (
     <div className="welcome-container">
-      <button className="go-back-button" onClick={(e) => {navigate('/')}}>
+      {/* <MouseAnimate /> Add MouseAnimate here */}
+      <button className="go-back-button" onClick={(e) => { navigate('/'); }}>
         &lt;&lt; 돌아가기
       </button>
       <h1 className="typing-text">{typedText}</h1>
