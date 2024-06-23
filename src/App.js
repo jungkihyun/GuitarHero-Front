@@ -8,9 +8,8 @@ import Welcome from './components/welcome/Welcome';
 import Note from './components/note/Note';
 
 import Modal from './components/util/Modal';
-
-
 import MouseAnimate from './components/mouseAnimate/MouseAnimate';
+import Layout from './common/layout/Layout'
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,11 +28,13 @@ function App() {
   return (
     <Router>
       <MouseAnimate />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/welcome" element={<Welcome openModal={openModal} />} />
-        <Route path="/note" element={<Note openModal={openModal} />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/welcome" element={<Welcome openModal={openModal} />} />
+          <Route path="/note" element={<Note openModal={openModal} />} />
+        </Routes>
+      </Layout>
       {modalOpen && (
         <Modal
           title={modalContent.title}
