@@ -15,11 +15,11 @@ function Layout({ children }) {
       <header className="header">
         <div className="logo">
           <img src={logo} alt="Logo" />
-          <span>My Project</span>
+          <span>Guitar Hero</span>
         </div>
         <div className="options">
-          <Link to="/mypage">My Page</Link>
-          <button className="theme-toggle">White/Dark Mode</button>
+          <Link to="/mypage">마이페이지</Link>
+          <button className="theme-toggle">White/Dark</button>
           <button className="hamburger-button" onClick={toggleSidebar}>
             &#9776;
           </button>
@@ -29,8 +29,8 @@ function Layout({ children }) {
         <nav className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/welcome">Welcome</Link></li>
-            <li><Link to="/note">Note</Link></li>
+            {/* <li><Link to="/welcome">Welcome</Link></li> */}
+            {/* <li><Link to="/note">Note</Link></li> */}
           </ul>
         </nav>
         <div className="content">
