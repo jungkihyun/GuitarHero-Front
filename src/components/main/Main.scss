@@ -50,22 +50,24 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  animation: shakeButton 0.3s infinite alternate;
+  // animation: shakeButton 0.3s infinite alternate;
 }
 
-.welcome-button {
-  width: 20rem;
-  font-family: MangoDdobak-B;
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #5fc4b2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  // animation: shakeButton 0.3s infinite alternate;
+.container {
+  >.welcome-button {
+    width: 20rem;
+    font-family: MangoDdobak-B;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    // animation: shakeButton 0.3s infinite alternate;
+  }
 }
 
 .start-button:hover {
