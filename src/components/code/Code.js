@@ -7,6 +7,9 @@ const Code = ({ openModal }) => {
 
   return (
     <div className='code-container'>
+      <div className=''>
+        
+      </div>
     </div>
   );
 };
