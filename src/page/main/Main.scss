@@ -8,6 +8,8 @@
   font-family: Arial, sans-serif;
   opacity: 0;
   animation: bounceIn 0.5s forwards;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 .hero-text img {
@@ -34,7 +36,7 @@
 }
 
 .highlight-hero {
-  color: #ff6347; /* 강조 색상 설정 */
+  color: #ff593b; /* 강조 색상 설정 */
   font-size: 28px; /* 크기를 약간 더 크게 설정 */
 }
 
@@ -60,13 +62,16 @@
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #ff6347;
+    background-color: #ff8670;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     // animation: shakeButton 0.3s infinite alternate;
+  }
+  >.welcome-button:hover{
+    background-color: #ff593b;
   }
 }
 

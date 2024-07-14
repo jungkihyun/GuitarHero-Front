@@ -169,9 +169,9 @@ const Note = ({ openModal }) => {
         </div>
       ) : (
         <>
-          <button className="go-back-button" onClick={(e) => {navigate('/')}}>
+          {/* <button className="go-back-button" onClick={(e) => {navigate('/')}}>
             &lt;&lt; 돌아가기
-          </button>
+          </button> */}
           <div className="timer-container">
             <div className="timer-bar" style={{ width: `${(timeLeft / 20) * 100}%` }}></div>
           </div>

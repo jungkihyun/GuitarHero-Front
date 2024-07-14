@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 90vh;
   position: relative; /* Ensure the elements have a positioning context */
   z-index: 1; /* Higher z-index to be on top of falling notes */
 }

@@ -67,7 +67,7 @@ const Main = () => {
         <button className="start-button" onClick={(e) => {onStart('/note')}}>지판 음 테스트</button>
         <button className="start-button" onClick={(e) => {onStart('/code')}}>코드 테스트</button>
         {cookieValue === '' ||
-        <button className="welcome-button" onClick={(e) => navigate('/welcome')}>이름 바꾸고 시작하기</button>
+        <button className="welcome-button" onClick={(e) => navigate('/welcome')}>이름 변경</button>
         }
     </div>
   );

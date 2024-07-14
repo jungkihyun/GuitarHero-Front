@@ -1,0 +1,84 @@
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #2aac94;
+  font-size: xx-large;
+
+  .logo {
+    height: 40px; /* 로고 이미지 높이 */
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+
+  .profile-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .profile-image {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .profile-name {
+      font-size: 16px;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: white;
+      color: black;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      width: 150px;
+
+      ul {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+
+        li {
+          padding: 10px;
+          cursor: pointer;
+          &:hover {
+            background-color: #f0f0f0;
+          }
+        }
+      }
+    }
+  }
+
+  .login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5fc4b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #2aac94;
+    }
+  }
+}

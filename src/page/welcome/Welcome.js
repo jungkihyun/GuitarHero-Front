@@ -56,7 +56,7 @@ const Welcome = ({ openModal }) => {
     if (name.trim() !== '') {
       // Add logic to move to the next page
       handleCookieChange(name);
-      navigate('/note');
+      navigate('/');
     } else {
       openModal('확인', '이름을 입력해주세요.', () => {});
     }
@@ -65,9 +65,9 @@ const Welcome = ({ openModal }) => {
   return (
     <div className="welcome-container">
       {/* <MouseAnimate /> Add MouseAnimate here */}
-      <button className="go-back-button" onClick={(e) => { navigate('/'); }}>
+      {/* <button className="go-back-button" onClick={(e) => { navigate('/'); }}>
         &lt;&lt; 돌아가기
-      </button>
+      </button> */}
       <h1 className="typing-text">{typedText}</h1>
       {showInput && (
         <div className="input-container">
@@ -77,7 +77,7 @@ const Welcome = ({ openModal }) => {
             value={name}
             onChange={handleInputChange}
           />
-          <button className="welcome-button" onClick={handleStartButtonClick}>시작!</button>
+          <button className="welcome-button" onClick={handleStartButtonClick}>저장</button>
         </div>
       )}
     </div>
