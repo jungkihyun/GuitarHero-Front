@@ -169,9 +169,6 @@ const Note = ({ openModal }) => {
         </div>
       ) : (
         <>
-          {/* <button className="go-back-button" onClick={(e) => {navigate('/')}}>
-            &lt;&lt; 돌아가기
-          </button> */}
           <div className="timer-container">
             <div className="timer-bar" style={{ width: `${(timeLeft / 20) * 100}%` }}></div>
           </div>
@@ -180,8 +177,10 @@ const Note = ({ openModal }) => {
             <div className="progress-bar" style={{ width: `${count * 10}%` }}></div>
           </div>
           <div className="text answer-count-text">{correctAnswerCount} / 10</div>
-          <div className="guitar-image" ref={guitarRef}>
-            <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
+          <div className='guitar-image-area'>
+            <div className="guitar-image" ref={guitarRef}>
+              <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
+            </div>
           </div>
           <div className="hint-container">
             <span className="hint-label">개방현보기</span>

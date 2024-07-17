@@ -38,10 +38,10 @@
 }
 
 /*아래 폰트*/
-@font-face {
-  font-family: "MangoDdobak-B";
+/* @font-face {
+  font-family: "NotoSansKR-SemiBold";
   font-weight: 50;
-  src: url("./fonts/MangoDdobak-B(ttf).ttf") format("truetype");
+  src: url("./fonts/NotoSansKR-SemiBold(ttf).ttf") format("truetype");
 }
 
 @font-face {
@@ -52,4 +52,48 @@
 @font-face {
   font-family: "MangoDdobak-R";
   src: url("./fonts/MangoDdobak-R(ttf).ttf");
+} */
+@font-face {
+  font-family: "NotoSansKR-Black";
+  src: url("./fonts/NotoSansKR-Black.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-Bold";
+  src: url("./fonts/NotoSansKR-Bold.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-ExtraBold";
+  src: url("./fonts/NotoSansKR-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-ExtraLight";
+  src: url("./fonts/NotoSansKR-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-Light";
+  src: url("./fonts/NotoSansKR-Light.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-Medium";
+  src: url("./fonts/NotoSansKR-Medium.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-Regular";
+  src: url("./fonts/NotoSansKR-Regular.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-SemiBold";
+  src: url("./fonts/NotoSansKR-SemiBold.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR-Thin";
+  src: url("./fonts/NotoSansKR-Thin.ttf");
+}
+
+.body {
+  font-family: "NotoSansKR-Regular";
+}
+
+button {
+  font-family: "NotoSansKR-Bold";
 }

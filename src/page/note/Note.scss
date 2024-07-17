@@ -1,5 +1,5 @@
 .note-container {
-  font-family: MangoDdobak-B;
+  // font-family: MangoDdobak-B;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +12,7 @@
   opacity: 1;
   transition: opacity 1s ease-out;
   gap: 10px;
+  margin-bottom: 10rem;
 }
 
 .note-container.fade-out {
@@ -66,7 +67,7 @@
 .answer-options button,
 .show-answer-button {
   width: 20rem;
-  font-family: MangoDdobak-B;
+  // font-family: MangoDdobak-B;
   padding: 10px 20px;
   font-size: 18px;
   background-color: #5fc4b2;
@@ -126,6 +127,7 @@
 .timer-container,
 .progress-container {
   width: 100%;
+  min-height: 1.5rem;
   max-width: 750px;
   background-color: #e0e0e0;
   border-radius: 25px;
@@ -161,7 +163,7 @@
 }
 
 .go-back-button {
-  font-family: MangoDdobak-B;
+  // font-family: MangoDdobak-B;
   padding: 10px 20px;
   font-size: 18px;
   background-color: transparent;
@@ -257,6 +259,10 @@ input:checked + .slider:before {
   .guitar-image {
     height: 130px;
   }
+
+  .note-container {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Media query for mobile devices */
@@ -295,4 +301,9 @@ input:checked + .slider:before {
   height: 30vh; /* 이미지 크기에 맞게 조정 */
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.guitar-image-area{
+  width: 100%;
+  max-width: 750px;
 }
