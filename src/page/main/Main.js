@@ -17,37 +17,6 @@ const Main = () => {
     }
   }, [])
 
-  // let intervalId // intervalId 변수 선언
-  // let animationState = 'paused'
-
-  // useEffect(() => {
-  //   setCookieValue(Cookies.get('heroInfo') || '')
-  //   if(!!Cookies.get('correctAnswerCount') > 0) {
-  //     Cookies.remove('correctAnswerCount')
-  //   }
-
-  //   const element = document.querySelector('.start-button');
-  //   element.style.animationPlayState = 'paused'
-
-  //   const callFunctionEveryTwoSeconds = () => {
-  //     intervalId = setInterval(function() {
-  //       if(animationState === 'paused') {
-  //         animationState = 'running'
-  //       } else {
-  //         animationState = 'paused'
-  //       }
-  //       element.style.animationPlayState = animationState
-  //     }, 1000); // 시간 간격은 밀리초 단위로 지정 (여기서는 2초 = 2000밀리초)
-  //   };
-
-  //   callFunctionEveryTwoSeconds(); // 함수 호출
-
-  //   // cleanup 함수
-  //   return () => {
-  //     clearInterval(intervalId); // 컴포넌트가 언마운트되면 interval 제거
-  //   };
-  // }, []);
-
   const onStart = (path) => {
     console.log('cookie', cookieValue)
     cookieValue === '' ? navigate('/welcome') : navigate(path)

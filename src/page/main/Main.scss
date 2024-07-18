@@ -12,9 +12,13 @@
   margin-bottom: 10rem;
 }
 
-.hero-text img {
-  max-width: 100%;
-  height: auto;
+.hero-text {
+  display: contents;
+  >img{
+    max-width: 100%;
+    height: auto;
+    width: 20%;
+  }
 }
 
 .welcome-message {
@@ -77,21 +81,6 @@
 
 .start-button:hover {
   background-color: #2aac94;
-}
-
-@keyframes shakeButton {
-  0%, 100% {
-      transform: translateX(0) translateY(0);
-  }
-  25% {
-      transform: translateX(3px) translateY(1px);
-  }
-  50% {
-      transform: translateX(0) translateY(-1px);
-  }
-  75% {
-      transform: translateX(-1px) translateY(3px);
-  }
 }
 
 @keyframes bounceIn {

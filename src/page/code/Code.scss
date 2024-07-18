@@ -1,0 +1,89 @@
+.code-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .tap-area {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tap-area button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tap-area button:hover {
+    background-color: #ccc;
+  }
+  
+  .main-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chord-display {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .right-bar-area {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chord-picker {
+    margin-bottom: 20px;
+  }
+  
+  .chord-list, .variation-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chord-button, .variation-button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  .chord-button:hover, .variation-button:hover {
+    background-color: #ccc;
+  }
+  
+  .chord-button.active, .variation-button.active {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  

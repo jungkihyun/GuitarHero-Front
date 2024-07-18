@@ -1,0 +1,127 @@
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    min-height: 40px;
+    min-width: 80px;
+
+    &.x-small {
+        font-size: 6px;
+    }
+    &.small {
+        font-size: 11px;
+    }
+    &.normal {
+        font-size: 16px;
+    }
+    &.large {
+        font-size: 21px;
+    }
+    &.x-large {
+        font-size: 26px;
+    }
+
+    &.primary {
+      background-color: #5fc4b2;
+      color: white;
+      &.active {
+        border: 2px solid #325f57;
+      }
+    }
+  
+    &.primary:hover {
+      background-color: #2aac94;
+    }
+  
+    &.secondary {
+      background-color: #6c757d;
+      color: white;
+    }
+  
+    &.secondary:hover {
+      background-color: #545b62;
+    }
+  
+    &.success {
+      background-color: #28a745;
+      color: white;
+    }
+  
+    &.success:hover {
+      background-color: #218838;
+    }
+  
+    &.danger {
+      background-color: #dc3545;
+      color: white;
+    }
+  
+    &.danger:hover {
+      background-color: #c82333;
+    }
+  
+    &.warning {
+      background-color: #ffc107;
+      color: black;
+    }
+  
+    &.warning:hover {
+      background-color: #e0a800;
+    }
+  
+    &.info {
+      background-color: #17a2b8;
+      color: white;
+    }
+  
+    &.info:hover {
+      background-color: #138496;
+    }
+  
+    &.light {
+      background-color: #f8f9fa;
+      color: black;
+    }
+  
+    &.light:hover {
+      background-color: #e2e6ea;
+    }
+  
+    &.dark {
+      background-color: #343a40;
+      color: white;
+    }
+  
+    &.dark:hover {
+      background-color: #23272b;
+    }
+  
+    &.outline-primary {
+      background-color: transparent;
+      color: #007bff;
+      border: 1px solid #007bff;
+    }
+  
+    &.outline-primary:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  
+    &.outline-secondary {
+      background-color: transparent;
+      color: #6c757d;
+      border: 1px solid #6c757d;
+    }
+  
+    &.outline-secondary:hover {
+      background-color: #6c757d;
+      color: white;
+    }
+  
+    // 추가적으로 다른 스타일도 정의할 수 있습니다.
+  }
+  
