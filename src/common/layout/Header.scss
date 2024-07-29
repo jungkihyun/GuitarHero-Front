@@ -2,9 +2,28 @@
   font-family: NotoSansKR-ExtraBold;
   color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  height: 50px;
+  
+  .menu-bar {
+    height: 50px;
+    &__nav {
+      display: flex;
+      gap: 1rem;
+      padding: 0 1rem;
+      color: #494747;
+    }
+
+    &__nav-item {
+      gap: 5px;
+      cursor: pointer;
+
+      &.active {
+        background-color: red;
+      }
+    }
+  }
 }
 
 .header-left {
