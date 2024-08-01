@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from '../../components/button/Button';
-import './Code.scss';
+import './Chord.scss';
 
 
 const chords = [
@@ -9,28 +9,28 @@ const chords = [
   // 더 많은 코드와 변형을 추가
 ];
 
-const Code = ({ openModal }) => {
-  const [codeQuizBtn, setCodeQuizBtn] = useState(false);
-  const [codeColBtn, setCodeColBtn] = useState(false);
+const Chord = ({ openModal }) => {
+  const [chordQuizBtn, setChordQuizBtn] = useState(false);
+  const [chordColBtn, setChordColBtn] = useState(false);
   const [selectedChord, setSelectedChord] = useState(null);
 
   return (
-    <div className='code-container'>
+    <div className='chord-container'>
       <div className='tap-area'>
         <Button
-          className={`primary ${codeQuizBtn ? 'active' : ''}`}
+          className={`primary ${chordQuizBtn ? 'active' : ''}`}
           onClick={() => {
-            setCodeQuizBtn(!codeQuizBtn);
-            setCodeColBtn(false);
+            setChordQuizBtn(!chordQuizBtn);
+            setChordColBtn(false);
           }}
           text={'코드문제'}
         >
         </Button>
         <Button
-          className={`primary ${codeColBtn ? 'active' : ''}`}
+          className={`primary ${chordColBtn ? 'active' : ''}`}
           onClick={() => {
-            setCodeQuizBtn(false);
-            setCodeColBtn(!codeColBtn);
+            setChordQuizBtn(false);
+            setChordColBtn(!chordColBtn);
           }}
           text={'코드모음'}
         >
@@ -43,7 +43,7 @@ const Code = ({ openModal }) => {
         <div className='content-area'></div>
       </div>
       <div className='right-bar-area'>
-        <div className='code-picker'>
+        <div className='chord-picker'>
           <h3>Chord Picker</h3>
           <div className='chord-list'>
             {chords.map((chord) => (
@@ -58,7 +58,7 @@ const Code = ({ openModal }) => {
           </div>
         </div>
         {selectedChord && (
-          <div className='code-list'>
+          <div className='chord-list'>
             <h4>{selectedChord} Variations</h4>
             <div className='variation-list'>
               {chords
@@ -80,4 +80,4 @@ const Code = ({ openModal }) => {
   );
 };
 
-export default Code;
+export default Chord;

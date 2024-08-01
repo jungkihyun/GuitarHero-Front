@@ -1,44 +1,32 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import './Main.scss';
-
-import Cookies from 'js-cookie';
+import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
-
   const navigate = useNavigate();
-  
-  const [cookieValue, setCookieValue] = useState('');
-
-  useEffect(() => {
-    setCookieValue(Cookies.get('heroInfo') || '')
-    if(!!Cookies.get('correctAnswerCount') > 0) {
-      Cookies.remove('correctAnswerCount')
-    }
-  }, [])
-
-  const onStart = (path) => {
-    console.log('cookie', cookieValue)
-    cookieValue === '' ? navigate('/welcome') : navigate(path)
-  }
 
   return (
-    <div className="container">
-        <div className="hero-text">
-          <img src="/img/main-logo.png" alt="나의 기타히어로가 되어줘!" id="hero-image" />
+    <main className="main">
+      <section className="hero" style={{ backgroundImage: `url(/img/background-image.jpg)` }}>
+        <h1>기타히어로</h1>
+        <p>기타히어로가 될 자격이 있는지 테스트 해보세요!</p>
+        {/* <button className="cta-button">시작하기</button> */}
+      </section>
+      <section className="features">
+        <div className="feature" onClick={() => navigate('/note')}>
+          <h2>지판 음 찾기</h2>
+          <p>기타 지판에서 음을 찾아보세요.</p>
         </div>
-        {cookieValue !== '' ?
-        <div className="welcome-message">
-          <span className="highlight-name">{cookieValue}</span>님 반가워요!<br/>
-          <span className="highlight-hero">기타히어로</span>가 될 자격이 있는지 테스트해볼까요?
+        <div className="feature" onClick={() => navigate('/chord')}>
+          <h2>코드 찾기</h2>
+          <p>다양한 코드를 찾아보세요.</p>
         </div>
-        : <></>}
-        <button className="start-button" onClick={(e) => {onStart('/note')}}>지판 음 테스트</button>
-        <button className="start-button" onClick={(e) => {onStart('/code')}}>코드 테스트</button>
-        {cookieValue === '' ||
-        <button className="welcome-button" onClick={(e) => navigate('/welcome')}>이름 변경</button>
-        }
-    </div>
+        {/* <div className="feature" onClick={() => navigate('/quiz')}>
+          <h2>퀴즈</h2>
+          <p>기타 관련 퀴즈를 풀어보세요.</p>
+        </div> */}
+      </section>
+    </main>
   );
 };
 
