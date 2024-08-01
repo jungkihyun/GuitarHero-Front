@@ -9,8 +9,8 @@ const Header = () => {
 
   useEffect(() => {
     // 현재 경로에 따라 menuToggle 상태를 설정
-    if (location.pathname === '/note') {
-      setMenuToggle('note');
+    if (location.pathname === '/note2') {
+      setMenuToggle('note2');
     } else if (location.pathname === '/chord') {
       setMenuToggle('chord');
     } else {
@@ -29,10 +29,10 @@ const Header = () => {
       </div>
       <div className="menu-bar">
         <div className="menu-bar__nav">
-          <span className={`menu-bar__nav-item ${menuToggle === 'note' ? 'active' : ''}`}
+          <span className={`menu-bar__nav-item ${menuToggle === 'note2' ? 'active' : ''}`}
             onClick={() => {
-              setMenuToggle('note');
-              navigate('/note');
+              setMenuToggle('note2');
+              navigate('/note2');
           }}>지판 음 찾기</span>
           <span className={`menu-bar__nav-item ${menuToggle === 'chord' ? 'active' : ''}`}
             onClick={() => {

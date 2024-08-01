@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "../../page/main/Main";
 import Welcome from "../../page/welcome/Welcome";
 import Note from "../../page/note/Note";
+import Note2 from "../../page/note/Note2";
 import Chord from "../../page/chord/Chord";
 import Modal from "../../components/util/Modal";
 import { useState } from "react";
@@ -26,7 +27,8 @@ const PageRouter = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/welcome" element={<Welcome openModal={openModal} />} />
-        <Route path="/note" element={<Note openModal={openModal} menu={'note'}/>} />
+        <Route path="/note" element={<Note openModal={openModal}/>} />
+        <Route path="/note2" element={<Note2  openModal={openModal}/>} />
         <Route path="/chord" element={<Chord openModal={openModal} />} />
         <Route path="/contact" element={<Contact openModal={openModal} />} />
       </Routes>
