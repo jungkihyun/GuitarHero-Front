@@ -1,0 +1,78 @@
+.note-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  
+    .note-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 50px);
+      gap: 1px;
+    }
+  
+    .note-row {
+      display: contents;
+    }
+  
+    .note-cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 30px;
+      border: 1px solid #555555;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      position: relative;
+
+      >.target {
+        background-color: rgb(255, 255, 255);
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        font-size: 13px;
+        position: absolute;
+        top: -13px;
+        left: -35px;
+
+        &.target-x {
+            border: none;
+            font-size: 17px;
+            top: -15px;
+            left: -26px;
+        }
+
+        &.target-zero {
+            top: -12px;
+            left: -30px;
+        }
+
+        &.target-note {
+            background-color: red;
+        }
+      }
+      
+      &.note-cell-first {
+        width: 48px;
+        border-left: 3px solid #555555;
+      }
+    }
+
+
+    // .note-flat {
+    .note-grid .note-row:last-child {
+        >.note-cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            border: none;
+        }
+    }
+}
