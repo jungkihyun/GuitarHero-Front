@@ -8,7 +8,7 @@ const Note2 = () => {
 
   const timeoutRef = useRef(null); // 타이머 ID를 저장할 ref
 
-  const [startFret, setStartFret] = useState(1)
+  const [startFret, setStartFret] = useState(0)
   
   const [noteObj, setNoteObj] = useState({
     line1: '',
@@ -84,23 +84,23 @@ const Note2 = () => {
 
 
   const clearNoteGrid = () => {
-    setStartFret(0)
     setNoteObj({
-      line1: '1 ',
-      line2: '',
-      line3: '',
-      line4: '',
-      line5: '',
-      line6: '',
-      correct: 'E'
+    line1: '0E',
+    line2: '1C',
+    line3: '0G',
+    line4: '2E',
+    line5: '3C',
+    line6: '0X',
+      // correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue]
     });
-    return;
 
-    const min = 0;
+    return;
+    let min = 0;
     let max = 16;
     const fretValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
     setStartFret(fretValue);
 
+    min = 1;
     max = 6;
     const lineValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
     const noteValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
@@ -111,7 +111,7 @@ const Note2 = () => {
     console.log('fretValue', fretValue)
     console.log('lineValue', lineValue)
     console.log('noteValue', noteValue)
-    console.log(noteCorrect[lineValue-1][(fretValue-1) + noteValue - 1])
+    console.log(noteCorrect[lineValue-1][(fretValue-1) + noteValue])
 
     setNoteObj({
       ...noteObj,
@@ -121,7 +121,7 @@ const Note2 = () => {
       line4: lineValue === 4 ? noteValue + ' ' : '',
       line5: lineValue === 5 ? noteValue + ' ' : '',
       line6: lineValue === 6 ? noteValue + ' ' : '',
-      correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue - 1]
+      correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue]
     });
   }
 
