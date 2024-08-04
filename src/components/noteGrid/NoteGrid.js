@@ -5,6 +5,9 @@ const NoteGrid = (props) => {
   // 데이터 형태
   const cells = Array(7).fill(null); // 길이 6의 배열 생성
 
+  const positionMark3 = [3, 5, 7, 9, 15, 17, 19, 21]
+  const positionMark24 = [12, 24]
+
   return (
     <div className="note-grid-container">
       <div className="note-grid">
@@ -20,6 +23,11 @@ const NoteGrid = (props) => {
         <div className="note-row">
           {cells.map((_, index) => (
             <div className={`note-cell ${props.startFret === 0 && index === 1 ? 'note-cell-first' : ''}`} key={index}>
+              {
+                positionMark24.includes(index+props.startFret) && index !== 0
+                ? <span className='position-mark'></span>
+                : <></>
+              }
               {parseInt(props.noteObj.line2[0]) === index
               ? <span className={`target ${props.noteObj.line2[1] === 'X' ? 'target-x' : props.noteObj.line2[0] === '0' ? 'target-zero' : props.noteObj.line2[1] === ' ' ? 'target-note' : ''}`}>{props.noteObj.line2[1]}</span>
               : <></>}
@@ -29,6 +37,11 @@ const NoteGrid = (props) => {
         <div className="note-row">
           {cells.map((_, index) => (
             <div className={`note-cell ${props.startFret === 0 && index === 1 ? 'note-cell-first' : ''}`} key={index}>
+              {
+                positionMark3.includes(index+props.startFret) && index !== 0
+                ? <span className='position-mark'></span>
+                : <></>
+              }
               {parseInt(props.noteObj.line3[0]) === index
               ? <span className={`target ${props.noteObj.line3[1] === 'X' ? 'target-x' : props.noteObj.line3[0] === '0' ? 'target-zero' : props.noteObj.line3[1] === ' ' ? 'target-note' : ''}`}>{props.noteObj.line3[1]}</span>
               : <></>}
@@ -38,6 +51,11 @@ const NoteGrid = (props) => {
         <div className="note-row">
           {cells.map((_, index) => (
             <div className={`note-cell ${props.startFret === 0 && index === 1 ? 'note-cell-first' : ''}`} key={index}>
+              {
+                positionMark24.includes(index+props.startFret) && index !== 0
+                ? <span className='position-mark'></span>
+                : <></>
+              }
               {parseInt(props.noteObj.line4[0]) === index
               ? <span className={`target ${props.noteObj.line4[1] === 'X' ? 'target-x' : props.noteObj.line4[0] === '0' ? 'target-zero' : props.noteObj.line4[1] === ' ' ? 'target-note' : ''}`}>{props.noteObj.line4[1]}</span>
               : <></>}

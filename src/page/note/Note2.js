@@ -84,17 +84,6 @@ const Note2 = () => {
 
 
   const clearNoteGrid = () => {
-    setNoteObj({
-    line1: '0E',
-    line2: '1C',
-    line3: '0G',
-    line4: '2E',
-    line5: '3C',
-    line6: '0X',
-      // correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue]
-    });
-
-    return;
     let min = 0;
     let max = 16;
     const fretValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
