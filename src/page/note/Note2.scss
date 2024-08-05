@@ -74,7 +74,21 @@
       background-color: #1e8c74;
     }
   }
+  
+  @media (max-width: 768px) {
+    button {
+      padding: 10px 3px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 4rem;
+      row-gap: 1px;
+      margin: 5px;
+    }
+  }
 }
+
 
 
 .note-result-container {

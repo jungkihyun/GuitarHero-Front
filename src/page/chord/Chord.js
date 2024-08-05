@@ -14,6 +14,7 @@ const Chord = ({ openModal }) => {
   const [chordColBtn, setChordColBtn] = useState(false);
   const [selectedChord, setSelectedChord] = useState(null);
 
+
   return (
     <div className='chord-container'>
       <div className='tap-area'>
