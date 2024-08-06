@@ -53,7 +53,9 @@
   font-family: "MangoDdobak-R";
   src: url("./fonts/MangoDdobak-R(ttf).ttf");
 } */
-@font-face {
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/* @font-face {
   font-family: "NotoSansKR-Black";
   src: url("./fonts/NotoSansKR-Black.ttf");
 }
@@ -88,12 +90,15 @@
 @font-face {
   font-family: "NotoSansKR-Thin";
   src: url("./fonts/NotoSansKR-Thin.ttf");
+} */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-.body {
+/* .body {
   font-family: "NotoSansKR-Regular";
 }
 
 button {
   font-family: "NotoSansKR-Bold";
-}
+} */

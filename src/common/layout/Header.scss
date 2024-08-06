@@ -1,5 +1,4 @@
 .header {
-  font-family: NotoSansKR-ExtraBold;
   color: #494747;
   display: flex;
   justify-content: center;
@@ -12,6 +11,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
+  font-weight: 700;
 
   .header-content {
     display: flex;
