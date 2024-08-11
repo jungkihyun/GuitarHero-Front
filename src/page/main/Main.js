@@ -13,7 +13,7 @@ const Main = () => {
         {/* <button className="cta-button">시작하기</button> */}
       </section>
       <section className="features">
-        <div className="feature" onClick={() => navigate('/note2')}>
+        <div className="feature" onClick={() => navigate('/note')}>
           <h2>지판 음 찾기</h2>
           <p>기타 지판에서 음을 찾아보세요.</p>
         </div>

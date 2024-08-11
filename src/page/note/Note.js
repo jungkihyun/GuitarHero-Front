@@ -1,227 +1,151 @@
-import { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useRef, useState } from 'react';
 import './Note.scss';
-import Cookies from 'js-cookie';
+import NoteGrid from '../../components/noteGrid/NoteGrid';
 
-const Note = ({ openModal }) => {
-  const navigate = useNavigate();
-  const [result, setResult] = useState('');
-  const [notes, setNotes] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'G♯/A♭', 'D♯/E♭', 'A♯/B♭', 'F♯/G♭', 'C♯/D♭']);
-  const [noteAnswer, setNoteAnswer] = useState([
-    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E'],
-    ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'],
-    ['G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G'],
-    ['D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D'],
-    ['A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A'],
-    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E']
-  ]);
-  const guitarRef = useRef(null);
-  const [fret, setFret] = useState(1);
-  const [line, setLine] = useState(1);
-  const [count, setCount] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(20);
-  const [correctAnswerCount, setCorrectAnswerCount] = useState(0);
-  const [wrongAnswerCount, setWrongAnswerCount] = useState(0);
-  const intervalRef = useRef();
-  const feedbackTimeoutRef = useRef(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isLoadingFadeout, setIsLoadingFadeout] = useState(false);
-  const [isTestCompleted, setIsTestCompleted] = useState(false);
-  const [showOpenStrings, setShowOpenStrings] = useState(false);
-  const [toggleAnswer, setToggleAnswer] = useState(false);
-  const [checkAnswer, setCheckAnswer] = useState(false);
-  const [feedbackImage, setFeedbackImage] = useState(null);
-  const [showFeedbackImage, setShowFeedbackImage] = useState(false);
+const Note = () => {
+  const [successResult, setSuccessResult] = useState(false);
+  const [failResult, setFailResult] = useState(false);
+
+  const timeoutRef = useRef(null); // 타이머 ID를 저장할 ref
+
+  const [startFret, setStartFret] = useState(0)
+  
+  const [noteObj, setNoteObj] = useState({
+    line1: '',
+    line2: '',
+    line3: '',
+    line4: '',
+    line5: '',
+    line6: '',
+    correct: ''
+  })
+
+  const noteCorrect = [
+    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E'],
+    ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'],
+    ['G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G'],
+    ['D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D'],
+    ['A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A'],
+    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E']
+  ];
 
   useEffect(() => {
-    if(!!Cookies.get('correctAnswerCount') > 0) {
-      setIsLoadingFadeout(true)
-      setIsLoading(false);
-      setIsTestCompleted(true);
-      return;
-    }
-    intervalRef.current = setInterval(intervalFunc, 100);
-
-    return () => clearInterval(intervalRef.current);
-  }, []);
-
-  useEffect(() => {
-    if (count === 10) {
-      Cookies.set('correctAnswerCount', correctAnswerCount, { expires: 7 });
-      clearInterval(intervalRef.current);
-      setIsLoading(true);
-      setTimeout(() => {
-        setIsLoadingFadeout(true)
-        setIsLoading(false);
-        setIsTestCompleted(true);
-      }, 2000);
-      return;
-    }
-
-    setShowOpenStrings(false);
-    setToggleAnswer(false);
-    setCheckAnswer(false);
-    let fretRandom = Math.floor(Math.random() * 12) + 1;
-    let lineRandom = Math.floor(Math.random() * 6) + 1;
-    setFret(fretRandom);
-    setLine(lineRandom);
-    suffleNotes();
-  }, [count]);
-
-  const intervalFunc = () => {
-    setTimeLeft(prevTimeLeft => Math.max(prevTimeLeft - 0.1, 0));
-  };
-
-  useEffect(() => {
-    if(timeLeft === 0) {
-      setWrongAnswerCount(0)
-      clearInterval(intervalRef.current);
-      setTimeLeft(21);
-      intervalRef.current = setInterval(intervalFunc, 100);
-      setCount(count + 1);
-    }
-  }, [timeLeft])
-
-  const suffleNotes = () => {
-    let newArray = [...notes];
-    for (let i = newArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    setNotes(newArray);
-  };
+    clearNoteGrid()
+  }, [])
 
   const handleNoteClick = (note) => {
-    if (feedbackTimeoutRef.current) {
-      clearTimeout(feedbackTimeoutRef.current); // 이전 타이머 취소
+    // 기존 타이머가 있으면 제거
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
     }
 
-    const isCorrect = noteAnswer[line - 1][fret - 1] === note;
-    setFeedbackImage(isCorrect ? 'ok.png' : 'fail.png');
-    setShowFeedbackImage(false);
-    
-    setTimeout(() => {
-      setShowFeedbackImage(true);
-      feedbackTimeoutRef.current = setTimeout(() => {
-        setShowFeedbackImage(false);
-      }, 1500);
-    }, 50);
-
-    if (isCorrect) {
-      clearInterval(intervalRef.current);
-      setTimeLeft(21);
-      intervalRef.current = setInterval(intervalFunc, 100);
-      !!checkAnswer || setCorrectAnswerCount(correctAnswerCount + 1);
-      setWrongAnswerCount(0);
-      setCount(count + 1);
-    } else if (wrongAnswerCount === 2) {
-      setWrongAnswerCount(0);
-      clearInterval(intervalRef.current);
-      setTimeLeft(21);
-      intervalRef.current = setInterval(intervalFunc, 100);
-      setCount(count + 1);
+    console.log('정답체크')
+    console.log('note', note)
+    console.log('noteObj.correct', noteObj.correct)
+    if (note === noteObj.correct) {
+      setSuccessResult(true);
+      setFailResult(false);
+      clearNoteGrid();
     } else {
-      setWrongAnswerCount(wrongAnswerCount + 1);
+      setSuccessResult(false);
+      setFailResult(true);
     }
-  };
+    
+    // 2초 뒤에 초기화
+    timeoutRef.current = setTimeout(() => {
+      setSuccessResult(false);
+      setFailResult(false);
+    }, 700); // 2000ms = 2초
 
-  const toggleOpenStrings = () => {
-    setShowOpenStrings(prevState => !prevState);
   };
+  
+  // const noteObj = {
+  //   line1: '0E',
+  //   line2: '1C',
+  //   line3: '0G',
+  //   line4: '2E',
+  //   line5: '3C',
+  //   line6: '0X',
+  // }
+  
+  // const noteObj = {
+  //   line1: '0 ',
+  //   line2: '',
+  //   line3: '',
+  //   line4: '',
+  //   line5: '',
+  //   line6: '',
+  //   correct: 'E'
+  // }
 
-  const toggleShowAnswer = () => {
-    setCheckAnswer(true)
-    setToggleAnswer(prevState => !prevState);
-  };
+  useEffect(() => {
+    console.log(noteObj)
+  }, [noteObj])
+
+
+  const clearNoteGrid = () => {
+    let min = 0;
+    let max = 16;
+    const fretValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
+    setStartFret(fretValue);
+
+    min = 1;
+    max = 6;
+    const lineValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
+    const noteValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
+    clearNoteObj(fretValue, lineValue, noteValue);
+  }
+
+  const clearNoteObj = (fretValue, lineValue, noteValue) => {
+    console.log('fretValue', fretValue)
+    console.log('lineValue', lineValue)
+    console.log('noteValue', noteValue)
+    console.log(noteCorrect[lineValue-1][(fretValue-1) + noteValue])
+
+    setNoteObj({
+      ...noteObj,
+      line1: lineValue === 1 ? noteValue + ' ' : '',
+      line2: lineValue === 2 ? noteValue + ' ' : '',
+      line3: lineValue === 3 ? noteValue + ' ' : '',
+      line4: lineValue === 4 ? noteValue + ' ' : '',
+      line5: lineValue === 5 ? noteValue + ' ' : '',
+      line6: lineValue === 6 ? noteValue + ' ' : '',
+      correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue]
+    });
+  }
 
   return (
-    <div className={`note-container`}>
-      {isLoading ? (
-        <div className='loading'>
-          <p>테스트가 완료되었습니다.</p>
+    <div className="note-wrapper">
+      <div className='note-result-container'>
+        <div className={`note-result success ${successResult ? 'active' : ''}`}>
+          정답입니다!
         </div>
-      ) : isTestCompleted ? (
-        <div className="result">
-          <img src="/img/loading.gif" alt="로딩 중" />
-          <div className="">
-            {Cookies.get('heroInfo')}님의
-            테스트 결과: {correctAnswerCount} / {count}
-          </div>
-          <div className="button-group">
-            <button className="begin-button"
-              onClick={() => {navigate('/')}}>
-              처음으로
-            </button>
-            <button className="again-button"
-              onClick={() => {
-                Cookies.remove('correctAnswerCount')
-                setIsLoadingFadeout(false)
-                setIsLoading(false)
-                setIsTestCompleted(false)
-                intervalRef.current = setInterval(intervalFunc, 100)
-                setCount(0)
-                setCorrectAnswerCount(0);
-                setWrongAnswerCount(0);
-              }}>
-              다시하기
-            </button>
-          </div>
+        <div className={`note-result fail ${failResult ? 'active' : ''}`}>
+          오답입니다.
         </div>
-      ) : (
-        <>
-          <div className="timer-container">
-            <div className="timer-bar" style={{ width: `${(timeLeft / 20) * 100}%` }}></div>
-          </div>
-          <div className="text">남은시간</div>
-          <div className="progress-container">
-            <div className="progress-bar" style={{ width: `${count * 10}%` }}></div>
-          </div>
-          <div className="text answer-count-text">{correctAnswerCount} / 10</div>
-          <div className='guitar-image-area'>
-            <div className="guitar-image" ref={guitarRef}>
-              <img src={`/img/notes/note${fret}${line}${showOpenStrings ? '-open' : ''}.png`} alt="Guitar" />
-            </div>
-          </div>
-          <div className="hint-container">
-            <span className="hint-label">개방현보기</span>
-            <label className="switch">
-              <input type="checkbox" checked={showOpenStrings} onChange={toggleOpenStrings} />
-              <span className="slider"></span>
-            </label>
-          </div>
-          <div className="hint-container">
-            <span className="hint-label">정답 확인 (정답 횟수 포함 X)</span>
-            <label className="switch">
-              <input type="checkbox" checked={toggleAnswer} onChange={toggleShowAnswer} />
-              <span className="slider"></span>
-            </label>
-          </div>
-          <div className="wrong-container">
-            <span className="wrong-label">정답횟수</span>
-            <label className="wrong-count">
-              {correctAnswerCount} / 10
-            </label>
-          </div>
-          <div className="wrong-container">
-            <span className="wrong-label">오답횟수 (문제당 3번)</span>
-            <label className="wrong-count">
-              {wrongAnswerCount} / 3
-            </label>
-          </div>
-          <div className="answer-options">
-            {notes.map((item, index) => (
-              <button
-                key={index}
-                onClick={() => handleNoteClick(item)}
-                className={toggleAnswer && item === noteAnswer[line - 1][fret - 1] ? 'active' : ''}
-              >
-                {item}
-              </button>
-            ))}
-          </div>
-          {showFeedbackImage && <div className="answer-feedback" style={{ backgroundImage: `url(/img/${feedbackImage})` }}></div>}
-        </>
-      )}
+      </div>
+      <div className="note-container">
+        <div className="note-grid">
+          <NoteGrid 
+            startFret={startFret}
+            noteObj={noteObj}
+          />
+        </div>
+        <div className="note-buttons">
+          <button onClick={() => handleNoteClick('C')}>C</button>
+          <button onClick={() => handleNoteClick('C♯/D♭')}>C♯/D♭</button>
+          <button onClick={() => handleNoteClick('D')}>D</button>
+          <button onClick={() => handleNoteClick('D♯/E♭')}>D♯/E♭</button>
+          <button onClick={() => handleNoteClick('E')}>E</button>
+          <button onClick={() => handleNoteClick('F')}>F</button>
+          <button onClick={() => handleNoteClick('F♯/G♭')}>F♯/G♭</button>
+          <button onClick={() => handleNoteClick('G')}>G</button>
+          <button onClick={() => handleNoteClick('G♯/A♭')}>G♯/A♭</button>
+          <button onClick={() => handleNoteClick('A')}>A</button>
+          <button onClick={() => handleNoteClick('A♯/B♭')}>A♯/B♭</button>
+          <button onClick={() => handleNoteClick('B')}>B</button>
+        </div>
+      </div>
     </div>
   );
 };
