@@ -47,8 +47,9 @@
   }
 
   >.chord-btn-header {
+    padding-bottom: 1rem;
     >button {
-      width: 4rem;
+      width: 4.5rem;
       background-color: #008080;
 
       &:hover {
@@ -58,12 +59,62 @@
   }
   >.chord-btn-detail {
     >button {
-      width: 4rem;
+      width: 5rem;
       background-color: #2aac94;
+      white-space: nowrap;
 
       &:hover {
         background-color: #1e8c74;
       }
+    }
+  }
+}
+
+.note-result-container {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+
+  
+  .note-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0; /* 초기 상태를 투명하게 설정 */
+
+    &.success {
+      display: none;
+
+      &.active {
+        display: block;
+        animation: fadeIn 0.2s ease-in-out;
+        opacity: 1; /* 애니메이션이 끝난 후 완전히 보이도록 설정 */
+      }
+    }
+
+    &.fail {
+      display: none;
+
+      &.active {
+        display: block;
+        animation: fadeIn 0.2s ease-in-out;
+        opacity: 1; /* 애니메이션이 끝난 후 완전히 보이도록 설정 */
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .note-result-container {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+  
+    > .note-result {
+      animation: fadeIn 0.2s ease-in-out;
+      opacity: 1; /* 애니메이션이 끝난 후 완전히 보이도록 설정 */
     }
   }
 }

@@ -3,8 +3,12 @@ import Button from '../../components/button/Button';
 import './Chord.scss';
 import NoteGrid from '../../components/noteGrid/NoteGrid';
 import ChordDetailBtn from './ChordDetailBtn.json'
+import ChordJson from './Chord.json'
 
 const Chord = ({ openModal }) => {
+
+  const [detailChordBtns, setDetailChordBtns] = useState()
+
   const [successResult, setSuccessResult] = useState(false);
   const [failResult, setFailResult] = useState(false);
 
@@ -21,15 +25,6 @@ const Chord = ({ openModal }) => {
     line6: '',
     correct: ''
   })
-
-  const noteCorrect = [
-    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E'],
-    ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'],
-    ['G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G'],
-    ['D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D'],
-    ['A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A'],
-    ['F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B', 'C', 'C♯/D♭', 'D', 'D♯/E♭', 'E']
-  ];
 
   useEffect(() => {
     clearNoteGrid()
@@ -60,60 +55,40 @@ const Chord = ({ openModal }) => {
     }, 700); // 2000ms = 2초
 
   };
-  
-  // const noteObj = {
-  //   line1: '0E',
-  //   line2: '1C',
-  //   line3: '0G',
-  //   line4: '2E',
-  //   line5: '3C',
-  //   line6: '0X',
-  // }
-  
-  // const noteObj = {
-  //   line1: '0 ',
-  //   line2: '',
-  //   line3: '',
-  //   line4: '',
-  //   line5: '',
-  //   line6: '',
-  //   correct: 'E'
-  // }
 
   useEffect(() => {
     console.log(noteObj)
   }, [noteObj])
 
+  // 랜덤으로 배열 요소를 선택
+  const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
   const clearNoteGrid = () => {
-    let min = 0;
-    let max = 16;
-    const fretValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
-    setStartFret(fretValue);
+    
+    const headerChords = Object.keys(ChordJson)
+    const randomHeaderChord = getRandomElement(headerChords);
 
-    min = 1;
-    max = 6;
-    const lineValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
-    const noteValue = Math.floor(Math.random() * (max - min + 1)) + min; // min과 max 사이의 랜덤한 정수
-    clearNoteObj(fretValue, lineValue, noteValue);
-  }
+    const detailChords = Object.keys(ChordJson[randomHeaderChord]);
+    const randomDetailChordKey = getRandomElement(detailChords);
+    const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
 
-  const clearNoteObj = (fretValue, lineValue, noteValue) => {
-    console.log('fretValue', fretValue)
-    console.log('lineValue', lineValue)
-    console.log('noteValue', noteValue)
-    console.log(noteCorrect[lineValue-1][(fretValue-1) + noteValue])
+    setStartFret(Number(randomDetailChord['start']) - 1)
+    console.log('randomDetailChordKey', randomDetailChordKey)
+    console.log('randomDetailChord', randomDetailChord)
 
     setNoteObj({
-      ...noteObj,
-      line1: lineValue === 1 ? noteValue + ' ' : '',
-      line2: lineValue === 2 ? noteValue + ' ' : '',
-      line3: lineValue === 3 ? noteValue + ' ' : '',
-      line4: lineValue === 4 ? noteValue + ' ' : '',
-      line5: lineValue === 5 ? noteValue + ' ' : '',
-      line6: lineValue === 6 ? noteValue + ' ' : '',
-      correct: noteCorrect[lineValue-1][(fretValue-1) + noteValue]
-    });
+      line1: randomDetailChord['line1'],
+      line2: randomDetailChord['line2'],
+      line3: randomDetailChord['line3'],
+      line4: randomDetailChord['line4'],
+      line5: randomDetailChord['line5'],
+      line6: randomDetailChord['line6'],
+      correct: randomDetailChordKey
+    })
+  }
+
+  const handleHeaderChordClick = (headerChord) => {
+    setDetailChordBtns(ChordDetailBtn[headerChord])
   }
 
   return (
@@ -135,22 +110,30 @@ const Chord = ({ openModal }) => {
         </div>
         <div className='chord-btn-container'>
           <div className='chord-btn-header'>
-            <button>C</button>
-            <button>D</button>
-            <button>E</button>
-            <button>F</button>
-            <button>G</button>
-            <button>A</button>
-            <button>B</button>
+            <button onClick={(e) => {handleHeaderChordClick('C')}}>C</button>
+            <button onClick={(e) => {handleHeaderChordClick('C#')}}>C#</button>
+            <button onClick={(e) => {handleHeaderChordClick('Db')}}>Db</button>
+            <button onClick={(e) => {handleHeaderChordClick('D')}}>D</button>
+            <button onClick={(e) => {handleHeaderChordClick('D#')}}>D#</button>
+            <button onClick={(e) => {handleHeaderChordClick('Eb')}}>Eb</button>
+            <button onClick={(e) => {handleHeaderChordClick('E')}}>E</button>
+            <button onClick={(e) => {handleHeaderChordClick('F')}}>F</button>
+            <button onClick={(e) => {handleHeaderChordClick('F#')}}>F#</button>
+            <button onClick={(e) => {handleHeaderChordClick('Gb')}}>Gb</button>
+            <button onClick={(e) => {handleHeaderChordClick('G')}}>G</button>
+            <button onClick={(e) => {handleHeaderChordClick('G#')}}>G#</button>
+            <button onClick={(e) => {handleHeaderChordClick('Ab')}}>Ab</button>
+            <button onClick={(e) => {handleHeaderChordClick('A')}}>A</button>
+            <button onClick={(e) => {handleHeaderChordClick('A#')}}>A#</button>
+            <button onClick={(e) => {handleHeaderChordClick('Bb')}}>Bb</button>
+            <button onClick={(e) => {handleHeaderChordClick('B')}}>B</button>
           </div>
           <div className='chord-btn-detail'>
-            {/* <button>a</button>
-            <button>a</button>
-            <button>a</button>
-            <button>a</button>
-            <button>a</button>
-            <button>a</button> */}
-
+            {
+            detailChordBtns?.map((data, dataIdx) => (
+              <button key={dataIdx} onClick={(e) => {handleNoteClick(data)}}>{data}</button>
+            ))
+            }
           </div>
         </div>
       </div>

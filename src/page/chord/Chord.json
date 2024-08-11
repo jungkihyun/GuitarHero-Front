@@ -1,0 +1,223 @@
+{
+    "C": {
+        "C": [
+            {
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "1C",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "start": "8",
+                "line1": "0E",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "start": "1",
+                "line1": "3G",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "0X",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "5",
+                "line1": "4C",
+                "line2": "1E",
+                "line3": "1C",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "1C",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "start": "1",
+                "line1": "5E",
+                "line2": "5C",
+                "line3": "1C",
+                "line4": "5G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "10",
+                "line1": "3E",
+                "line2": "0X",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "start": "10",
+                "line1": "3E",
+                "line2": "4C",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+
+        ]
+    }
+}

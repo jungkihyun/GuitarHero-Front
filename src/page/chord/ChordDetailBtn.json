@@ -1,3 +1,54 @@
 {
-    "C": ["C", "C", "C", "C", "C"]
+    "C": [
+        "C", "Cm", "C5", "C(add9)", "Caug", "Cdim7", "Csus", "Csus2", "C6", "Cm6", "C6/9", "Cm6/9", "C7sus", "Csus9", "Csusb9", "Csus13", "Cm(add9)", "Cm7", "Cm9", "Cm11", "Cm13", "Cm7(b13)", "Cmmaj7", "Cmaj7", "Cmaj9", "Cmaj13", "Cmaj7(#11)", "Cmaj7(#5)", "C7", "C9", "C13", "C7(b9)", "C7(#9)", "C13(b9)", "C7(b13)", "C7(#5)", "C7(b9,b13)", "C7(#11)", "C7(b5)", "Cm7(b5)", "Cm11(b5)", "Cdim7(b13)", "C/D", "C/E", "C/F", "C/G", "C/Bb", "C/B", "Cm/Eb", "Cm/F", "Cm/G", "Cm/Bb", "C7/E", "C7/G", "C7/Bb", "Cmaj7/B", "Cm7/G", "Cm7(b5)/Gb"
+    ],
+    "C#": [
+        "C#", "C#m", "C#5", "C#(add9)", "C#aug", "C#dim7", "C#sus", "C#sus2", "C#6", "C#m6", "C#6/9", "C#m6/9", "C#7sus", "C#sus9", "C#susb9", "C#sus13", "C#m(add9)", "C#m7", "C#m9", "C#m11", "C#m13", "C#m7(b13)", "C#mmaj7", "C#maj7", "C#maj9", "C#maj13", "C#maj7(#11)", "C#maj7(#5)", "C#7", "C#9", "C#13", "C#7(b9)", "C#7(#9)", "C#13(b9)", "C#7(b13)", "C#7(#5)", "C#7(b9,b13)", "C#7(#11)", "C#7(b5)", "C#m7(b5)", "C#m11(b5)", "C#dim7(b13)", "C#/D#", "C#/F", "C#/F#", "C#/G#", "C#/B", "C#/C", "C#m/E", "C#m/F#", "C#m/G#", "C#m/B", "C#7/F", "C#7/G#", "C#7/B", "C#maj7/C", "C#m7/G#", "C#m7(b5)/G"
+    ],
+    "Db": [
+        "Db", "Dbm", "Db5", "Db(add9)", "Dbaug", "Dbdim7", "Dbsus", "Dbsus2", "Db6", "Dbm6", "Db6/9", "Dbm6/9", "Db7sus", "Dbsus9", "Dbsusb9", "Dbsus13", "Dbm(add9)", "Dbm7", "Dbm9", "Dbm11", "Dbm13", "Dbm7(b13)", "Dbmmaj7", "Dbmaj7", "Dbmaj9", "Dbmaj13", "Dbmaj7(#11)", "Dbmaj7(#5)", "Db7", "Db9", "Db13", "Db7(b9)", "Db7(#9)", "Db13(b9)", "Db7(b13)", "Db7(#5)", "Db7(b9,b13)", "Db7(#11)", "Db7(b5)", "Dbm7(b5)", "Dbm11(b5)", "Dbdim7(b13)", "Db/Eb", "Db/F", "Db/Gb", "Db/Ab", "Db/B", "Db/C", "Dbm/E", "Dbm/Gb", "Dbm/Ab", "Dbm/B", "Db7/F", "Db7/Ab", "Db7/B", "Dbmaj7/C", "Dbm7/Ab", "Dbm7(b5)/G"
+    ],
+    "D": [
+        "D", "Dm", "D5", "D(add9)", "Daug", "Ddim7", "Dsus", "Dsus2", "D6", "Dm6", "D6/9", "Dm6/9", "D7sus", "Dsus9", "Dsusb9", "Dsus13", "Dm(add9)", "Dm7", "Dm9", "Dm11", "Dm13", "Dm7(b13)", "Dmmaj7", "Dmaj7", "Dmaj9", "Dmaj13", "Dmaj7(#11)", "Dmaj7(#5)", "D7", "D9", "D13", "D7(b9)", "D7(#9)", "D13(b9)", "D7(b13)", "D7(#5)", "D7(b9,b13)", "D7(#11)", "D7(b5)", "Dm7(b5)", "Dm11(b5)", "Ddim7(b13)", "D/E", "D/F#", "D/G", "D/A", "D/C", "D/C#", "Dm/F", "Dm/G", "Dm/A", "Dm/C", "D7/F#", "D7/A", "D7/C", "Dmaj7/C#", "Dm7/A", "Dm7(b5)/Ab"
+    ],
+    "D#": [
+        "D#", "D#m", "D#5", "D#(add9)", "D#aug", "D#dim7", "D#sus", "D#sus2", "D#6", "D#m6", "D#6/9", "D#m6/9", "D#7sus", "D#sus9", "D#susb9", "D#sus13", "D#m(add9)", "D#m7", "D#m9", "D#m11", "D#m13", "D#m7(b13)", "D#mmaj7", "D#maj7", "D#maj9", "D#maj13", "D#maj7(#11)", "D#maj7(#5)", "D#7", "D#9", "D#13", "D#7(b9)", "D#7(#9)", "D#13(b9)", "D#7(b13)", "D#7(#5)", "D#7(b9,b13)", "D#7(#11)", "D#7(b5)", "D#m7(b5)", "D#m11(b5)", "D#dim7(b13)", "D#/F", "D#/G", "D#/G#", "D#/A#", "D#/C#", "D#/D", "D#m/F#", "D#m/G#", "D#m/A#", "D#m/C#", "D#7/G", "D#7/A#", "D#7/C#", "D#maj7/D", "D#m7/A#", "D#m7(b5)/A"
+    ],
+    "Eb": [
+        "Eb", "Ebm", "Eb5", "Eb(add9)", "Ebaug", "Ebdim7", "Ebsus", "Ebsus2", "Eb6", "Ebm6", "Eb6/9", "Ebm6/9", "Eb7sus", "Ebsus9", "Ebsusb9", "Ebsus13", "Ebm(add9)", "Ebm7", "Ebm9", "Ebm11", "Ebm13", "Ebm7(b13)", "Ebmmaj7", "Ebmaj7", "Ebmaj9", "Ebmaj13", "Ebmaj7(#11)", "Ebmaj7(#5)", "Eb7", "Eb9", "Eb13", "Eb7(b9)", "Eb7(#9)", "Eb13(b9)", "Eb7(b13)", "Eb7(#5)", "Eb7(b9,b13)", "Eb7(#11)", "Eb7(b5)", "Ebm7(b5)", "Ebm11(b5)", "Ebdim7(b13)", "Eb/F", "Eb/G", "Eb/Ab", "Eb/Bb", "Eb/Db", "Eb/D", "Ebm/Gb", "Ebm/Ab", "Ebm/Bb", "Ebm/Db", "Eb7/G", "Eb7/Bb", "Eb7/Db", "Ebmaj7/D", "Ebm7/Bb", "Ebm7(b5)/A"
+    ],
+    "E": [
+        "E", "Em", "E5", "E(add9)", "Eaug", "Edim7", "Esus", "Esus2", "E6", "Em6", "E6/9", "Em6/9", "E7sus", "Esus9", "Esusb9", "Esus13", "Em(add9)", "Em7", "Em9", "Em11", "Em13", "Em7(b13)", "Emmaj7", "Emaj7", "Emaj9", "Emaj13", "Emaj7(#11)", "Emaj7(#5)", "E7", "E9", "E13", "E7(b9)", "E7(#9)", "E13(b9)", "E7(b13)", "E7(#5)", "E7(b9,b13)", "E7(#11)", "E7(b5)", "Em7(b5)", "Em11(b5)", "Edim7(b13)", "E/F#", "E/G#", "E/A", "E/B", "E/D", "E/D#", "Em/G", "Em/A", "Em/B", "Em/D", "E7/G#", "E7/B", "E7/D", "Emaj7/D#", "Em7/B", "Em7(b5)/Bb"
+    ],
+    "F": [
+        "F", "Fm", "F5", "F(add9)", "Faug", "Fdim7", "Fsus", "Fsus2", "F6", "Fm6", "F6/9", "Fm6/9", "F7sus", "Fsus9", "Fsusb9", "Fsus13", "Fm(add9)", "Fm7", "Fm9", "Fm11", "Fm13", "Fm7(b13)", "Fmmaj7", "Fmaj7", "Fmaj9", "Fmaj13", "Fmaj7(#11)", "Fmaj7(#5)", "F7", "F9", "F13", "F7(b9)", "F7(#9)", "F13(b9)", "F7(b13)", "F7(#5)", "F7(b9,b13)", "F7(#11)", "F7(b5)", "Fm7(b5)", "Fm11(b5)", "Fdim7(b13)", "F/G", "F/A", "F/Bb", "F/C", "F/Eb", "F/E", "Fm/Ab", "Fm/Bb", "Fm/C", "Fm/Eb", "F7/A", "F7/C", "F7/Eb", "Fmaj7/E", "Fm7/C", "Fm7(b5)/B"
+    ],
+    "F#": [
+        "F#", "F#m", "F#5", "F#(add9)", "F#aug", "F#dim7", "F#sus", "F#sus2", "F#6", "F#m6", "F#6/9", "F#m6/9", "F#7sus", "F#sus9", "F#susb9", "F#sus13", "F#m(add9)", "F#m7", "F#m9", "F#m11", "F#m13", "F#m7(b13)", "F#mmaj7", "F#maj7", "F#maj9", "F#maj13", "F#maj7(#11)", "F#maj7(#5)", "F#7", "F#9", "F#13", "F#7(b9)", "F#7(#9)", "F#13(b9)", "F#7(b13)", "F#7(#5)", "F#7(b9,b13)", "F#7(#11)", "F#7(b5)", "F#m7(b5)", "F#m11(b5)", "F#dim7(b13)", "F#/G#", "F#/A#", "F#/B", "F#/C#", "F#/E", "F#/F", "F#m/A", "F#m/B", "F#m/C#", "F#m/E", "F#7/A#", "F#7/C#", "F#7/E", "F#maj7/F", "F#m7/C#", "F#m7(b5)/C"
+    ],
+    "Gb": [
+        "Gb", "Gbm", "Gb5", "Gb(add9)", "Gbaug", "Gbdim7", "Gbsus", "Gbsus2", "Gb6", "Gbm6", "Gb6/9", "Gbm6/9", "Gb7sus", "Gbsus9", "Gbsusb9", "Gbsus13", "Gbm(add9)", "Gbm7", "Gbm9", "Gbm11", "Gbm13", "Gbm7(b13)", "Gbmmaj7", "Gbmaj7", "Gbmaj9", "Gbmaj13", "Gbmaj7(#11)", "Gbmaj7(#5)", "Gb7", "Gb9", "Gb13", "Gb7(b9)", "Gb7(#9)", "Gb13(b9)", "Gb7(b13)", "Gb7(#5)", "Gb7(b9,b13)", "Gb7(#11)", "Gb7(b5)", "Gbm7(b5)", "Gbm11(b5)", "Gbdim7(b13)", "Gb/Ab", "Gb/Bb", "Gb/B", "Gb/Db", "Gb/E", "Gb/F", "Gbm/A", "Gbm/B", "Gbm/Db", "Gbm/E", "Gb7/Bb", "Gb7/Db", "Gb7/E", "Gbmaj7/F", "Gbm7/Db", "Gbm7(b5)/C"
+    ],
+    "G": [
+        "G", "Gm", "G5", "G(add9)", "Gaug", "Gdim7", "Gsus", "Gsus2", "G6", "Gm6", "G6/9", "Gm6/9", "G7sus", "Gsus9", "Gsusb9", "Gsus13", "Gm(add9)", "Gm7", "Gm9", "Gm11", "Gm13", "Gm7(b13)", "Gmmaj7", "Gmaj7", "Gmaj9", "Gmaj13", "Gmaj7(#11)", "Gmaj7(#5)", "G7", "G9", "G13", "G7(b9)", "G7(#9)", "G13(b9)", "G7(b13)", "G7(#5)", "G7(b9,b13)", "G7(#11)", "G7(b5)", "Gm7(b5)", "Gm11(b5)", "Gdim7(b13)", "G/A", "G/B", "G/C", "G/D", "G/F", "G/F#", "Gm/Bb", "Gm/C", "Gm/D", "Gm/F", "G7/B", "G7/D", "G7/F", "Gmaj7/F#", "Gm7/D", "Gm7(b5)/Db"
+    ],
+    "G#": [
+        "G#", "G#m", "G#5", "G#(add9)", "G#aug", "G#dim7", "G#sus", "G#sus2", "G#6", "G#m6", "G#6/9", "G#m6/9", "G#7sus", "G#sus9", "G#susb9", "G#sus13", "G#m(add9)", "G#m7", "G#m9", "G#m11", "G#m13", "G#m7(b13)", "G#mmaj7", "G#maj7", "G#maj9", "G#maj13", "G#maj7(#11)", "G#maj7(#5)", "G#7", "G#9", "G#13", "G#7(b9)", "G#7(#9)", "G#13(b9)", "G#7(b13)", "G#7(#5)", "G#7(b9,b13)", "G#7(#11)", "G#7(b5)", "G#m7(b5)", "G#m11(b5)", "G#dim7(b13)", "G#/A#", "G#/C", "G#/C#", "G#/D#", "G#/F#", "G#/G", "G#m/B", "G#m/C#", "G#m/D#", "G#m/F#", "G#7/C", "G#7/D#", "G#7/F#", "G#maj7/G", "G#m7/D#", "G#m7(b5)/D"
+    ],
+    "Ab": [
+        "Ab", "Abm", "Ab5", "Ab(add9)", "Abaug", "Abdim7", "Absus", "Absus2", "Ab6", "Abm6", "Ab6/9", "Abm6/9", "Ab7sus", "Absus9", "Absusb9", "Absus13", "Abm(add9)", "Abm7", "Abm9", "Abm11", "Abm13", "Abm7(b13)", "Abmmaj7", "Abmaj7", "Abmaj9", "Abmaj13", "Abmaj7(#11)", "Abmaj7(#5)", "Ab7", "Ab9", "Ab13", "Ab7(b9)", "Ab7(#9)", "Ab13(b9)", "Ab7(b13)", "Ab7(#5)", "Ab7(b9,b13)", "Ab7(#11)", "Ab7(b5)", "Abm7(b5)", "Abm11(b5)", "Abdim7(b13)", "Ab/Bb", "Ab/C", "Ab/Db", "Ab/Eb", "Ab/Gb", "Ab/G", "Abm/B", "Abm/Db", "Abm/Eb", "Abm/Gb", "Ab7/C", "Ab7/Eb", "Ab7/Gb", "Abmaj7/G", "Abm7/Eb", "Abm7(b5)/D"
+    ],
+    "A": [
+        "A", "Am", "A5", "A(add9)", "Aaug", "Adim7", "Asus", "Asus2", "A6", "Am6", "A6/9", "Am6/9", "A7sus", "Asus9", "Asusb9", "Asus13", "Am(add9)", "Am7", "Am9", "Am11", "Am13", "Am7(b13)", "Am maj7", "A maj7", "Am aj9", "A maj13", "A maj7(#11)", "A maj7(#5)", "A7", "A9", "A13", "A7(b9)", "A7(#9)", "A13(b9)", "A7(b13)", "A7(#5)", "A7(b9,b13)", "A7(#11)", "A7(b5)", "Am7(b5)", "Am11(b5)", "Adim7(b13)", "A/B", "A/C#", "A/D", "A/E", "A/G", "A/G#", "Am/C", "Am/D", "Am/E", "Am/G", "A7/C#", "A7/E", "A7/G", "A maj7/G#", "Am7/E", "Am7(b5)/Eb"
+    ],
+    "A#": [
+        "A#", "A#m", "A#5", "A#(add9)", "A#aug", "A#dim7", "A#sus", "A#sus2", "A#6", "A#m6", "A#6/9", "A#m6/9", "A#7sus", "A#sus9", "A#susb9", "A#sus13", "A#m(add9)", "A#m7", "A#m9", "A#m11", "A#m13", "A#m7(b13)", "A#mmaj7", "A#maj7", "A#maj9", "A#maj13", "A#maj7(#11)", "A#maj7(#5)", "A#7", "A#9", "A#13", "A#7(b9)", "A#7(#9)", "A#13(b9)", "A#7(b13)", "A#7(#5)", "A#7(b9,b13)", "A#7(#11)", "A#7(b5)", "A#m7(b5)", "A#m11(b5)", "A#dim7(b13)", "A#/C", "A#/D", "A#/D#", "A#/F", "A#/G#", "A#/A", "A#m/C#", "A#m/D#", "A#m/F", "A#m/G#", "A#7/D", "A#7/F", "A#7/G#", "A#maj7/A", "A#m7/F", "A#m7(b5)/E"
+    ],
+    "Bb": [
+        "Bb", "Bbm", "Bb5", "Bb(add9)", "Bbaug", "Bbdim7", "Bbsus", "Bbsus2", "Bb6", "Bbm6", "Bb6/9", "Bbm6/9", "Bb7sus", "Bbsus9", "Bbsusb9", "Bbsus13", "Bbm(add9)", "Bbm7", "Bbm9", "Bbm11", "Bbm13", "Bbm7(b13)", "Bbmmaj7", "Bbmaj7", "Bbmaj9", "Bbmaj13", "Bbmaj7(#11)", "Bbmaj7(#5)", "Bb7", "Bb9", "Bb13", "Bb7(b9)", "Bb7(#9)", "Bb13(b9)", "Bb7(b13)", "Bb7(#5)", "Bb7(b9,b13)", "Bb7(#11)", "Bb7(b5)", "Bbm7(b5)", "Bbm11(b5)", "Bbdim7(b13)", "Bb/C", "Bb/D", "Bb/E", "Bbb/F", "Bb/A", "Bbb/A", "Bbm/D", "Bbbm/E", "Bbbm/F", "Bbm/A", "Bbb7/D", "Bb7/F", "Bb7/A", "Bbbmaj7/A", "Bbm7/F", "Bbm7(b5)/E"
+    ],
+    "B": [
+        "B", "Bm", "B5", "B(add9)", "Baug", "Bdim7", "Bsus", "Bsus2", "B6", "Bm6", "B6/9", "Bm6/9", "B7sus", "Bsus9", "Bsusb9", "Bsus13", "Bm(add9)", "Bm7", "Bm9", "Bm11", "Bm13", "Bm7(b13)", "Bmmaj7", "Bmaj7", "Bmaj9", "Bmaj13", "Bmaj7(#11)", "Bmaj7(#5)", "B7", "B9", "B13", "B7(b9)", "B7(#9)", "B13(b9)", "B7(b13)", "B7(#5)", "B7(b9,b13)", "B7(#11)", "B7(b5)", "Bm7(b5)", "Bm11(b5)", "Bdim7(b13)", "B/C", "B/D", "B/D#", "B/F", "B/G#", "B/A", "Bm/C#", "Bm/D#", "Bm/F", "Bm/G#", "B7/D", "B7/F", "B7/G#", "Bmaj7/A", "Bm7/F", "Bm7(b5)/E"
+    ]
 }
+
