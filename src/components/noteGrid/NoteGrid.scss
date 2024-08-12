@@ -49,6 +49,9 @@
         position: absolute;
         top: -13px;
         // left: -35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
         &.target-x {
             border: none;

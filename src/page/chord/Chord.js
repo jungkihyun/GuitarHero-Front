@@ -70,7 +70,8 @@ const Chord = ({ openModal }) => {
 
     const detailChords = Object.keys(ChordJson[randomHeaderChord]);
     const randomDetailChordKey = getRandomElement(detailChords);
-    const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
+    const randomDetailChord = ChordJson['C']['C dim7'][1]
+    // const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
 
     setStartFret(Number(randomDetailChord['start']) - 1)
     console.log('randomDetailChordKey', randomDetailChordKey)
