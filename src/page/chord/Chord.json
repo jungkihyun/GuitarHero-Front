@@ -20,6 +20,54 @@
                 "line4": "5G",
                 "line5": "3C",
                 "line6": "0✕"
+            }
+        ], "C m" : [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0✕"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "1Eb",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "1C"
+            }
+        ]
+    }
+}
+
+{
+    "C": {
+        "C": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0✕"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0✕"
             },
             {
                 "num": "2",
@@ -851,6 +899,970 @@
                 "line4": "1Bbb",
                 "line5": "0✕",
                 "line6": "2C"
+            },
+            {
+                "num": "2",
+                "start": "10",
+                "line1": "2Eb",
+                "line2": "1Bbb",
+                "line3": "2GB",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "1C",
+                "line3": "2Bbb",
+                "line4": "1Eb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "2Bbb",
+                "line4": "4Gb",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "4Eb",
+                "line3": "2Bbb",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "5BbB",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "4Gb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "5",
+                "line1": "0X",
+                "line2": "3Gb",
+                "line3": "1C",
+                "line4": "3Bbb",
+                "line5": "2Eb",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "1Bbb",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "2C",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "1Bbb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3Bbb",
+                "line3": "1Eb",
+                "line4": "3C",
+                "line5": "2Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "10",
+                "line1": "2Eb",
+                "line2": "1Bbb",
+                "line3": "2Gb",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "line1": "0X",
+                "line2": "3C",
+                "line3": "1Gb",
+                "line4": "3Eb",
+                "line5": "2Bbb",
+                "line6": "0X"
+            }
+        ],
+        "C sus": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "3F",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "0G",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "5",
+                "line1": "4C",
+                "line2": "2F",
+                "line3": "1C",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "8",
+                "start": "5",
+                "line1": "0X",
+                "line2": "2F",
+                "line3": "1C",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "10",
+                "line1": "4F",
+                "line2": "4C",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C sus2": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "7",
+                "line1": "2C",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "2",
+                "start": "10",
+                "line1": "1D",
+                "line2": "4C",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "0G",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "3D",
+                "line3": "5C",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "5",
+                "line1": "4C",
+                "line2": "4G",
+                "line3": "3D",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "7",
+                "start": "5",
+                "line1": "0X",
+                "line2": "4G",
+                "line3": "3D",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "8",
+                "start": "7",
+                "line1": "2C",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "1D",
+                "line4": "4C",
+                "line5": "4G",
+                "line6": "2C"
+            },
+            {
+                "num": "10",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "4C",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "11",
+                "start": "10",
+                "line1": "1D",
+                "line2": "4C",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C 6": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "3",
+                "line1": "0X",
+                "line2": "3E",
+                "line3": "3E",
+                "line4": "5A",
+                "line5": "1C",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "3E",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "3",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "4",
+                "start": "10",
+                "line1": "3E",
+                "line2": "1A",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0E",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "2A",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "2A",
+                "line4": "0X",
+                "line5": "1C",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "5A",
+                "line2": "5E",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "3",
+                "line1": "0X",
+                "line2": "3E",
+                "line3": "3C",
+                "line4": "5A",
+                "line5": "1C",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "3",
+                "line1": "1G",
+                "line2": "3E",
+                "line3": "3C",
+                "line4": "5A",
+                "line5": "1C",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "5",
+                "line1": "1A",
+                "line2": "1E",
+                "line3": "1C",
+                "line4": "3A",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "13",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "3E",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "14",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "15",
+                "start": "8",
+                "line1": "1C",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "16",
+                "start": "8",
+                "line1": "1C",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "0X",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "num": "17",
+                "start": "8",
+                "line1": "1C",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "18",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "1E",
+                "line4": "2C",
+                "line5": "2G",
+                "line6": "0X"
+            },
+            {
+                "num": "19",
+                "start": "10",
+                "line1": "3E",
+                "line2": "1A",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C m6": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "4Eb",
+                "line3": "2A",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "2A",
+                "line4": "4G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "2Eb",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "3",
+                "start": "10",
+                "line1": "2Eb",
+                "line2": "1A",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "3G",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "1Eb",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "1Eb",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "3G",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "1Eb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "3G",
+                "line2": "4Eb",
+                "line3": "2A",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "2A",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "5A",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "5",
+                "line1": "0X",
+                "line2": "4G",
+                "line3": "1C",
+                "line4": "3A",
+                "line5": "2Eb",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "7",
+                "line1": "2C",
+                "line2": "2G",
+                "line3": "2Eb",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "12",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "2Eb",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "13",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3A",
+                "line3": "1Eb",
+                "line4": "3C",
+                "line5": "3G",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "10",
+                "line1": "2Eb",
+                "line2": "1A",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C 6/9": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "7",
+                "line1": "2C",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0E",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "2E",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "5",
+                "line1": "1A",
+                "line2": "1E",
+                "line3": "3D",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "6",
+                "start": "5",
+                "line1": "1A",
+                "line2": "1E",
+                "line3": "3D",
+                "line4": "3A",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "7",
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "3D",
+                "line4": "3A",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "8",
+                "start": "7",
+                "line1": "2C",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "0X",
+                "line2": "2G",
+                "line3": "1D",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "3D",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "2D",
+                "line2": "2A",
+                "line3": "1E",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C m6/9": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "1Eb",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "3G",
+                "line2": "3D",
+                "line3": "2A",
+                "line4": "1Eb",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "7",
+                "line1": "4D",
+                "line2": "2G",
+                "line3": "2Eb",
+                "line4": "1A",
+                "line5": "0X",
+                "line6": "2C"
+            }
+        ],
+        "C 7sus": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "3Bb",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "1Bb",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "num": "2",
+                "start": "10",
+                "line1": "4F",
+                "line2": "2Bb",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "3Bb",
+                "line4": "5G",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "5",
+                "line1": "0X",
+                "line2": "2F",
+                "line3": "1C",
+                "line4": "4Bb",
+                "line5": "0X",
+                "line6": "4C"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "1Bb",
+                "line5": "3G",
+                "line6": "1C"
+            },
+            {
+                "num": "6",
+                "start": "10",
+                "line1": "4F",
+                "line2": "2Bb",
+                "line3": "3G",
+                "line4": "1C",
+                "line5": "0X",
+                "line6": "0X"
             }
         ]
     }
