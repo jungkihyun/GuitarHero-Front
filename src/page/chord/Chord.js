@@ -15,15 +15,15 @@ const Chord = ({ openModal }) => {
   const timeoutRef = useRef(null); // 타이머 ID를 저장할 ref
 
   const [startFret, setStartFret] = useState(0)
-  
+
+  const [correct, setCorrect] = useState()
   const [noteObj, setNoteObj] = useState({
     line1: '',
     line2: '',
     line3: '',
     line4: '',
     line5: '',
-    line6: '',
-    correct: ''
+    line6: ''
   })
 
   useEffect(() => {
@@ -38,8 +38,8 @@ const Chord = ({ openModal }) => {
 
     console.log('정답체크')
     console.log('note', note)
-    console.log('noteObj.correct', noteObj.correct)
-    if (note === noteObj.correct) {
+    console.log('correct', correct)
+    if (note === correct) {
       setSuccessResult(true);
       setFailResult(false);
       clearNoteGrid();
@@ -56,10 +56,6 @@ const Chord = ({ openModal }) => {
 
   };
 
-  useEffect(() => {
-    console.log(noteObj)
-  }, [noteObj])
-
   // 랜덤으로 배열 요소를 선택
   const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
@@ -70,8 +66,9 @@ const Chord = ({ openModal }) => {
 
     const detailChords = Object.keys(ChordJson[randomHeaderChord]);
     const randomDetailChordKey = getRandomElement(detailChords);
-    const randomDetailChord = ChordJson['C']['C dim7'][1]
-    // const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
+    // const randomDetailChord = ChordJson['C']['C dim7'][1]
+    const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
+    setCorrect(randomDetailChordKey)
 
     setStartFret(Number(randomDetailChord['start']) - 1)
     console.log('randomDetailChordKey', randomDetailChordKey)
@@ -94,6 +91,9 @@ const Chord = ({ openModal }) => {
 
   return (
     <div className="note-wrapper">
+      <div className='correct-contianer'>
+        {correct}
+      </div>
       <div className='note-result-container'>
         <div className={`note-result success ${successResult ? 'active' : ''}`}>
           정답입니다!
