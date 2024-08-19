@@ -68,22 +68,16 @@ const Chord = ({ openModal }) => {
 
     const detailChords = Object.keys(ChordJson[randomHeaderChord]);
     const randomDetailChordKey = getRandomElement(detailChords);
-    // const randomDetailChord = ChordJson['C']['C dim7'][1]
     const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
     setCorrect(randomDetailChordKey)
 
-    const chordJson = ChordJson[randomHeaderChord][randomDetailChordKey]
-    const chordJsonLength = chordJson.length;
+    const detailChordBtnsLength = ChordDetailBtn[randomHeaderChord].length
 
-    const randomIndices = getRandomIndices(chordJsonLength)
-    console.log('fffffff', ChordJson[randomHeaderChord][randomDetailChordKey])
-    console.log(randomIndices)
+    const randomIndices = getRandomIndices(detailChordBtnsLength)
     setRandomIndices(randomIndices)
     setDetailChordBtns(ChordDetailBtn[randomHeaderChord])
 
     setStartFret(Number(randomDetailChord['start']) - 1)
-    console.log('randomDetailChordKey', randomDetailChordKey)
-    console.log('randomDetailChord', randomDetailChord)
 
     setNoteObj({
       line1: randomDetailChord['line1'],
@@ -107,18 +101,10 @@ const Chord = ({ openModal }) => {
   const getRandomIndices = (chordJsonLength) => {
     const indices = [];
 
-    // 만약 chordJsonLength가 5 미만이면 모든 인덱스를 반환
-    if (chordJsonLength <= 4) {
-      for (let i = 0; i < chordJsonLength; i++) {
-        indices.push(i);
-      }
-    } else {
-      // 5개의 랜덤 인덱스를 생성 (중복되지 않게)
-      while (indices.length < 4) {
-        const randomIndex = Math.floor(Math.random() * chordJsonLength);
-        if (!indices.includes(randomIndex)) {
-          indices.push(randomIndex);
-        }
+    while (indices.length < 4) {
+      const randomIndex = Math.floor(Math.random() * chordJsonLength);
+      if (!indices.includes(randomIndex)) {
+        indices.push(randomIndex);
       }
     }
 
