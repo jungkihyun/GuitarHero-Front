@@ -26,6 +26,8 @@ const Chord = ({ openModal }) => {
     line6: ''
   })
 
+  const [randomIndices, setRandomIndices] = useState([])
+
   useEffect(() => {
     clearNoteGrid()
   }, [])
@@ -70,6 +72,15 @@ const Chord = ({ openModal }) => {
     const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
     setCorrect(randomDetailChordKey)
 
+    const chordJson = ChordJson[randomHeaderChord][randomDetailChordKey]
+    const chordJsonLength = chordJson.length;
+
+    const randomIndices = getRandomIndices(chordJsonLength)
+    console.log('fffffff', ChordJson[randomHeaderChord][randomDetailChordKey])
+    console.log(randomIndices)
+    setRandomIndices(randomIndices)
+    setDetailChordBtns(ChordDetailBtn[randomHeaderChord])
+
     setStartFret(Number(randomDetailChord['start']) - 1)
     console.log('randomDetailChordKey', randomDetailChordKey)
     console.log('randomDetailChord', randomDetailChord)
@@ -85,8 +96,33 @@ const Chord = ({ openModal }) => {
     })
   }
 
-  const handleHeaderChordClick = (headerChord) => {
-    setDetailChordBtns(ChordDetailBtn[headerChord])
+  useEffect(() => {
+    console.log('randomIndices', randomIndices)
+  }, [randomIndices])
+
+  // const handleHeaderChordClick = (headerChord) => {
+  //   setDetailChordBtns(ChordDetailBtn[headerChord])
+  // }
+
+  const getRandomIndices = (chordJsonLength) => {
+    const indices = [];
+
+    // 만약 chordJsonLength가 5 미만이면 모든 인덱스를 반환
+    if (chordJsonLength <= 4) {
+      for (let i = 0; i < chordJsonLength; i++) {
+        indices.push(i);
+      }
+    } else {
+      // 5개의 랜덤 인덱스를 생성 (중복되지 않게)
+      while (indices.length < 4) {
+        const randomIndex = Math.floor(Math.random() * chordJsonLength);
+        if (!indices.includes(randomIndex)) {
+          indices.push(randomIndex);
+        }
+      }
+    }
+
+    return indices;
   }
 
   return (
@@ -110,7 +146,7 @@ const Chord = ({ openModal }) => {
           />
         </div>
         <div className='chord-btn-container'>
-          <div className='chord-btn-header'>
+          {/* <div className='chord-btn-header'>
             <button onClick={(e) => {handleHeaderChordClick('C')}}>C</button>
             <button onClick={(e) => {handleHeaderChordClick('C#')}}>C#</button>
             <button onClick={(e) => {handleHeaderChordClick('Db')}}>Db</button>
@@ -128,13 +164,18 @@ const Chord = ({ openModal }) => {
             <button onClick={(e) => {handleHeaderChordClick('A#')}}>A#</button>
             <button onClick={(e) => {handleHeaderChordClick('Bb')}}>Bb</button>
             <button onClick={(e) => {handleHeaderChordClick('B')}}>B</button>
-          </div>
+          </div> */}
           <div className='chord-btn-detail'>
-            {
+          {
             detailChordBtns?.map((data, dataIdx) => (
-              <button key={dataIdx} onClick={(e) => {handleNoteClick(data)}}>{data}</button>
+              randomIndices.includes(dataIdx) || noteObj.correct === data ? (
+                <button key={dataIdx} onClick={(e) => handleNoteClick(data)}>
+                  {data}
+                </button>
+              ) : null
             ))
-            }
+          }
+
           </div>
         </div>
       </div>
