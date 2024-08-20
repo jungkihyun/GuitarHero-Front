@@ -5526,6 +5526,2215 @@
             {"num": "2", "start": "6", "line1": "0X", "line2": "1E#", "line3": "2D", "line4": "4B", "line5": "0X", "line6": "4C#"},
             {"num": "3", "start": "9", "line1": "2D", "line2": "1G#", "line3": "2E#", "line4": "1B", "line5": "0X", "line6": "1C#"},
             {"num": "4", "start": "10", "line1": "1D", "line2": "3B", "line3": "1E#", "line4": "2C#", "line5": "0X", "line6": "0X"}
+        ],
+        "C#7(#9)": [
+            {"num": "0", "start": "1", "line1": "0X", "line2": "5D##", "line3": "4B", "line4": "3E#", "line5": "4C#", "line6": "0X"},
+            {"num": "1", "start": "9", "line1": "4D##", "line2": "4B", "line3": "2E#", "line4": "0X", "line5": "3G#", "line6": "1C#"},
+            {"num": "2", "start": "9", "line1": "4D##", "line2": "4B", "line3": "2E#", "line4": "3C#", "line5": "0X", "line6": "1C#"},
+            {"num": "3", "start": "10", "line1": "3D##", "line2": "3B", "line3": "1E#", "line4": "3C#", "line5": "0X", "line6": "0X"}
+        ],
+        "C#7(13,b9)": [
+            {"num": "0", "start": "1", "line1": "6A#", "line2": "3D", "line3": "4B", "line4": "3E#", "line5": "4C#", "line6": "0X"},
+            {"num": "1", "start": "6", "line1": "1A#", "line2": "1E#", "line3": "2D", "line4": "4B", "line5": "0X", "line6": "4C#"},
+            {"num": "2", "start": "9", "line1": "2D", "line2": "3A#", "line3": "2E#", "line4": "1B", "line5": "0X", "line6": "1C#"}
+        ],
+        "C#7(b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "2A",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "5A",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3E#",
+                "line3": "1B",
+                "line4": "4A",
+                "line5": "1C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "1C#"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "2A",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "11",
+                "line1": "3E#",
+                "line2": "2B",
+                "line3": "4A",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#7(#5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "2G##",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "5G##",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3E#",
+                "line3": "1B",
+                "line4": "4G##",
+                "line5": "1C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2G##",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "1C#"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "2G##",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "11",
+                "line1": "3E#",
+                "line2": "2B",
+                "line3": "4G##",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#7(b9,b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "5A",
+                "line2": "3D",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "2D",
+                "line2": "2A",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "1C#"
+            }
+        ],
+        "C#7(#11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3F##",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "3F##",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "5F##",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "5",
+                "line1": "3B",
+                "line2": "2E#",
+                "line3": "2C#",
+                "line4": "1F##",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1F##",
+                "line3": "3E#",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "2C#"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "2C#",
+                "line2": "1F##",
+                "line3": "3E#",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "10",
+                "line1": "0X",
+                "line2": "3B",
+                "line3": "1E#",
+                "line4": "2C#",
+                "line5": "1F##",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "11",
+                "line1": "3E#",
+                "line2": "2B",
+                "line3": "2F##",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#7(b5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "3G",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "4B",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "5",
+                "line1": "3B",
+                "line2": "2E#",
+                "line3": "2C#",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "3E#",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "2C#"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "2C#",
+                "line2": "1G",
+                "line3": "3E#",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "10",
+                "line1": "0X",
+                "line2": "3B",
+                "line3": "1E#",
+                "line4": "2C#",
+                "line5": "1G",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "11",
+                "line1": "3E#",
+                "line2": "2B",
+                "line3": "2G",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#m7(b5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "2C#"
+            },
+            {
+                "num": "3",
+                "start": "11",
+                "line1": "2E",
+                "line2": "2B",
+                "line3": "2G",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "7",
+                "line1": "0E",
+                "line2": "0B",
+                "line3": "0G",
+                "line4": "3B",
+                "line5": "1E",
+                "line6": "3C#"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0E",
+                "line2": "0B",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0E",
+                "line2": "0B",
+                "line3": "0G",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0E",
+                "line2": "0B",
+                "line3": "4B",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "3G",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "0E",
+                "line2": "0B",
+                "line3": "0G",
+                "line4": "2E",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "1",
+                "line1": "3G",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "5",
+                "line1": "3B",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "6",
+                "line1": "0X",
+                "line2": "3G",
+                "line3": "1C#",
+                "line4": "4B",
+                "line5": "2E",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "2E",
+                "line4": "2B",
+                "line5": "0X",
+                "line6": "2C#"
+            },
+            {
+                "num": "15",
+                "start": "7",
+                "line1": "1B",
+                "line2": "2G",
+                "line3": "3E",
+                "line4": "5C#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "2G",
+                "line6": "0X"
+            },
+            {
+                "num": "17",
+                "start": "11",
+                "line1": "2E",
+                "line2": "2B",
+                "line3": "2G",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#m7(b5,11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "2F#",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "2F#",
+                "line2": "5E",
+                "line3": "4B",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "line1": "0X",
+                "line2": "4F#",
+                "line3": "1B",
+                "line4": "2G",
+                "line5": "1C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1F#",
+                "line3": "3E",
+                "line4": "3B",
+                "line5": "0X",
+                "line6": "3C#"
+            },
+            {
+                "num": "4",
+                "start": "11",
+                "line1": "4F#",
+                "line2": "2B",
+                "line3": "2G",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "C#dim7(b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "5A",
+                "line2": "5E",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2C#"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "5A",
+                "line2": "5E",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "5A",
+                "line2": "5E",
+                "line3": "3Bb",
+                "line4": "5G",
+                "line5": "4C#",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "3",
+                "line1": "1G",
+                "line2": "3E",
+                "line3": "1Bb",
+                "line4": "5A",
+                "line5": "2C#",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "0X",
+                "line2": "3A",
+                "line3": "2E",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2C#"
+            }
+        ],
+        "C#/D#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "6D#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "0X",
+                "line6": "3D#"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "1D#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "6D#",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "6D#",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "0X",
+                "line6": "3D#"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "3D#"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "0X",
+                "line6": "3D#"
+            },
+            {
+                "num": "8",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "5E#",
+                "line5": "0X",
+                "line6": "1D#"
+            }
+        ],
+        "C#/F": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "1E#"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "4C#",
+                "line5": "1E#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "1E#"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "1E#"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "4C#",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "8",
+                "line1": "2C#",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "0X",
+                "line5": "1E#",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "4C#",
+                "line5": "1E#",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2G#",
+                "line3": "0X",
+                "line4": "4C#",
+                "line5": "1E#",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "3E#"
+            }
+        ],
+        "C#/F#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "1F#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "4F#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "4F#",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "0X",
+                "line5": "1F#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "1F#",
+                "line6": "0X"
+            }
+        ],
+        "C#/G#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "line1": "3E#",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "0X",
+                "line5": "1G#",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "5E#",
+                "line5": "1G#",
+                "line6": "0X"
+            }
+        ],
+        "C#/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "2B"
+            },
+            {
+                "num": "5",
+                "start": "7",
+                "line1": "3C#",
+                "line2": "3G#",
+                "line3": "4E#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1B"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "line1": "0X",
+                "line2": "3G#",
+                "line3": "4E#",
+                "line4": "5C#",
+                "line5": "0X",
+                "line6": "1B"
+            }
+        ],
+        "C#/C": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "3B#"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "3B#"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "2C#",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1B#"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "2B#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "4C#",
+                "line5": "0X",
+                "line6": "1B#"
+            }
+        ],
+        "C#m/E": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0E"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "2E",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "2E"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0E"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0E"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0E"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "4",
+                "line1": "1G#",
+                "line2": "2E",
+                "line3": "3C#",
+                "line4": "0X",
+                "line5": "4E",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "2G#",
+                "line5": "3E",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "2E",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "6",
+                "line1": "4C#",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "2E",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "7",
+                "line1": "3C#",
+                "line2": "3G#",
+                "line3": "2E",
+                "line4": "0X",
+                "line5": "1E",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "0X",
+                "line6": "4E"
+            },
+            {
+                "num": "13",
+                "start": "7",
+                "line1": "0X",
+                "line2": "3G#",
+                "line3": "3E",
+                "line4": "5C#",
+                "line5": "1E",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "0X",
+                "line6": "4E"
+            },
+            {
+                "num": "15",
+                "start": "11",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "2E"
+            },
+            {
+                "num": "16",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "2E"
+            }
+        ],
+        "C#m/F#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "1F#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "4F#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2F#"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "4F#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "1F#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "1F#",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "1F#",
+                "line6": "0X"
+            }
+        ],
+        "C#m/G#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "4E",
+                "line5": "1G#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "4E",
+                "line5": "1G#",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "11",
+                "line1": "2E",
+                "line2": "4C#",
+                "line3": "3G#",
+                "line4": "0X",
+                "line5": "1G#",
+                "line6": "0X"
+            }
+        ],
+        "C#m/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "2G#",
+                "line5": "0X",
+                "line6": "3B"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0E",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "2E",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "5E",
+                "line3": "6C#",
+                "line4": "0X",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "5",
+                "line1": "0X",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "2G#",
+                "line5": "0X",
+                "line6": "3B"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "1E",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "line1": "0X",
+                "line2": "3G#",
+                "line3": "3E",
+                "line4": "5C#",
+                "line5": "0X",
+                "line6": "1B"
+            }
+        ],
+        "C#7/F": [
+            {
+                "num": "0",
+                "start": "6",
+                "line1": "2B",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "11",
+                "line1": "0X",
+                "line2": "2B",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "3E#"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "1E#"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "4G#",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "4B",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "4B",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "2B",
+                "line2": "4G#",
+                "line3": "1C#",
+                "line4": "0X",
+                "line5": "3E#",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "line1": "0X",
+                "line2": "5B",
+                "line3": "3E#",
+                "line4": "4C#",
+                "line5": "1E#",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "11",
+                "line1": "0X",
+                "line2": "2B",
+                "line3": "3G#",
+                "line4": "1C#",
+                "line5": "0X",
+                "line6": "3E#"
+            }
+        ],
+        "C#7/G#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3F#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "2E#",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "3E#",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "3",
+                "start": "6",
+                "line1": "2B",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "2E#",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "10",
+                "line1": "0X",
+                "line2": "3B",
+                "line3": "1E#",
+                "line4": "2C#",
+                "line5": "2G#",
+                "line6": "0X"
+            }
+        ],
+        "C#7/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "2B"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "3E#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "2B",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "2B"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "line1": "3C#",
+                "line2": "3G#",
+                "line3": "4E#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1B"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "1B",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "0X",
+                "line2": "3G#",
+                "line3": "4E#",
+                "line4": "5C#",
+                "line5": "0X",
+                "line6": "1B"
+            }
+        ],
+        "C#maj7/C": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "3B#"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1E#",
+                "line2": "2C#",
+                "line3": "1G#",
+                "line4": "0X",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6E#",
+                "line3": "6C#",
+                "line4": "6G#",
+                "line5": "3B#",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1E#",
+                "line3": "1C#",
+                "line4": "1G#",
+                "line5": "0X",
+                "line6": "3B#"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "line1": "2C#",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1B#"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "1G#",
+                "line3": "2E#",
+                "line4": "2B#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2G#",
+                "line3": "3E#",
+                "line4": "4C#",
+                "line5": "0X",
+                "line6": "1B#"
+            }
+        ],
+        "C#m7/G#": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "4G#"
+            },
+            {
+                "num": "3",
+                "start": "4",
+                "line1": "4B",
+                "line2": "2E",
+                "line3": "3C#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1G#"
+            },
+            {
+                "num": "4",
+                "start": "5",
+                "line1": "3B",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "2G#",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "3G#",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "3G#",
+                "line6": "0X"
+            }
+        ],
+        "C#m7(b5)/G": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "3G"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "2G",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2C#",
+                "line3": "4B",
+                "line4": "2E",
+                "line5": "0X",
+                "line6": "3G"
+            },
+            {
+                "num": "3",
+                "start": "3",
+                "line1": "5B",
+                "line2": "3E",
+                "line3": "4C#",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1G"
+            },
+            {
+                "num": "4",
+                "start": "5",
+                "line1": "3B",
+                "line2": "1E",
+                "line3": "2C#",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "line1": "1C#",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "0X",
+                "line5": "2G",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4B",
+                "line3": "1E",
+                "line4": "3C#",
+                "line5": "2G",
+                "line6": "0X"
+            }
         ]
     }
 }
