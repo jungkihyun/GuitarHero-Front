@@ -7736,5 +7736,4010 @@
                 "line6": "0X"
             }
         ]
+    },
+    "Db": {
+        "Db": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "0X",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "6",
+                "line1": "4Db",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "14",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "15",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "17",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "18",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "19",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "20",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "21",
+                "start": "11",
+                "line1": "3F",
+                "line2": "0X",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "22",
+                "start": "11",
+                "line1": "3F",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "0X",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "15",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db5": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "4Db",
+                "line5": "4Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "0X",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "0X",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "0X",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "11",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "15",
+                "start": "11",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db(add9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "1F",
+                "line2": "4Eb",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "3F",
+                "line3": "5Eb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "5Eb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "1F",
+                "line2": "4Eb",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "1F",
+                "line2": "4Eb",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "3F",
+                "line3": "5Eb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "line1": "4DB",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "5Eb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbaug": [
+            {
+                "num": "0",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "3Db",
+                "line4": "4A",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "5A",
+                "line2": "2Db",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "5A",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "3Db",
+                "line4": "4A",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "2A",
+                "line5": "3F",
+                "line6": "4Db"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "2A",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "4A",
+                "line6": "1Db"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "11",
+                "line1": "3F",
+                "line2": "4Db",
+                "line3": "4A",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbdim": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "3Cbb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1Abb",
+                "line3": "2Fb",
+                "line4": "1Cbb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "1Cbb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "0Abb",
+                "line4": "2Fb",
+                "line5": "1Cbb",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "3Abb",
+                "line2": "2Db",
+                "line3": "3Cbb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "3Cbb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "3Abb",
+                "line2": "5Fb",
+                "line3": "3Cbb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "6Cbb",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "5Abb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "3Abb",
+                "line3": "1Db",
+                "line4": "3Cbb",
+                "line5": "2F",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "8",
+                "line1": "0X",
+                "line2": "1Abb",
+                "line3": "2Fb",
+                "line4": "1Cbb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "1Abb",
+                "line3": "2Fb",
+                "line4": "1Cbb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Cbb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "2Abb",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "1Cbb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbsus4": [
+            {
+                "num": "0",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "3Db",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "4Gb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "4Gb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "3Db",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "3Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "4DB",
+                "line2": "2Gb",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "line1": "0X",
+                "line2": "2Gb",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "line1": "0X",
+                "line2": "2Gb",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "11",
+                "line1": "4Gb",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbsus2": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "line1": "1Eb",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "4DB",
+                "line2": "4Ab",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "9",
+                "start": "8",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "1Eb",
+                "line4": "4Db",
+                "line5": "4Ab",
+                "line6": "2Db"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "11",
+                "start": "11",
+                "line1": "1Eb",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db6": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "3Db",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "11",
+                "line1": "3F",
+                "line2": "1Bb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "3Bb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "4",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "3Db",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "3F",
+                "line3": "3Db",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "6",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "3Bb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "12",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "15",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "16",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "17",
+                "start": "10",
+                "line1": "0X",
+                "line2": "2Bb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "1Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "18",
+                "start": "11",
+                "line1": "3F",
+                "line2": "1Bb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm6": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "3Bb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "3",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "1Bb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "3Bb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "3Bb",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "12",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "1Bb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db6(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "4F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "1F",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "3Bb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "3Bb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "9",
+                "start": "8",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "1Eb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "10",
+                "line1": "2Eb",
+                "line2": "2Bb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm6(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "3Bb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "line1": "4Eb",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            }
+        ],
+        "Db7sus4": [
+            {
+                "num": "0",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "1Cb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "line1": "4Gb",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "1Cb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "line1": "0X",
+                "line2": "2Gb",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "6",
+                "start": "11",
+                "line1": "4Gb",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7sus(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "7",
+                "line1": "3Db",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "4",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "5",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "6",
+                "start": "7",
+                "line1": "3Db",
+                "line2": "1Gb",
+                "line3": "2Eb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "3Gb",
+                "line4": "5Eb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "3Gb",
+                "line4": "5Eb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "9",
+                "start": "11",
+                "line1": "1Eb",
+                "line2": "2Cb",
+                "line3": "1Gb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7sus(b9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "1Gb",
+                "line3": "1Ebb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "1Gb",
+                "line3": "1Ebb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "4",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "1Ebb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "5",
+                "start": "7",
+                "line1": "3Db",
+                "line2": "1Gb",
+                "line3": "1Ebb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "3Gb",
+                "line4": "4Ebb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "3Gb",
+                "line4": "4Ebb",
+                "line5": "0X",
+                "line6": "1Db"
+            }
+        ],
+        "Db7sus(13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "4Gb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "3Bb",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "4Gb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "4",
+                "line1": "3Bb",
+                "line2": "4Gb",
+                "line3": "1Cb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "4Gb",
+                "line3": "1Cb",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "line1": "1Bb",
+                "line2": "2Gb",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "line1": "1Bb",
+                "line2": "2Gb",
+                "line3": "3Eb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "3Bb",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "5Bb",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "5Bb",
+                "line6": "1Db"
+            }
+        ],
+        "Dbm(add9)": [
+            {
+                "num": "0",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "2Fb",
+                "line3": "5Eb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "5Eb",
+                "line5": "4Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "1",
+                "line1": "0X",
+                "line2": "0Cb",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "4",
+                "line1": "4Cb",
+                "line2": "2Fb",
+                "line3": "1Cb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0A"
+            },
+            {
+                "num": "15",
+                "start": "5",
+                "line1": "3Cb",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "2Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "6",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "17",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "3Ab",
+                "line3": "3Fb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "18",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "19",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "20",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "21",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "22",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "3Ab",
+                "line3": "3Fb",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "23",
+                "start": "9",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "24",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "6",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "3",
+                "start": "8",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "1Eb",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "4",
+                "start": "4",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "5Eb",
+                "line4": "3Ab",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "3Eb",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "3Fb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "3Gb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "3Gb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "2Gb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "4Gb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "4Gb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "7",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "3Fb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "1Gb",
+                "line3": "3Fb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "10",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "2Cb",
+                "line3": "1Gb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "line1": "6Bb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            }
+        ],
+        "Dbm7(b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "5Bbb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "2Fb",
+                "line3": "1Cb",
+                "line4": "4Bbb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2Bbb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "2Bbb",
+                "line4": "1Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "5Bbb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "4",
+                "line1": "1Ab",
+                "line2": "2Fb",
+                "line3": "1Cb",
+                "line4": "4Bbb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "3Ab",
+                "line3": "3Fb",
+                "line4": "1Bbb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "line1": "0X",
+                "line2": "2Bbb",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "4Bbb",
+                "line6": "1Db"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "line1": "1Cb",
+                "line2": "4Bbb",
+                "line3": "3Fb",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "2Cb",
+                "line3": "4Bbb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm(maj7)": [
+            {
+                "num": "0",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "line1": "0X",
+                "line2": "1C",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "8",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "2Fb",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "line1": "2Fb",
+                "line2": "3C",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbmaj7": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "8",
+                "chordType": "1",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "11",
+                "chordType": "1",
+                "line1": "3F",
+                "line2": "3C",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "2",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "5C",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "chordType": "2",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "chordType": "2",
+                "line1": "3C",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "5C",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "6",
+                "chordType": "2",
+                "line1": "3C",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "12",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "15",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "10",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "4C",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "2Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "17",
+                "start": "11",
+                "chordType": "2",
+                "line1": "3F",
+                "line2": "3C",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbmaj7(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "1Ab",
+                "line4": "1Eb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "4Eb",
+                "line3": "5C",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "5C",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "2",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "7",
+                "start": "10",
+                "chordType": "2",
+                "line1": "2Eb",
+                "line2": "4C",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbmaj7(13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "5C",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "2",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "2",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "4",
+                "chordType": "2",
+                "line1": "1Ab",
+                "line2": "3F",
+                "line3": "2C",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "4",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "3C",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "chordType": "2",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "5C",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "chordType": "2",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "5C",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "4Bb",
+                "line3": "3F",
+                "line4": "1Bb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "4Bb",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "12",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "4Bb",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "13",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "chordType": "2",
+                "line1": "3Eb",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "15",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "4Bb",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "11",
+                "chordType": "2",
+                "line1": "3F",
+                "line2": "3C",
+                "line3": "5Bb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbmaj7(#11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "2",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "3C",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "3",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbmaj7(#5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "4",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "2C",
+                "line4": "4A",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "1C",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "2",
+                "line1": "5A",
+                "line2": "6F",
+                "line3": "5C",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "4",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "2C",
+                "line4": "4A",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "2",
+                "line1": "3C",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "2A",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "chordType": "2",
+                "line1": "1C",
+                "line2": "3A",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "10",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "4C",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "3A",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "11",
+                "chordType": "2",
+                "line1": "3F",
+                "line2": "3C",
+                "line3": "4A",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "11",
+                "chordType": "1",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "2",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "chordType": "2",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "chordType": "2",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "6Ab",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "6",
+                "chordType": "2",
+                "line1": "2Cb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "11",
+                "start": "6",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "6",
+                "chordType": "2",
+                "line1": "2Cb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "7",
+                "chordType": "2",
+                "line1": "1Cb",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "15",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "16",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "17",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "18",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "19",
+                "start": "7",
+                "chordType": "2",
+                "line1": "1Cb",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "20",
+                "start": "10",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "2Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "21",
+                "start": "11",
+                "chordType": "2",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "4Ab",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "2",
+                "start": "10",
+                "chordType": "1",
+                "line1": "2Eb",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "2",
+                "line1": "4AB",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "chordType": "2",
+                "line1": "2Cb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "2",
+                "line1": "3Eb",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "7",
+                "start": "10",
+                "chordType": "2",
+                "line1": "2Eb",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "3Bb",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "2",
+                "line1": "6Bb",
+                "line2": "4Eb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "2",
+                "line1": "6Bb",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "4",
+                "chordType": "2",
+                "line1": "1Ab",
+                "line2": "3F",
+                "line3": "1Cb",
+                "line4": "5Bb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "2",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "chordType": "2",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "3Eb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "chordType": "2",
+                "line1": "0X",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "chordType": "2",
+                "line1": "3Eb",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "chordType": "2",
+                "line1": "1Db",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "chordType": "2",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "5Bb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ]
     }
 }
