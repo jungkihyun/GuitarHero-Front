@@ -10673,7 +10673,7 @@
             {
                 "num": "5",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "4Ab",
                 "line2": "2Db",
                 "line3": "5C",
@@ -10684,7 +10684,7 @@
             {
                 "num": "6",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "1C",
                 "line3": "1Ab",
@@ -10695,7 +10695,7 @@
             {
                 "num": "7",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "4Ab",
                 "line2": "6F",
                 "line3": "6C",
@@ -10706,7 +10706,7 @@
             {
                 "num": "8",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3C",
                 "line2": "4Ab",
                 "line3": "1Db",
@@ -10717,7 +10717,7 @@
             {
                 "num": "9",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "4Ab",
                 "line3": "1Db",
@@ -10728,7 +10728,7 @@
             {
                 "num": "10",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3C",
                 "line2": "1F",
                 "line3": "1Db",
@@ -10739,7 +10739,7 @@
             {
                 "num": "11",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "2Ab",
                 "line3": "3F",
@@ -10750,7 +10750,7 @@
             {
                 "num": "12",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "2Ab",
                 "line3": "3F",
@@ -10761,7 +10761,7 @@
             {
                 "num": "13",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -10772,7 +10772,7 @@
             {
                 "num": "14",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -10783,7 +10783,7 @@
             {
                 "num": "15",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "2Ab",
                 "line3": "3F",
@@ -10794,7 +10794,7 @@
             {
                 "num": "16",
                 "start": "10",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "4C",
                 "line3": "1F",
@@ -10805,7 +10805,7 @@
             {
                 "num": "17",
                 "start": "11",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3F",
                 "line2": "3C",
                 "line3": "3Ab",
@@ -10840,7 +10840,7 @@
             {
                 "num": "2",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "1C",
                 "line3": "1Ab",
@@ -10851,7 +10851,7 @@
             {
                 "num": "3",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "4Eb",
                 "line3": "5C",
@@ -10862,7 +10862,7 @@
             {
                 "num": "4",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "4Eb",
                 "line3": "5C",
@@ -10873,7 +10873,7 @@
             {
                 "num": "5",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "1F",
                 "line3": "3Eb",
@@ -10884,7 +10884,7 @@
             {
                 "num": "6",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3Eb",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -10895,7 +10895,7 @@
             {
                 "num": "7",
                 "start": "10",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "2Eb",
                 "line2": "4C",
                 "line3": "1F",
@@ -10941,7 +10941,7 @@
             {
                 "num": "3",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "1C",
                 "line3": "3Bb",
@@ -10952,7 +10952,7 @@
             {
                 "num": "4",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "6Bb",
                 "line2": "6F",
                 "line3": "5C",
@@ -10963,7 +10963,7 @@
             {
                 "num": "5",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "6Bb",
                 "line2": "6F",
                 "line3": "5C",
@@ -10974,7 +10974,7 @@
             {
                 "num": "6",
                 "start": "4",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Ab",
                 "line2": "3F",
                 "line3": "2C",
@@ -10985,7 +10985,7 @@
             {
                 "num": "7",
                 "start": "4",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "3F",
                 "line3": "3C",
@@ -10996,7 +10996,7 @@
             {
                 "num": "8",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Bb",
                 "line2": "1F",
                 "line3": "1Db",
@@ -11007,7 +11007,7 @@
             {
                 "num": "9",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Bb",
                 "line2": "1F",
                 "line3": "3Eb",
@@ -11018,7 +11018,7 @@
             {
                 "num": "10",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "4Bb",
                 "line3": "3F",
@@ -11029,7 +11029,7 @@
             {
                 "num": "11",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "4Bb",
                 "line3": "3F",
@@ -11040,7 +11040,7 @@
             {
                 "num": "12",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "4Bb",
                 "line3": "3F",
@@ -11051,7 +11051,7 @@
             {
                 "num": "13",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11062,7 +11062,7 @@
             {
                 "num": "14",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3Eb",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11073,7 +11073,7 @@
             {
                 "num": "15",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "4Bb",
                 "line3": "3F",
@@ -11084,7 +11084,7 @@
             {
                 "num": "16",
                 "start": "11",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3F",
                 "line2": "3C",
                 "line3": "5Bb",
@@ -11097,7 +11097,7 @@
             {
                 "num": "0",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3G",
                 "line2": "6F",
                 "line3": "5C",
@@ -11108,7 +11108,7 @@
             {
                 "num": "1",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "1G",
                 "line3": "3F",
@@ -11119,7 +11119,7 @@
             {
                 "num": "2",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "1G",
                 "line3": "3F",
@@ -11130,7 +11130,7 @@
             {
                 "num": "3",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "1G",
                 "line3": "3F",
@@ -11176,7 +11176,7 @@
             {
                 "num": "3",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "1C",
                 "line3": "2A",
@@ -11187,7 +11187,7 @@
             {
                 "num": "4",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "5A",
                 "line2": "6F",
                 "line3": "5C",
@@ -11198,7 +11198,7 @@
             {
                 "num": "5",
                 "start": "4",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "3F",
                 "line3": "2C",
@@ -11209,7 +11209,7 @@
             {
                 "num": "6",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3C",
                 "line2": "1F",
                 "line3": "1Db",
@@ -11220,7 +11220,7 @@
             {
                 "num": "7",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "2A",
                 "line3": "2F",
@@ -11231,7 +11231,7 @@
             {
                 "num": "8",
                 "start": "8",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1C",
                 "line2": "3A",
                 "line3": "3F",
@@ -11242,7 +11242,7 @@
             {
                 "num": "9",
                 "start": "10",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "4C",
                 "line3": "1F",
@@ -11253,7 +11253,7 @@
             {
                 "num": "10",
                 "start": "11",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3F",
                 "line2": "3C",
                 "line3": "4A",
@@ -11310,7 +11310,7 @@
             {
                 "num": "4",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "2Db",
                 "line3": "1Ab",
@@ -11321,7 +11321,7 @@
             {
                 "num": "5",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1F",
                 "line2": "2Db",
                 "line3": "4Cb",
@@ -11332,7 +11332,7 @@
             {
                 "num": "6",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "2Db",
                 "line3": "4Cb",
@@ -11343,7 +11343,7 @@
             {
                 "num": "7",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "4Ab",
                 "line2": "2Db",
                 "line3": "4Cb",
@@ -11354,7 +11354,7 @@
             {
                 "num": "8",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "0X",
                 "line3": "4Cb",
@@ -11365,7 +11365,7 @@
             {
                 "num": "9",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "4Ab",
                 "line2": "6F",
                 "line3": "4Cb",
@@ -11376,7 +11376,7 @@
             {
                 "num": "10",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "2Cb",
                 "line2": "1F",
                 "line3": "1Db",
@@ -11387,7 +11387,7 @@
             {
                 "num": "11",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "4Ab",
                 "line3": "1Db",
@@ -11398,7 +11398,7 @@
             {
                 "num": "12",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "2Cb",
                 "line2": "1F",
                 "line3": "1Db",
@@ -11409,7 +11409,7 @@
             {
                 "num": "13",
                 "start": "7",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Cb",
                 "line2": "3Ab",
                 "line3": "4F",
@@ -11420,7 +11420,7 @@
             {
                 "num": "14",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "0X",
                 "line3": "2F",
@@ -11431,7 +11431,7 @@
             {
                 "num": "15",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -11442,7 +11442,7 @@
             {
                 "num": "16",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -11453,7 +11453,7 @@
             {
                 "num": "17",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "4Cb",
                 "line3": "2F",
@@ -11464,7 +11464,7 @@
             {
                 "num": "18",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -11475,7 +11475,7 @@
             {
                 "num": "19",
                 "start": "7",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Cb",
                 "line2": "3Ab",
                 "line3": "4F",
@@ -11486,7 +11486,7 @@
             {
                 "num": "20",
                 "start": "10",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "3Cb",
                 "line3": "1F",
@@ -11497,7 +11497,7 @@
             {
                 "num": "21",
                 "start": "11",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3F",
                 "line2": "2Cb",
                 "line3": "3Ab",
@@ -11543,7 +11543,7 @@
             {
                 "num": "3",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "4AB",
                 "line2": "4Eb",
                 "line3": "4Cb",
@@ -11554,7 +11554,7 @@
             {
                 "num": "4",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "2Cb",
                 "line2": "1F",
                 "line3": "3Eb",
@@ -11565,7 +11565,7 @@
             {
                 "num": "5",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "1F",
                 "line3": "3Eb",
@@ -11576,7 +11576,7 @@
             {
                 "num": "6",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3Eb",
                 "line2": "1Ab",
                 "line3": "2F",
@@ -11587,7 +11587,7 @@
             {
                 "num": "7",
                 "start": "10",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "2Eb",
                 "line2": "3Cb",
                 "line3": "1F",
@@ -11622,7 +11622,7 @@
             {
                 "num": "2",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "2Db",
                 "line3": "3Bb",
@@ -11633,7 +11633,7 @@
             {
                 "num": "3",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "6Bb",
                 "line2": "4Eb",
                 "line3": "4Cb",
@@ -11644,7 +11644,7 @@
             {
                 "num": "4",
                 "start": "1",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "6Bb",
                 "line2": "6F",
                 "line3": "4Cb",
@@ -11655,7 +11655,7 @@
             {
                 "num": "5",
                 "start": "4",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Ab",
                 "line2": "3F",
                 "line3": "1Cb",
@@ -11666,7 +11666,7 @@
             {
                 "num": "6",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Bb",
                 "line2": "1F",
                 "line3": "1Db",
@@ -11677,7 +11677,7 @@
             {
                 "num": "7",
                 "start": "6",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Bb",
                 "line2": "1F",
                 "line3": "3Eb",
@@ -11688,7 +11688,7 @@
             {
                 "num": "8",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11699,7 +11699,7 @@
             {
                 "num": "9",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "0X",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11710,7 +11710,7 @@
             {
                 "num": "10",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3Eb",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11721,7 +11721,7 @@
             {
                 "num": "11",
                 "start": "9",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "1Db",
                 "line2": "3Bb",
                 "line3": "2F",
@@ -11732,12 +11732,2585 @@
             {
                 "num": "12",
                 "start": "11",
-                "chordType": "2",
+                "chordType": "3",
                 "line1": "3F",
                 "line2": "2Cb",
                 "line3": "5Bb",
                 "line4": "1Db",
                 "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(b9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "2Ebb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "chordType": "3",
+                "line1": "2Ebb",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "10",
+                "chordType": "3",
+                "line1": "1Ebb",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(#9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "5E",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "3",
+                "line1": "4E",
+                "line2": "4Cb",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "1Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "3",
+                "line1": "4E",
+                "line2": "4Cb",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "3",
+                "start": "10",
+                "chordType": "3",
+                "line1": "3E",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(13,b9)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "6Bb",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "3",
+                "line1": "1Bb",
+                "line2": "1F",
+                "line3": "2Ebb",
+                "line4": "4Cb",
+                "line5": "0X",
+                "line6": "4Db"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "3",
+                "line1": "2Ebb",
+                "line2": "3Bb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            }
+        ],
+        "Db7(b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "2Bbb",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "5Bbb",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "1Cb",
+                "line4": "4Bbb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Bbb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "2Bbb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "11",
+                "chordType": "3",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "4Bbb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(#5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "2A",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "5A",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3F",
+                "line3": "1Cb",
+                "line4": "4A",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "2A",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "11",
+                "chordType": "3",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "4A",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(b9,b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "5Bbb",
+                "line2": "3Ebb",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "3",
+                "line1": "2Ebb",
+                "line2": "2Bbb",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "1Db"
+            }
+        ],
+        "Db7(#11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3G",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3G",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "5G",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "5",
+                "chordType": "3",
+                "line1": "3Cb",
+                "line2": "2F",
+                "line3": "2Db",
+                "line4": "1G",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "chordType": "3",
+                "line1": "2Db",
+                "line2": "1G",
+                "line3": "3F",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "10",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "1G",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "11",
+                "chordType": "3",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "2G",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Db7(b5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3Abb",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3Abb",
+                "line2": "6F",
+                "line3": "4CB",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "4Cb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "5",
+                "chordType": "3",
+                "line1": "3Cb",
+                "line2": "2F",
+                "line3": "2Db",
+                "line4": "1Abb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Abb",
+                "line3": "3F",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "chordType": "3",
+                "line1": "2Db",
+                "line2": "1Abb",
+                "line3": "3F",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "10",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "1Abb",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "11",
+                "chordType": "3",
+                "line1": "3F",
+                "line2": "2Cb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(b5)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "3Abb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Abb",
+                "line3": "2Fb",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "3",
+                "start": "11",
+                "chordType": "1",
+                "line1": "2Fb",
+                "line2": "2Cb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "7",
+                "chordType": "2",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "0Abb",
+                "line4": "3Cb",
+                "line5": "1Fb",
+                "line6": "3Db"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "0Abb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "0Abb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "chordType": "2",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "4Cb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3Abb",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "0Cb",
+                "line3": "0Abb",
+                "line4": "2Fb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "1",
+                "chordType": "3",
+                "line1": "3Abb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "5",
+                "chordType": "3",
+                "line1": "3Cb",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "1Abb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Abb",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Abb",
+                "line3": "2Fb",
+                "line4": "2Cb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "15",
+                "start": "7",
+                "chordType": "3",
+                "line1": "1Cb",
+                "line2": "2Abb",
+                "line3": "3Fb",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "16",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "2Abb",
+                "line6": "0X"
+            },
+            {
+                "num": "17",
+                "start": "11",
+                "chordType": "3",
+                "line1": "2Fb",
+                "line2": "2Cb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(b5,11)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "3",
+                "line1": "2Gb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "3",
+                "line1": "2Gb",
+                "line2": "5Fb",
+                "line3": "4Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "4",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Gb",
+                "line3": "1Cb",
+                "line4": "2Abb",
+                "line5": "1Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "7",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Gb",
+                "line3": "3Fb",
+                "line4": "3Cb",
+                "line5": "0X",
+                "line6": "3Db"
+            },
+            {
+                "num": "4",
+                "start": "11",
+                "chordType": "3",
+                "line1": "4Gb",
+                "line2": "2Cb",
+                "line3": "2Abb",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "0X"
+            }
+        ],
+        "Dbdim7(b13)": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "5Bbb",
+                "line2": "5Fb",
+                "line3": "3Cbb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "8",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "3Bbb",
+                "line3": "2Fb",
+                "line4": "1Cbb",
+                "line5": "0X",
+                "line6": "2Db"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "5Bbb",
+                "line2": "5Fb",
+                "line3": "3Cb",
+                "line4": "0X",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "5Bbb",
+                "line2": "5Fb",
+                "line3": "3Cbb",
+                "line4": "5Abb",
+                "line5": "4Db",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "3",
+                "chordType": "3",
+                "line1": "1Abb",
+                "line2": "3Fb",
+                "line3": "1Cbb",
+                "line4": "5Bbb",
+                "line5": "2Db",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Bbb",
+                "line3": "2Fb",
+                "line4": "1Cbb",
+                "line5": "0X",
+                "line6": "2Db"
+            }
+        ],
+        "Db/Eb": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "6Eb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "3Eb"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "1Eb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "6Eb",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "6Eb",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "3Eb"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "3Eb"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "3Eb"
+            },
+            {
+                "num": "8",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "5F",
+                "line5": "0X",
+                "line6": "1Eb"
+            }
+        ],
+        "Db/F": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "1F"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "8",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "1F",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "1F"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "1F"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "chordType": "3",
+                "line1": "4Db",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "8",
+                "chordType": "3",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "0X",
+                "line5": "1F",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "1F",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "0X",
+                "line4": "4Db",
+                "line5": "1F",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "3F"
+            }
+        ],
+        "Db/Gb": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "1Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "4Gb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "4Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "1Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "1Gb",
+                "line6": "0X"
+            }
+        ],
+        "Db/Ab": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "1",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "2",
+                "start": "9",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "7",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "8",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "11",
+                "chordType": "3",
+                "line1": "3F",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "0X",
+                "line5": "1Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "13",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "5F",
+                "line5": "1Ab",
+                "line6": "0X"
+            }
+        ],
+        "Db/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "2Cb"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "2Cb"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "chordType": "3",
+                "line1": "3Db",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1Cb"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "1Cb"
+            }
+        ],
+        "Db/C": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "2Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "3C"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "3C"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "chordType": "3",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "1C"
+            }
+        ],
+        "Dbm/E": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2DB",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0Fb"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "2Fb"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0Fb"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0Fb"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "0Fb"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "4",
+                "chordType": "3",
+                "line1": "1Ab",
+                "line2": "2Fb",
+                "line3": "3Db",
+                "line4": "0X",
+                "line5": "4Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "5",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "2Ab",
+                "line5": "3Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "6",
+                "chordType": "3",
+                "line1": "4Db",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "2Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "7",
+                "chordType": "3",
+                "line1": "3Db",
+                "line2": "3Ab",
+                "line3": "3Fb",
+                "line4": "0X",
+                "line5": "1Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "12",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "4Fb"
+            },
+            {
+                "num": "13",
+                "start": "7",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Ab",
+                "line3": "3FB",
+                "line4": "5Db",
+                "line5": "1Fb",
+                "line6": "0X"
+            },
+            {
+                "num": "14",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "0X",
+                "line6": "4Fb"
+            },
+            {
+                "num": "15",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "0X",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "2Fb"
+            },
+            {
+                "num": "16",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "2Fb"
+            }
+        ],
+        "Dbm/Gb": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "1Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "4Gb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "2Gb"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "4Gb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "1Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "1Gb",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "1Gb",
+                "line6": "0X"
+            }
+        ],
+        "Dbm/Ab": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "11",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "4Fb",
+                "line5": "1Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "6",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "10",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "4Fb",
+                "line5": "1Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "11",
+                "start": "11",
+                "chordType": "3",
+                "line1": "2Fb",
+                "line2": "4Db",
+                "line3": "3Ab",
+                "line4": "0X",
+                "line5": "1Ab",
+                "line6": "0X"
+            }
+        ],
+        "Dbm/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "5",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "2Ab",
+                "line5": "0X",
+                "line6": "3Cb"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0Fb",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "2Fb",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "5Fb",
+                "line3": "6Db",
+                "line4": "0X",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "5",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "2Ab",
+                "line5": "0X",
+                "line6": "3Cb"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "1Fb",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Ab",
+                "line3": "3Fb",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "1Cb"
+            }
+        ],
+        "Db7/F": [
+            {
+                "num": "0",
+                "start": "6",
+                "chordType": "1",
+                "line1": "2Cb",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "11",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "3F"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "1F"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "4Ab",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "4Cb",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "6",
+                "chordType": "3",
+                "line1": "2Cb",
+                "line2": "4Ab",
+                "line3": "1Db",
+                "line4": "0X",
+                "line5": "3F",
+                "line6": "0X"
+            },
+            {
+                "num": "8",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "5Cb",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "1F",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "11",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Cb",
+                "line3": "3Ab",
+                "line4": "1Db",
+                "line5": "0X",
+                "line6": "3F"
+            }
+        ],
+        "Db7/Ab": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "3F",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "3",
+                "start": "6",
+                "chordType": "3",
+                "line1": "2Cb",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "2F",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "10",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Cb",
+                "line3": "1F",
+                "line4": "2Db",
+                "line5": "2Ab",
+                "line6": "0X"
+            }
+        ],
+        "Db7/B": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "2Cb"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "3F",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "2Cb",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "2Cb"
+            },
+            {
+                "num": "7",
+                "start": "7",
+                "chordType": "3",
+                "line1": "3Db",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1Cb"
+            },
+            {
+                "num": "8",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "1Cb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "9",
+                "start": "7",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "3Ab",
+                "line3": "4F",
+                "line4": "5Db",
+                "line5": "0X",
+                "line6": "1Cb"
+            }
+        ],
+        "Dbmaj7/C": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "1",
+                "start": "6",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "3C"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "1F",
+                "line2": "2Db",
+                "line3": "1Ab",
+                "line4": "0X",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "3",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "6F",
+                "line3": "6Db",
+                "line4": "6Ab",
+                "line5": "3C",
+                "line6": "0X"
+            },
+            {
+                "num": "4",
+                "start": "6",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1F",
+                "line3": "1Db",
+                "line4": "1Ab",
+                "line5": "0X",
+                "line6": "3C"
+            },
+            {
+                "num": "5",
+                "start": "8",
+                "chordType": "3",
+                "line1": "2Db",
+                "line2": "2Ab",
+                "line3": "3F",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1C"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1DB",
+                "line2": "1Ab",
+                "line3": "2F",
+                "line4": "2C",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "7",
+                "start": "8",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "1Ab",
+                "line3": "3F",
+                "line4": "4Db",
+                "line5": "0X",
+                "line6": "1C"
+            }
+        ],
+        "Dbm7/Ab": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "4Ab"
+            },
+            {
+                "num": "3",
+                "start": "4",
+                "chordType": "3",
+                "line1": "4Cb",
+                "line2": "2Fb",
+                "line3": "3Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1Ab"
+            },
+            {
+                "num": "4",
+                "start": "5",
+                "chordType": "3",
+                "line1": "3Cb",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "2Ab",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "4Fb",
+                "line4": "0X",
+                "line5": "3Ab",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "3Ab",
+                "line6": "0X"
+            }
+        ],
+        "Dbm7(b5)/G": [
+            {
+                "num": "0",
+                "start": "1",
+                "chordType": "1",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "3Abb"
+            },
+            {
+                "num": "1",
+                "start": "9",
+                "chordType": "1",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "2Abb",
+                "line6": "0X"
+            },
+            {
+                "num": "2",
+                "start": "1",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "2Db",
+                "line3": "4Cb",
+                "line4": "2Fb",
+                "line5": "0X",
+                "line6": "3Abb"
+            },
+            {
+                "num": "3",
+                "start": "3",
+                "chordType": "3",
+                "line1": "5Cb",
+                "line2": "3Fb",
+                "line3": "4Db",
+                "line4": "0X",
+                "line5": "0X",
+                "line6": "1Abb"
+            },
+            {
+                "num": "4",
+                "start": "5",
+                "chordType": "3",
+                "line1": "3Cb",
+                "line2": "1Fb",
+                "line3": "2Db",
+                "line4": "1Abb",
+                "line5": "0X",
+                "line6": "0X"
+            },
+            {
+                "num": "5",
+                "start": "9",
+                "chordType": "3",
+                "line1": "1Db",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "0X",
+                "line5": "2Abb",
+                "line6": "0X"
+            },
+            {
+                "num": "6",
+                "start": "9",
+                "chordType": "3",
+                "line1": "0X",
+                "line2": "4Cb",
+                "line3": "1Fb",
+                "line4": "3Db",
+                "line5": "2Abb",
                 "line6": "0X"
             }
         ]
