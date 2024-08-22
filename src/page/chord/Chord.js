@@ -70,7 +70,6 @@ const Chord = ({ openModal }) => {
     const randomDetailChordKey = getRandomElement(detailChords);
     const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
     setCorrect(randomDetailChordKey)
-
     const detailChordBtnsLength = ChordDetailBtn[randomHeaderChord].length
 
     const randomIndices = getRandomIndices(detailChordBtnsLength)
@@ -132,25 +131,6 @@ const Chord = ({ openModal }) => {
           />
         </div>
         <div className='chord-btn-container'>
-          {/* <div className='chord-btn-header'>
-            <button onClick={(e) => {handleHeaderChordClick('C')}}>C</button>
-            <button onClick={(e) => {handleHeaderChordClick('C#')}}>C#</button>
-            <button onClick={(e) => {handleHeaderChordClick('Db')}}>Db</button>
-            <button onClick={(e) => {handleHeaderChordClick('D')}}>D</button>
-            <button onClick={(e) => {handleHeaderChordClick('D#')}}>D#</button>
-            <button onClick={(e) => {handleHeaderChordClick('Eb')}}>Eb</button>
-            <button onClick={(e) => {handleHeaderChordClick('E')}}>E</button>
-            <button onClick={(e) => {handleHeaderChordClick('F')}}>F</button>
-            <button onClick={(e) => {handleHeaderChordClick('F#')}}>F#</button>
-            <button onClick={(e) => {handleHeaderChordClick('Gb')}}>Gb</button>
-            <button onClick={(e) => {handleHeaderChordClick('G')}}>G</button>
-            <button onClick={(e) => {handleHeaderChordClick('G#')}}>G#</button>
-            <button onClick={(e) => {handleHeaderChordClick('Ab')}}>Ab</button>
-            <button onClick={(e) => {handleHeaderChordClick('A')}}>A</button>
-            <button onClick={(e) => {handleHeaderChordClick('A#')}}>A#</button>
-            <button onClick={(e) => {handleHeaderChordClick('Bb')}}>Bb</button>
-            <button onClick={(e) => {handleHeaderChordClick('B')}}>B</button>
-          </div> */}
           <div className='chord-btn-detail'>
           {
             detailChordBtns?.map((data, dataIdx) => (
