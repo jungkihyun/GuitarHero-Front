@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import Button from '../../components/button/Button';
 import './Chord.scss';
 import NoteGrid from '../../components/noteGrid/NoteGrid';
-import ChordDetailBtn from './ChordDetailBtn.json'
-import ChordJson from './Chord.json'
+import Common from '../../common/api/Common';
 
 const Chord = ({ openModal }) => {
 
@@ -26,7 +25,9 @@ const Chord = ({ openModal }) => {
     line6: ''
   })
 
-  const [randomIndices, setRandomIndices] = useState([])
+  // const [randomIndices, setRandomIndices] = useState([])
+
+  const [chord, setChord] = useState({})
 
   useEffect(() => {
     clearNoteGrid()
@@ -58,56 +59,25 @@ const Chord = ({ openModal }) => {
 
   };
 
-  // 랜덤으로 배열 요소를 선택
-  const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
-
-  const clearNoteGrid = () => {
+  const clearNoteGrid = async() => {
     
-    const headerChords = Object.keys(ChordJson)
-    const randomHeaderChord = getRandomElement(headerChords);
+    const result = await Common.api.get('/chord', {});
+    const chord = result.data.data;
+    setChord(chord)
+    setCorrect(chord.chord)
+    setDetailChordBtns(chord.chordButtons)
 
-    const detailChords = Object.keys(ChordJson[randomHeaderChord]);
-    const randomDetailChordKey = getRandomElement(detailChords);
-    const randomDetailChord = getRandomElement(ChordJson[randomHeaderChord][randomDetailChordKey]);
-    setCorrect(randomDetailChordKey)
-    const detailChordBtnsLength = ChordDetailBtn[randomHeaderChord].length
-
-    const randomIndices = getRandomIndices(detailChordBtnsLength)
-    setRandomIndices(randomIndices)
-    setDetailChordBtns(ChordDetailBtn[randomHeaderChord])
-
-    setStartFret(Number(randomDetailChord['start']) - 1)
+    setStartFret(chord.start-1)
 
     setNoteObj({
-      line1: randomDetailChord['line1'],
-      line2: randomDetailChord['line2'],
-      line3: randomDetailChord['line3'],
-      line4: randomDetailChord['line4'],
-      line5: randomDetailChord['line5'],
-      line6: randomDetailChord['line6'],
-      correct: randomDetailChordKey
+      line1: chord.line1,
+      line2: chord.line2,
+      line3: chord.line3,
+      line4: chord.line4,
+      line5: chord.line5,
+      line6: chord.line6,
+      correct: chord.chord
     })
-  }
-
-  useEffect(() => {
-    console.log('randomIndices', randomIndices)
-  }, [randomIndices])
-
-  // const handleHeaderChordClick = (headerChord) => {
-  //   setDetailChordBtns(ChordDetailBtn[headerChord])
-  // }
-
-  const getRandomIndices = (chordJsonLength) => {
-    const indices = [];
-
-    while (indices.length < 4) {
-      const randomIndex = Math.floor(Math.random() * chordJsonLength);
-      if (!indices.includes(randomIndex)) {
-        indices.push(randomIndex);
-      }
-    }
-
-    return indices;
   }
 
   return (
@@ -133,12 +103,10 @@ const Chord = ({ openModal }) => {
         <div className='chord-btn-container'>
           <div className='chord-btn-detail'>
           {
-            detailChordBtns?.map((data, dataIdx) => (
-              randomIndices.includes(dataIdx) || noteObj.correct === data ? (
-                <button key={dataIdx} onClick={(e) => handleNoteClick(data)}>
-                  {data}
-                </button>
-              ) : null
+            chord?.chordButtons?.map((data, dataIdx) => (
+              <button key={dataIdx} onClick={(e) => handleNoteClick(data)}>
+                {data}
+              </button>
             ))
           }
 

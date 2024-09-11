@@ -53,10 +53,12 @@
         flex-direction: row;
         justify-content: center;
 
+        
         &.target-x {
             border: none;
             font-size: 17px;
             top: -15px;
+            color: rgb(231, 83, 83);
             // left: -26px;
         }
 
