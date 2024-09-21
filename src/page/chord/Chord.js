@@ -61,7 +61,7 @@ const Chord = ({ openModal }) => {
 
   const clearNoteGrid = async() => {
     
-    const result = await Common.api.get('/chord', {});
+    const result = await Common.api.get('/api/chord', {});
     const chord = result.data.data;
     setChord(chord)
     setCorrect(chord.chord)
