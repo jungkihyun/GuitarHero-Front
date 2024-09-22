@@ -12,8 +12,8 @@ const NoteGrid = (props) => {
     <div className="note-grid-container">
       {!props.noteObj.chordType ||
       <div className="chord-type">
-        {props.noteObj.chordType === 1 ? '기본코드'
-        : props.noteObj.chordType === 2 ? '오픈코드'
+        {props.noteObj.chordType === 1 ? '개방현코드'
+        : props.noteObj.chordType === 2 ? '오픈보이싱'
         : props.noteObj.chordType === 3 ? '바레코드' : ''
         }
       </div>

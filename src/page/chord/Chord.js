@@ -63,8 +63,8 @@ const Chord = ({ openModal }) => {
 
   const clearNoteGrid = async() => {
     const chordTypeMapping = {
-      기본코드: '1',
-      오픈코드: '2',
+      개방현코드: '1',
+      오픈보이싱: '2',
       바레코드: '3',
     };
 
@@ -99,7 +99,7 @@ const Chord = ({ openModal }) => {
 
   const [isFilterOpen, setIsFilterOpen] = useState(false); // 필터 상태
   const filterRef = useRef(null); // 필터 컨테이너를 참조하기 위한 ref
-  const [selectedFilters, setSelectedFilters] = useState(['기본코드', '오픈코드', '바레코드']);
+  const [selectedFilters, setSelectedFilters] = useState(['개방현코드', '오픈보이싱', '바레코드']);
 
   useEffect(() => {
     // 필터가 열렸을 때만 이벤트 리스너 추가
@@ -149,7 +149,7 @@ const Chord = ({ openModal }) => {
         </span>
         {isFilterOpen && (
           <div className="filter-options">
-            {['기본코드', '오픈코드', '바레코드'].map((filter, index) => (
+            {['개방현코드', '오픈보이싱', '바레코드'].map((filter, index) => (
               <label key={index} className="filter-option">
                 <input
                   type="checkbox"
