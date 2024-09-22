@@ -57,6 +57,16 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+    >.chord-btn-detail {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
   >.chord-btn-detail {
     >button {
       width: 5rem;
