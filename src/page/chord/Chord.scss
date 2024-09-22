@@ -194,10 +194,10 @@
     left: 80%;
 
     .filter-options {
-      width: 232%; /* 필요시 너비 조정 */
+      width: 250%; /* 필요시 너비 조정 */
       position: absolute; /* 모바일에서 절대 위치 설정 */
       top: 40px; /* 필터 텍스트 아래에 표시 */
-      left: -79px;
+      left: -85px;
       right: 0;
       margin: 0 auto; /* 중앙 정렬 */
       z-index: 200; /* 필터 옵션이 가려지지 않도록 */
