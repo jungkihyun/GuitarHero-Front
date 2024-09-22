@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Font Awesome 사용
+import { faFilter } from '@fortawesome/free-solid-svg-icons'; // 필터 아이콘 가져오기
 import Button from '../../components/button/Button';
 import './Chord.scss';
 import NoteGrid from '../../components/noteGrid/NoteGrid';
@@ -60,8 +62,22 @@ const Chord = ({ openModal }) => {
   };
 
   const clearNoteGrid = async() => {
+    const chordTypeMapping = {
+      기본코드: '1',
+      오픈코드: '2',
+      바레코드: '3',
+    };
+
+    // 선택된 필터를 숫자 코드로 변환하고 |로 연결
+    const selectedChordType = selectedFilters
+      .map((filter) => chordTypeMapping[filter])
+      .join('|');
+      
+    const requestParameter = {
+      selectedChordType: selectedChordType,
+    };
     
-    const result = await Common.api.get('/api/chord', {});
+    const result = await Common.api.get('/api/chord', requestParameter);
     const chord = result.data.data;
     setChord(chord)
     setCorrect(chord.chord)
@@ -76,15 +92,80 @@ const Chord = ({ openModal }) => {
       line4: chord.line4,
       line5: chord.line5,
       line6: chord.line6,
-      correct: chord.chord
+      correct: chord.chord,
+      chordType: chord.chordType,
     })
   }
 
+  const [isFilterOpen, setIsFilterOpen] = useState(false); // 필터 상태
+  const filterRef = useRef(null); // 필터 컨테이너를 참조하기 위한 ref
+  const [selectedFilters, setSelectedFilters] = useState(['기본코드', '오픈코드', '바레코드']);
+
+  useEffect(() => {
+    // 필터가 열렸을 때만 이벤트 리스너 추가
+    const handleClickOutside = (event) => {
+      // 필터가 열려 있고, 클릭한 곳이 필터 컨테이너 내부가 아닌 경우 필터를 닫음
+      if (isFilterOpen && filterRef.current && !filterRef.current.contains(event.target)) {
+        setIsFilterOpen(false);
+      }
+    };
+
+    if (isFilterOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    // Cleanup
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isFilterOpen]);
+
+  const toggleFilter = () => {
+    setIsFilterOpen(!isFilterOpen); // 필터 열고 닫기
+  };
+
+  const handleFilterChange = (filter) => {
+    if (selectedFilters.includes(filter)) {
+      setSelectedFilters(selectedFilters.filter((item) => item !== filter));
+    } else {
+      setSelectedFilters([...selectedFilters, filter]);
+    }
+  };
+
+  useEffect(() => {
+    clearNoteGrid()
+  }, [selectedFilters])
+  
+
   return (
     <div className="note-wrapper">
-      <div className='correct-contianer'>
-        {correct}
+      <div className="filter-container" ref={filterRef}>
+        {/* 필터 텍스트 앞에 아이콘 추가 */}
+        <span onClick={toggleFilter} className="filter-text">
+          <FontAwesomeIcon icon={faFilter} style={{ marginRight: '5px' }} />
+          필터
+        </span>
+        {isFilterOpen && (
+          <div className="filter-options">
+            {['기본코드', '오픈코드', '바레코드'].map((filter, index) => (
+              <label key={index} className="filter-option">
+                <input
+                  type="checkbox"
+                  checked={selectedFilters.includes(filter)}
+                  onChange={() => handleFilterChange(filter)}
+                />
+                <span>{filter}</span>
+              </label>
+            ))}
+          </div>
+        )}
       </div>
+      
+      {/* <div className='filter-container'>
+        {correct}
+      </div> */}
       <div className='note-result-container'>
         <div className={`note-result success ${successResult ? 'active' : ''}`}>
           정답입니다!

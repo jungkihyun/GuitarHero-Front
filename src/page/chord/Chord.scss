@@ -129,8 +129,78 @@
   }
 }
 
-.correct-contianer {
+.filter-container {
   position: absolute;
   top: 10%;
   left: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .filter-text {
+    color: #666; /* 중간 톤의 회색 */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #1e8c74;
+    }
+  }
+
+  .filter-options {
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .filter-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .filter-option input {
+    margin-right: 10px;
+    accent-color: #ffae00; /* 체크박스 색상 */
+    transform: scale(1.2); /* 체크박스를 조금 키워서 보이기 쉽게 */
+  }
+  
+  .filter-option input:checked + span {
+    font-weight: bold;
+    color: #ff9d00; /* 체크된 항목의 텍스트 색상 */
+  }
+}
+
+
+/* 모바일 환경에 맞춘 스타일 */
+@media (max-width: 768px) {
+  .filter-container {
+    z-index: 100; /* 다른 요소 위에 표시되도록 */
+
+    .filter-options {
+      width: 202%; /* 필요시 너비 조정 */
+      position: absolute; /* 모바일에서 절대 위치 설정 */
+      top: 40px; /* 필터 텍스트 아래에 표시 */
+      left: -70px;
+      right: 0;
+      margin: 0 auto; /* 중앙 정렬 */
+      z-index: 200; /* 필터 옵션이 가려지지 않도록 */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* 그림자 강화 */
+    }
+  }
 }

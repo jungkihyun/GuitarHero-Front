@@ -10,6 +10,14 @@ const NoteGrid = (props) => {
 
   return (
     <div className="note-grid-container">
+      {!props.noteObj.chordType ||
+      <div className="chord-type">
+        {props.noteObj.chordType === 1 ? '기본코드'
+        : props.noteObj.chordType === 2 ? '오픈코드'
+        : props.noteObj.chordType === 3 ? '바레코드' : ''
+        }
+      </div>
+      }
       <div className="note-grid">
         <div className="note-row">
           {cells.map((_, index) => (

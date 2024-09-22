@@ -94,3 +94,18 @@
         }
     }
 }
+
+.chord-type {
+  margin-bottom: 2rem;
+  font-size: 16px; /* 적당한 크기의 글씨 */
+  font-weight: bold;
+  color: #4CAF50; /* 상쾌한 녹색 톤으로 변경 */
+  padding: 6px 40px;
+  border: 2px solid #4CAF50;
+  border-radius: 20px; /* 둥근 모서리 */
+  background-color: #e8f5e9; /* 밝은 녹색 배경 */
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+}
