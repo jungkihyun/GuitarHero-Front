@@ -191,12 +191,13 @@
 @media (max-width: 768px) {
   .filter-container {
     z-index: 100; /* 다른 요소 위에 표시되도록 */
+    left: 80%;
 
     .filter-options {
-      width: 202%; /* 필요시 너비 조정 */
+      width: 232%; /* 필요시 너비 조정 */
       position: absolute; /* 모바일에서 절대 위치 설정 */
       top: 40px; /* 필터 텍스트 아래에 표시 */
-      left: -70px;
+      left: -79px;
       right: 0;
       margin: 0 auto; /* 중앙 정렬 */
       z-index: 200; /* 필터 옵션이 가려지지 않도록 */
