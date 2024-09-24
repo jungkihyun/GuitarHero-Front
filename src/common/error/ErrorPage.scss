@@ -1,0 +1,61 @@
+// src/pages/error/ErrorPage.scss
+
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+    text-align: center;
+  
+    .error-content {
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  
+      .error-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ff4d4f;
+        margin-bottom: 10px;
+      }
+  
+      .error-message {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #555;
+      }
+  
+      .error-buttons {
+        display: flex;
+        gap: 10px;
+  
+        .error-button {
+          padding: 10px 15px;
+          font-size: 14px;
+          color: #fff;
+          background-color: #4a90e2;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #357ab7;
+          }
+  
+          &:first-of-type {
+            background-color: #f56c6c;
+  
+            &:hover {
+              background-color: #d9534f;
+            }
+          }
+        }
+      }
+    }
+  }
+  

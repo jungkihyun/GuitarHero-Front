@@ -19,8 +19,9 @@ instance.interceptors.request.use(
     return config;
   },
   (error) => {
+    return error;
     // 요청 에러 처리
-    return Promise.reject(error);
+    // return Promise.reject(error);
   }
 );
 
@@ -34,8 +35,10 @@ instance.interceptors.response.use(
     // 에러 발생 시 처리 로직
     // 공통 에러 처리 로직을 여기에 작성하여 try-catch를 대체
     console.error('API 요청 중 에러가 발생했습니다:', error.response || error.message);
+
     // 필요에 따라 에러 메시지를 사용자에게 알리거나 로그 처리 가능
-    return Promise.reject(error); // 에러를 호출한 곳으로 전달
+    return error;
+    // return Promise.reject(error); // 에러를 호출한 곳으로 전달
   }
 );
 

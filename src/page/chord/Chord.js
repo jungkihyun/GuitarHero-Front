@@ -5,8 +5,11 @@ import Button from '../../components/button/Button';
 import './Chord.scss';
 import NoteGrid from '../../components/noteGrid/NoteGrid';
 import Common from '../../common/api/Common';
+import { useNavigate } from 'react-router-dom';
 
 const Chord = ({ openModal }) => {
+
+  const navigate = useNavigate();
 
   const [detailChordBtns, setDetailChordBtns] = useState()
 
@@ -30,10 +33,6 @@ const Chord = ({ openModal }) => {
   // const [randomIndices, setRandomIndices] = useState([])
 
   const [chord, setChord] = useState({})
-
-  useEffect(() => {
-    clearNoteGrid()
-  }, [])
 
   const handleNoteClick = (note) => {
     // 기존 타이머가 있으면 제거
@@ -77,24 +76,30 @@ const Chord = ({ openModal }) => {
       selectedChordType: selectedChordType,
     };
     
-    const result = await Common.api.get('/api/chord', requestParameter);
-    const chord = result.data.data;
-    setChord(chord)
-    setCorrect(chord.chord)
-    setDetailChordBtns(chord.chordButtons)
+    try {
+      const result = await Common.api.get('/api/chord', requestParameter);
 
-    setStartFret(chord.start-1)
-
-    setNoteObj({
-      line1: chord.line1,
-      line2: chord.line2,
-      line3: chord.line3,
-      line4: chord.line4,
-      line5: chord.line5,
-      line6: chord.line6,
-      correct: chord.chord,
-      chordType: chord.chordType,
-    })
+      const chord = result.data.data;
+      setChord(chord)
+      setCorrect(chord.chord)
+      setDetailChordBtns(chord.chordButtons)
+  
+      setStartFret(chord.start-1)
+  
+      setNoteObj({
+        line1: chord.line1,
+        line2: chord.line2,
+        line3: chord.line3,
+        line4: chord.line4,
+        line5: chord.line5,
+        line6: chord.line6,
+        correct: chord.chord,
+        chordType: chord.chordType,
+      })
+    } catch (error) {
+      console.log(error)
+      navigate('/error')
+    }
   }
 
   const [isFilterOpen, setIsFilterOpen] = useState(false); // 필터 상태
