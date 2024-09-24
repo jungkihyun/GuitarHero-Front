@@ -109,3 +109,33 @@
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
 }
+
+
+.play-stroke-btn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* 버튼 크기 줄임 */
+  height: 40px; /* 버튼 크기 줄임 */
+  border: none;
+  border-radius: 50%; /* 원형 버튼 */
+  background-color: #2aac94;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 음영 효과 */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.play-stroke-btn:hover {
+  background-color: #1e8c74;
+  transform: scale(1.1); /* 호버 시 약간 커지는 효과 */
+}
+
+.play-stroke-btn:active {
+  transform: scale(1.05); /* 클릭 시 살짝 작아지는 효과 */
+}
+
+.play-stroke-btn svg {
+  font-size: 16px; /* 아이콘 크기 줄임 */
+}

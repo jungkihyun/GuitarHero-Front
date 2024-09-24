@@ -1,5 +1,7 @@
 import React from 'react';
 import './NoteGrid.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const NoteGrid = (props) => {
   // 데이터 형태
@@ -89,6 +91,9 @@ const NoteGrid = (props) => {
           ))}
         </div>
       </div>
+      <button onClick={props.playStroke} className="play-stroke-btn">
+        <FontAwesomeIcon icon={faPlay} />
+      </button>
     </div>
   );
 };
