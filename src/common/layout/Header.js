@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Header.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'; // 햄버거 아이콘 가져오기
 
 const Header = () => {
   const navigate = useNavigate();
@@ -18,8 +20,37 @@ const Header = () => {
     }
   }, [location]);
 
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev) => !prev);
+  };
+
+  // 메뉴 바깥 클릭 시 메뉴를 닫는 함수
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setIsMobileMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <header className="header">
+      <div className="menu-icon" onClick={toggleMobileMenu} >
+        <FontAwesomeIcon icon={faBars} className="hamburger-icon" />
+      </div>
       <div className="header-top"
         onClick={() => {
           setMenuToggle('');
@@ -27,35 +58,22 @@ const Header = () => {
         }}>
         기타히어로
       </div>
-      <div className="menu-bar">
+      <div className={`menu-bar ${isMobileMenuOpen ? 'open' : ''}`} ref={menuRef}>
         <div className="menu-bar__nav">
           <span className={`menu-bar__nav-item ${menuToggle === 'note' ? 'active' : ''}`}
             onClick={() => {
               setMenuToggle('note');
               navigate('/note');
+              setIsMobileMenuOpen(false);
           }}>지판 음 찾기</span>
           <span className={`menu-bar__nav-item ${menuToggle === 'chord' ? 'active' : ''}`}
             onClick={() => {
               setMenuToggle('chord');
               navigate('/chord');
+              setIsMobileMenuOpen(false);
           }}>코드 찾기</span>
         </div>
       </div>
-      {/* <div className="header-right">
-        {isLoggedIn ? (
-          <div className="profile-container">
-            <img src="/path/to/profile.jpg" alt="Profile" className="profile-image" />
-            <span className="profile-name">{userName}</span>
-            <div className="dropdown-menu">
-              <ul>
-                <li onClick={onLogout}>Logout</li>
-              </ul>
-            </div>
-          </div>
-        ) : (
-          <button className="login-button" onClick={() => navigate('/login')}>Login</button>
-        )}
-      </div> */}
     </header>
   );
 };

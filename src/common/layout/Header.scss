@@ -83,11 +83,6 @@
         background-color: #e0f7f3;
         color: #2aac94;
       }
-
-      @media (max-width: 768px) {
-        padding: 10px 5px;
-        flex-grow: 1;
-      }
     }
   }
 
@@ -107,13 +102,55 @@
 
     .menu-bar {
       position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      top: 0; /* 슬라이드 메뉴를 상단에 위치 */
+      left: -200px; /* 초기 상태에서 메뉴가 숨겨지도록 */
+      height: 100vh;
+      width: 200px;
+      flex-direction: column;
+      justify-content: flex-start;
       background-color: #ffffff;
-      z-index: 1000;
-      border-top: 1px solid #ddd;
-      justify-content: center;
+      transition: transform 0.3s ease-in-out;
+
+      &.open {
+        transform: translateX(200px); /* 메뉴가 화면에 나타남 */
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); // 기본 그림자 효과 추가
+      }
+
+      &__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px; /* 상단 여백 추가 */
+        padding-left: 10px; /* 왼쪽 여백 추가 */
+        gap: 0.3rem;
+        color: #494747;
+        font-size: 16px;
+        margin-top: 45px;
+      }
+
+      &__nav-item {
+        text-align: left; /* 텍스트 왼쪽 정렬 */
+        padding: 10px 15px;
+        width: 80%;
+      }
     }
+  }
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+    z-index: 10000;
+    height: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1rem
   }
 }
