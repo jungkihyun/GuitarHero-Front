@@ -20,7 +20,7 @@ const NoteGrid = (props) => {
         }
       </div>
       }
-      <div className="note-grid">
+      <div className={`note-grid ${props.type}`}>
         <div className="note-row">
           {cells.map((_, index) => (
             <div className={`note-cell ${props.startFret === 0 && index === 1 ? 'note-cell-first' : ''}`} key={index}>
@@ -91,9 +91,11 @@ const NoteGrid = (props) => {
           ))}
         </div>
       </div>
+      {props.type !== 'chord' ||
       <button onClick={props.playStroke} className="play-stroke-btn">
         <FontAwesomeIcon icon={faPlay} />
       </button>
+      }
     </div>
   );
 };

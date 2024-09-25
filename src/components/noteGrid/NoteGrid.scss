@@ -8,6 +8,13 @@
       display: grid;
       grid-template-columns: repeat(7, 50px);
       gap: 1px;
+
+      @media (max-width: 768px) {
+        &.note {
+          margin-right: 1rem;
+          margin-left: -2rem;
+        }
+      }
     }
   
     .note-row {

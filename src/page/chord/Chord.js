@@ -300,7 +300,7 @@ const Chord = ({ openModal }) => {
       </div>
       <div className="note-container">
         <div className="note-grid">
-          <NoteGrid startFret={startFret} noteObj={noteObj} playStroke={playStroke} />
+          <NoteGrid type={'chord'} startFret={startFret} noteObj={noteObj} playStroke={playStroke} />
         </div>
         <div className="chord-btn-container">
           <div className="chord-btn-detail">

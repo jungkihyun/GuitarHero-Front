@@ -127,6 +127,7 @@ const Note = () => {
       <div className="note-container">
         <div className="note-grid">
           <NoteGrid 
+            type={'note'}
             startFret={startFret}
             noteObj={noteObj}
           />
