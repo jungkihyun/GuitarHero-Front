@@ -35,6 +35,7 @@ const Header = () => {
     }
   };
 
+
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
@@ -48,7 +49,9 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="menu-icon" onClick={toggleMobileMenu} >
+      <div className="menu-icon" onClick={() => {
+        toggleMobileMenu()
+      }}>
         <FontAwesomeIcon icon={faBars} className="hamburger-icon" />
       </div>
       <div className="header-top"
@@ -58,6 +61,13 @@ const Header = () => {
         }}>
         기타히어로
       </div>
+      {/* 메뉴 바깥 부분을 클릭하면 메뉴가 닫히도록 하는 오버레이 */}
+      {isMobileMenuOpen && (
+        <div
+          className={`menu-overlay ${isMobileMenuOpen ? 'open' : ''}`}
+          onClick={() => setIsMobileMenuOpen(false)} // 클릭 시 메뉴 닫기
+        ></div>
+      )}
       <div className={`menu-bar ${isMobileMenuOpen ? 'open' : ''}`} ref={menuRef}>
         <div className="menu-bar__nav">
           <span className={`menu-bar__nav-item ${menuToggle === 'note' ? 'active' : ''}`}
