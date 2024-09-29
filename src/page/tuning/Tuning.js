@@ -12,12 +12,12 @@ const Tuning = ({ openModal }) => {
 
   // 기타 줄별 표준 주파수 (1번 줄부터 6번 줄 순서)
   const targetFrequencies = {
-    E4: 325.63, // 1번 줄 (가장 얇은 줄)
-    B3: 242.94, // 2번 줄
-    G3: 192.00, // 3번 줄
-    D3: 142.83, // 4번 줄
-    A2: 106.00, // 5번 줄
-    E2: 78.41,  // 6번 줄 (가장 굵은 줄)
+    E2: 82.41,  // 6번 줄 (가장 굵은 줄)
+    A2: 110.00, // 5번 줄
+    D3: 146.83, // 4번 줄
+    G3: 196.00, // 3번 줄
+    B3: 246.94, // 2번 줄
+    E4: 329.63, // 1번 줄 (가장 얇은 줄)
   };
 
 
@@ -29,7 +29,7 @@ const Tuning = ({ openModal }) => {
       microphoneRef.current = audioContextRef.current.createMediaStreamSource(stream);
       scriptProcessorRef.current = audioContextRef.current.createScriptProcessor(2048, 1, 1);
 
-      analyserRef.current.fftSize = 2048;
+      analyserRef.current.fftSize = 4096;
       microphoneRef.current.connect(analyserRef.current);
       analyserRef.current.connect(scriptProcessorRef.current);
       scriptProcessorRef.current.connect(audioContextRef.current.destination);
@@ -115,7 +115,7 @@ const Tuning = ({ openModal }) => {
     const diff = detectedFrequency - targetFrequency;
 
     // 오차 허용 범위 설정 (예: ±3 Hz)
-    const tolerance = 10;
+    const tolerance = 20;
 
     if (Math.abs(diff) < tolerance) {
       setTuningStatus(`${stringName} - 튜닝 완료`);
