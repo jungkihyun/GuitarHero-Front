@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import './Tuning.scss'
 
 const Tuning = ({ openModal }) => {
   const [frequency, setFrequency] = useState(null);
@@ -134,57 +135,48 @@ const Tuning = ({ openModal }) => {
     const targetFrequency = targetFrequencies[stringName];
   
     const diff = detectedFrequency - targetFrequency;
-  
-    // 오차 허용 범위 설정 (예: ±3 Hz)
-    const tolerance = 10;
-  
-    if (Math.abs(diff) < tolerance) {
-      setTuningStatus(`${stringName} - 튜닝 완료`);
-    } else if (diff > 0) {
-      setTuningStatus(`${stringName} - 음정이 높습니다`);
-    } else {
-      setTuningStatus(`${stringName} - 음정이 낮습니다`);
-    }
+
+    const tolerance = 5;
+    if (Math.abs(diff) < tolerance) setTuningStatus(`${stringName} - 튜닝 완료`);
+    else if (diff > 0) setTuningStatus(`${stringName} - 음정이 높습니다`);
+    else setTuningStatus(`${stringName} - 음정이 낮습니다`);
   };
-  
 
-
-  // 줄 선택 핸들러
   const handleStringSelect = (string) => {
     setSelectedString(string);
     setTuningStatus('소리 감지 중...');
   };
 
+  const getMarkerPosition = () => {
+    if (!frequency || !selectedString) return 50; // 중앙 (좌우 50% 위치)
+    const targetFrequency = targetFrequencies[selectedString];
+    const diff = frequency - targetFrequency;
+    const maxDiff = 50; // 50% 좌우로 최대 이동
+    const position = 50 + (diff / targetFrequency) * maxDiff;
+    return Math.max(0, Math.min(100, position)); // 0% ~ 100% 범위로 제한
+  };
+
   return (
-    <div className="tuner">
-      <h2>기타 튜닝</h2>
-      <div className="string-selection">
-        {Object.keys(targetFrequencies).map((string, index) => (
-          <button
-            key={index}
-            onClick={() => handleStringSelect(string)}
-            style={{
-              padding: '10px',
-              margin: '5px',
-              backgroundColor: selectedString === string ? 'lightblue' : 'white',
-            }}
-          >
-            {`${6 - index}번 줄 (${string})`}
-          </button>
-        ))}
+    <div className="tuning-wrapper">
+      <div className="a-area">
+        <div className="marker" style={{ left: `${getMarkerPosition()}%` }} />
+        <div className="center-line" />
       </div>
-      <div
-        className={`sound-indicator ${isSoundDetected ? 'active' : ''}`}
-        style={{
-          width: '20px',
-          height: '20px',
-          borderRadius: '50%',
-          backgroundColor: isSoundDetected ? 'green' : 'red',
-          margin: '10px',
-        }}
-      ></div>
-      <p>감지된 주파수: {frequency ? frequency.toFixed(2) + ' Hz' : '감지 중...'}</p>
-      <p>튜닝 상태: {tuningStatus}</p>
+      <div className="b-area">
+        <div className="guitar-image">
+          {Object.keys(targetFrequencies).map((string, index) => (
+            <button
+              key={index}
+              onClick={() => handleStringSelect(string)}
+              className="string-button"
+              // style={[0, 1, 2].indexOf(index) > -1 ? { top: `${index * 15 + 10}%`, left: `-30%` } : { top: `${index * 15 + 10}`, left: `100%`}}
+            >
+              {`${6 - index}번 줄 (${string})`}
+            </button>
+          ))}
+        </div>
+      </div>
+      <p>튜닝 상태: {tuningStatus} ({frequency})</p>
       <button onClick={openModal}>도움말 보기</button>
     </div>
   );
