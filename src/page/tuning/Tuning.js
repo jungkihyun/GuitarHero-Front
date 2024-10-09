@@ -27,26 +27,44 @@ const Tuning = ({ openModal }) => {
       audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
       analyserRef.current = audioContextRef.current.createAnalyser();
       microphoneRef.current = audioContextRef.current.createMediaStreamSource(stream);
-      scriptProcessorRef.current = audioContextRef.current.createScriptProcessor(2048, 1, 1);
-
-      analyserRef.current.fftSize = 4096;
-      microphoneRef.current.connect(analyserRef.current);
+  
+      // Lowpass 필터 추가 - 저주파에 민감하게
+      const filter = audioContextRef.current.createBiquadFilter();
+      filter.type = "lowpass"; 
+      filter.frequency.setValueAtTime(200, audioContextRef.current.currentTime); // 200Hz 이하만 통과
+      
+      // 마이크 -> 필터 -> 분석기 연결
+      microphoneRef.current.connect(filter);
+      filter.connect(analyserRef.current);
+  
+      // 더 긴 버퍼 크기 사용
+      scriptProcessorRef.current = audioContextRef.current.createScriptProcessor(4096, 1, 1);
+      analyserRef.current.fftSize = 8192; // fftSize를 8192로 증가하여 저주파 감지 성능 향상
       analyserRef.current.connect(scriptProcessorRef.current);
       scriptProcessorRef.current.connect(audioContextRef.current.destination);
-
+  
       scriptProcessorRef.current.onaudioprocess = () => {
         const dataArray = new Float32Array(analyserRef.current.fftSize);
         analyserRef.current.getFloatTimeDomainData(dataArray);
-
+  
         const rms = calculateRMS(dataArray);
         setIsSoundDetected(rms > 0.01);
-
+  
         const detectedFrequency = calculateFrequency(dataArray, audioContextRef.current.sampleRate);
-        setFrequency(detectedFrequency);
-        if (selectedString) updateTuningStatus(detectedFrequency, selectedString);
+        
+        if (detectedFrequency) {
+          // 배음 필터링 - 감지된 주파수가 기대 주파수의 배음일 경우 조정
+          let actualFrequency = detectedFrequency;
+          while (actualFrequency > targetFrequencies[selectedString] * 1.5) {
+            actualFrequency /= 2;
+          }
+  
+          setFrequency(actualFrequency);
+          if (selectedString) updateTuningStatus(actualFrequency, selectedString);
+        }
       };
     });
-
+  
     // 리소스 정리
     return () => {
       scriptProcessorRef.current?.disconnect();
@@ -55,6 +73,7 @@ const Tuning = ({ openModal }) => {
       audioContextRef.current?.close();
     };
   }, [selectedString]);
+  
 
   // 주파수 계산 함수
   const calculateFrequency = (buffer, sampleRate) => {
@@ -69,6 +88,7 @@ const Tuning = ({ openModal }) => {
     }
     rms = Math.sqrt(rms / buffer.length);
 
+    // if (rms < 0.01) return null;
     if (rms < 0.01) return null;
 
     let lastCorrelation = 1;
@@ -110,13 +130,14 @@ const Tuning = ({ openModal }) => {
       setTuningStatus('소리 없음');
       return;
     }
-
+  
     const targetFrequency = targetFrequencies[stringName];
+  
     const diff = detectedFrequency - targetFrequency;
-
+  
     // 오차 허용 범위 설정 (예: ±3 Hz)
-    const tolerance = 20;
-
+    const tolerance = 10;
+  
     if (Math.abs(diff) < tolerance) {
       setTuningStatus(`${stringName} - 튜닝 완료`);
     } else if (diff > 0) {
@@ -125,6 +146,7 @@ const Tuning = ({ openModal }) => {
       setTuningStatus(`${stringName} - 음정이 낮습니다`);
     }
   };
+  
 
 
   // 줄 선택 핸들러
