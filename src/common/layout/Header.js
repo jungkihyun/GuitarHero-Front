@@ -15,6 +15,8 @@ const Header = () => {
       setMenuToggle('note');
     } else if (location.pathname === '/chord') {
       setMenuToggle('chord');
+    } else if (location.pathname === '/tuning') {
+      setMenuToggle('tuning');
     } else {
       setMenuToggle('');
     }
@@ -80,6 +82,12 @@ const Header = () => {
             onClick={() => {
               setMenuToggle('chord');
               navigate('/chord');
+              setIsMobileMenuOpen(false);
+          }}>코드 찾기</span>
+          <span className={`menu-bar__nav-item ${menuToggle === 'tuning' ? 'active' : ''}`}
+            onClick={() => {
+              setMenuToggle('tuning');
+              navigate('/tuning');
               setIsMobileMenuOpen(false);
           }}>코드 찾기</span>
         </div>

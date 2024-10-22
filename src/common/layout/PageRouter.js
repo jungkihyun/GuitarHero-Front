@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import Contact from "../../components/site/Contact";
 import ErrorPage from '../error/ErrorPage'; // 커스텀 에러 페이지
 import Tuning from "../../page/tuning/Tuning";
-import GuitarTuner from "../../page/tuning/GuitarTuner";
 
 const PageRouter = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -40,7 +39,6 @@ const PageRouter = () => {
         <Route path="/contact" element={<Contact openModal={openModal} />} />
         <Route path="/error" element={<ErrorPage />} /> {/* 커스텀 에러 페이지 */}
         <Route path="/tuning" element={<Tuning />} /> {/* 커스텀 에러 페이지 */}
-        <Route path="/GuitarTuner" element={<GuitarTuner />} /> {/* 커스텀 에러 페이지 */}
       </Routes>
       {modalOpen && (
         <Modal

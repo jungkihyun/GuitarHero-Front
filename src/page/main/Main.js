@@ -21,6 +21,10 @@ const Main = () => {
           <h2>코드 찾기</h2>
           <p>다양한 코드를 찾아보세요.</p>
         </div>
+        <div className="feature" onClick={() => navigate('/tuning')}>
+          <h2>기타 튜닝하기</h2>
+          <p>기타 튜닝해보세요.</p>
+        </div>
         {/* <div className="feature" onClick={() => navigate('/quiz')}>
           <h2>퀴즈</h2>
           <p>기타 관련 퀴즈를 풀어보세요.</p>

@@ -1,51 +1,107 @@
 .tuning-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pitch-area {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.pitch-note {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.pitch-scale {
+  border-radius: .5rem;
+  background-color: #2aac94;
+  color: white;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.tuning-area {
+  position: fixed;
+  width: 300px;
+  height: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  top: 13rem;
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  justify-content: center;
+  align-items: center;
+}
+
+.detune-area {
+  display: flex;
+  width: 80%; /* 전체 너비 사용 */
+  align-items: center;
+  justify-content: space-between;
+  height: .6rem; /* detune 바의 높이 */
+  margin-top: 20px; /* pitch-note 아래에 위치하도록 간격 추가 */
+}
+
+.detune {
+  height: 100%; /* 막대의 전체 높이 사용 */
+  border-radius: 9999px;
+
+  &.left {
+    background: linear-gradient(to right, #ff5f5f, #57ff6c);
+  }
+  &.right {
+    background: linear-gradient(to right, #57ff6c, #ff5f5f);
+  }
+
+  .detune-between {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center; /* I를 중앙에 위치 */
+  }
+}
+
+.pitch-text {
+  font-size: .8rem;
+  color: #888; /* pitch 값을 위한 텍스트 색상 */
+  margin: 1rem; /* 막대 아래에 간격 추가 */
+  margin-bottom: 2rem;
+}
+
+.tuning-btn-area {
+  position: fixed;
+  top: 480px;
+
+  .tuning-btn {
+    background-color: #2aac94; /* 버튼 배경색: 초록색 계열로 통일 */
+    color: white; /* 텍스트는 흰색으로 */
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%; /* 둥근 버튼 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    font-size: 1.2rem; /* 버튼 글씨 크기 */
+    font-weight: bold;
+    cursor: pointer; /* 마우스를 올리면 클릭 가능한 모양으로 */
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+    margin: 1rem;
   }
   
-  .a-area {
-    position: relative;
-    width: 80%;
-    height: 300px;
-    background-color: #f0f0f0;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    overflow: hidden; /* marker 잔상이 영역 밖으로 나가지 않도록 */
+  .tuning-btn:hover {
+    background-color: #218e78; /* 호버 시 더 어두운 초록색 */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* 호버 시 그림자 더 강조 */
+    transform: scale(1.05); /* 버튼이 살짝 커지는 효과 */
   }
   
-  .marker {
-    position: absolute;
-    top: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: #2aac94;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    transition: left 0.1s ease-in-out; /* 부드럽게 이동하도록 수정 */
+  .tuning-btn:active {
+    background-color: #1c7765; /* 클릭 시 더 진한 초록색 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* 클릭 시 그림자 감소 */
+    transform: scale(0.95); /* 클릭 시 살짝 줄어드는 효과 */
   }
-  
-  .center-line {
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 2px;
-    background-color: black;
-    transform: translateX(-50%);
-  }
-  
-  .b-area {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .string-button {
-    width: 80px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: lightblue;
-    margin: 5px;
-  }
-  
+}
