@@ -89,7 +89,7 @@ const Header = () => {
               setMenuToggle('tuning');
               navigate('/tuning');
               setIsMobileMenuOpen(false);
-          }}>코드 찾기</span>
+          }}>기타 튜닝하기</span>
         </div>
       </div>
     </header>

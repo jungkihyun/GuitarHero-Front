@@ -8,7 +8,7 @@ import Common from '../../common/api/Common';
 import { useNavigate } from 'react-router-dom';
 import { context, Sampler, Volume } from 'tone';
 import { Tone } from 'tone/build/esm/core/Tone';
-import AdSenseAd from '../../common/addsense/AdSenseAd';
+import AdSense from '../../components/adsense/AdSense';
 
 const Chord = ({ openModal }) => {
   const navigate = useNavigate();
@@ -276,7 +276,7 @@ const Chord = ({ openModal }) => {
   return (
     <div className="note-wrapper">
       <div className="ad-container">
-        <AdSenseAd />
+        <AdSense />
       </div>
       <div className="filter-container" ref={filterRef}>
         <span onClick={toggleFilter} className="filter-text">
